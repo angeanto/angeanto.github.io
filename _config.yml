@@ -11,21 +11,21 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "My Data Playground"
+title                    : "Welcome to my Data Playground"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Antonis Angelakis"
-description              : "Posting everything data related"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "Posting related data stuff."
+url                      : # the base hostname & protocol for your site e.g. "https://angeanto.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+repository               : "angeanto.github.io"
+teaser                   : "/assets/images/my_photo.png"
+logo                     : "/assets/images/playground.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -80,8 +80,8 @@ yandex_site_verification :
 baidu_site_verification  :
 
 # Social Sharing
-twitter:https://twitter.com/antonisange
-  username               :
+twitter:
+  username               :"antonisange"
 facebook:
   username               :
   app_id                 :
@@ -106,51 +106,32 @@ analytics:
 author:
   name             : "Antonis Angelakis"
   avatar           : "/assets/images/my_photo.png"
-  bio              : "Lorem Ipsum"
+  bio              : "I post data related stuff"
   location         : "Athens"
   email            : "antonisagg@outlook.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
+      url: "mailto:antonisagg@outlook.com"
+    - label: "Tableau Public"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://public.tableau.com/app/profile/antonis1649"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      # url: "https://twitter.com/antonisange"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url:  "https://github.com/angeanto"
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://twitter.com/antonisange"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
-
+      url:  "https://github.com/angeanto"
 
 # Reading Files
 include:
