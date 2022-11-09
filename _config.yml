@@ -12,16 +12,16 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Welcome to my Data Playground"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title_separator          : "|"
+subtitle                 : "site tagline that appears below site title in masthead"
 name                     : "Antonis Angelakis"
 description              : "Posting related data stuff."
-url                      : # the base hostname & protocol for your site e.g. "https://angeanto.github.io/"
+url                      : "https://angeanto.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "angeanto.github.io"
 teaser                   : "/assets/images/my_photo.png"
@@ -108,21 +108,20 @@ author:
   avatar           : "/assets/images/my_photo.png"
   bio              : "I post data related stuff"
   location         : "Athens"
-  email            : "antonisagg@outlook.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:antonisagg@outlook.com"
-    - label: "Tableau Public"
-      icon: "fas fa-fw fa-link"
-      url: "https://public.tableau.com/app/profile/antonis1649"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/antonisange"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url:  "https://github.com/angeanto"
-
+    - label:	"Email"
+      icon:	"fas fa-fw fa-envelope-square"
+      url:	"mailto:antonisagg@outlook.com"
+    - label:	"Tableau Public"
+      icon:	"fas fa-fw fa-link"
+      url:	"https://public.tableau.com/app/profile/antonis1649"
+    - label:	"Twitter"
+      icon:	"fab fa-fw fa-twitter-square"
+      url:	"https://twitter.com/antonisange"
+    - label:	"GitHub"
+      icon:	"fab fa-fw fa-github"
+      url: 	"https://github.com/angeanto"
+      
 # Site Footer
 footer:
   links:
@@ -260,9 +259,9 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  #_posts
   - scope:
-      path: ""
+      path: "/year-archive/"
       type: posts
     values:
       layout: single
