@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+--><html lang="en" class="no-js">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Gemified Theme – Beta Release | Antonis Angelakis</title>
+<meta name="description" content="Posting related data stuff.">
+
+
+  <meta name="author" content="Antonis Angelakis">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Antonis Angelakis">
+<meta property="og:title" content="Gemified Theme – Beta Release">
+<meta property="og:url" content="http://localhost:4000/posts_samples/2016-10-06-gemified-theme-beta/">
+
+
+  <meta property="og:description" content="Posting related data stuff.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/posts_samples/2016-10-06-gemified-theme-beta/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Antonis Angelakis",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--default">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Antonis Angelakis
+          <span class="site-subtitle">Welcome to my data playground</span>
+        </a>
+        <ul class="visible-links">
+<li class="masthead__menu-item">
+              <a href="/">Home</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/posts/">Data&gt;Opinion</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/skills/">Skills</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/portfolio/">Work</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li>
+</ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      <p>Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme.</p>
+
+<p><a href="https://rubygems.org/gems/minimal-mistakes-jekyll"><code class="language-plaintext highlighter-rouge">minimal-mistakes-jekyll</code></a> can only be used with Jekyll proper. If you’re hosting on GitHub Pages or using that gem the theme won’t work. 3rd party themes haven’t been white-listed so it’s a no go for now.</p>
+
+<p>Fine with all that? Great. Let’s continue.</p>
+
+<p>If you’re migrating a site already using Minimal Mistakes and haven’t customized any of the <code class="language-plaintext highlighter-rouge">_includes</code>, <code class="language-plaintext highlighter-rouge">_layouts</code>, <code class="language-plaintext highlighter-rouge">_sass</code> partials, or <code class="language-plaintext highlighter-rouge">assets</code> this should be quick and painless.</p>
+
+<h2 id="step-1-remove-theme-files">Step 1: Remove Theme Files</h2>
+
+<p>Remove <code class="language-plaintext highlighter-rouge">_includes</code>, <code class="language-plaintext highlighter-rouge">_layouts</code>, <code class="language-plaintext highlighter-rouge">_sass</code>, <code class="language-plaintext highlighter-rouge">assets</code> folders and files within. You won’t need these anymore as they’re bundled in the theme.</p>
+
+<p>If you customized any of these then leave them alone and only remove the untouched ones. If setup correctly your modified versions should act as <a href="http://jekyllrb.com/docs/themes/#overriding-theme-defaults">overrides</a> to the versions bundled with the theme.</p>
+
+<h2 id="step-2-update-gemfile">Step 2: Update <code class="language-plaintext highlighter-rouge">Gemfile</code>
+</h2>
+
+<p>Replace <code class="language-plaintext highlighter-rouge">gem "github-pages</code> or <code class="language-plaintext highlighter-rouge">gem "jekyll"</code> with <code class="language-plaintext highlighter-rouge">gem "jekyll", "~&gt; 3.3.0"</code>. You’ll need the latest version of Jekyll<sup id="fnref:update-jekyll" role="doc-noteref"><a href="#fn:update-jekyll" class="footnote" rel="footnote">1</a></sup> for Minimal Mistakes to work and load all of the /assets/ properly.</p>
+
+<p>Add the Minimal Mistakes theme gem:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"minimal-mistakes-jekyll"</span>
+</code></pre></div></div>
+
+<p>When finished your <code class="language-plaintext highlighter-rouge">Gemfile</code> should look something like this:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">source</span> <span class="s2">"https://rubygems.org"</span>
+
+<span class="n">gem</span> <span class="s2">"jekyll"</span><span class="p">,</span> <span class="s2">"~&gt; 3.3.0"</span>
+<span class="n">gem</span> <span class="s2">"minimal-mistakes-jekyll"</span>
+</code></pre></div></div>
+
+<h2 id="step-3-run-bundler">Step 3: Run Bundler</h2>
+
+<p>Run <code class="language-plaintext highlighter-rouge">bundle install</code> (or <code class="language-plaintext highlighter-rouge">bundle update</code> if you’re updating an existing repo) to install/update Jekyll and the theme.</p>
+
+<h2 id="step-4-install-the-theme">Step 4: Install the Theme</h2>
+
+<p>Add <code class="language-plaintext highlighter-rouge">theme: "minimal-mistakes-jekyll"</code> to your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+
+<p>If you’re migrating from an existing Minimal Mistakes site you shouldn’t have to change anything else after this. If it’s a new site consult then docs to <a href="/docs/configuration/">properly config</a>.</p>
+
+<p class="notice--danger"><strong>Please Note:</strong> Paths for image headers, overlays, teasers, <a href="/docs/helpers/#gallery">galleries</a>, and <a href="/docs/helpers/#feature-row">feature rows</a> have changed and now require a full path. Instead of just <code class="language-plaintext highlighter-rouge">image: filename.jpg</code> you’ll need to use the full path eg: <code class="language-plaintext highlighter-rouge">image: assets/images/filename.jpg</code>. The preferred location is now <code class="language-plaintext highlighter-rouge">assets/images</code> but can be placed elsewhere or external hosted. This all applies for image references in <code class="language-plaintext highlighter-rouge">_config.yml</code> and <code class="language-plaintext highlighter-rouge">author.yml</code> as well.</p>
+
+<h2 id="step-5-jekyll-new-tweaks">Step 5: <code class="language-plaintext highlighter-rouge">jekyll new</code> Tweaks</h2>
+
+<p>If this is a new site be sure to add the following files to <code class="language-plaintext highlighter-rouge">_data/</code> and customize as you see fit. There is currently no way of bundling them in with the theme, so be sure to consult the docs on how to properly use both.</p>
+
+<ul>
+  <li>
+<a href="https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml"><code class="language-plaintext highlighter-rouge">_data/ui-text.yml</code></a> - UI text <a href="/docs/ui-text/">documentation</a>
+</li>
+  <li>
+<a href="https://github.com/mmistakes/minimal-mistakes/blob/master/_data/navigation.yml"><code class="language-plaintext highlighter-rouge">_data/navigation.yml</code></a> - navigation <a href="/docs/navigation/">documentation</a>
+</li>
+</ul>
+
+<p>You’ll also need to:</p>
+
+<ul>
+  <li>Replace <code class="language-plaintext highlighter-rouge">&lt;site root&gt;/index.html</code> with a modified <a href="https://github.com/mmistakes/minimal-mistakes/blob/master/index.html">Minimal Mistakes <code class="language-plaintext highlighter-rouge">index.html</code></a>.</li>
+  <li>Change <code class="language-plaintext highlighter-rouge">layout: post</code> in <code class="language-plaintext highlighter-rouge">_posts/0000-00-00-welcome-to-jekyll.markdown</code> to <code class="language-plaintext highlighter-rouge">layout: single</code>.</li>
+  <li>Remove <code class="language-plaintext highlighter-rouge">about.md</code>, or at the very least change <code class="language-plaintext highlighter-rouge">layout: page</code> to <code class="language-plaintext highlighter-rouge">layout: single</code> and remove references to <code class="language-plaintext highlighter-rouge">icon-github.html</code> (or <a href="https://github.com/jekyll/minima/tree/master/_includes">copy to your <code class="language-plaintext highlighter-rouge">_includes</code></a> if using).</li>
+</ul>
+
+<hr>
+
+<p>That’s it! If all goes well running <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> should spin-up your site. If you encounter any bumps please file an issue on GitHub and make sure to indicate you’re testing the pre-release Ruby gem version.</p>
+
+<p><a href="https://github.com/mmistakes/minimal-mistakes/issues/new" class="btn btn--info btn--large">File an issue</a></p>
+
+<p>Thanks!</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:update-jekyll" role="doc-endnote">
+      <p>You could also run <code class="language-plaintext highlighter-rouge">bundle update jekyll</code> to update Jekyll. <a href="#fnref:update-jekyll" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+<div class="search-searchbar"></div>
+  <div class="search-hits"></div>
+</div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://www.linkedin.com/in/antonios-angelakis-249899101/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> </a></li>
+        
+      
+        
+          <li><a href="https://public.tableau.com/app/profile/antonis1649" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> </a></li>
+        
+      
+        
+          <li><a href="https://github.com/angeanto" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> </a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/antonisange" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> </a></li>
+        
+      
+    
+
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">© 2022 Antonis Angelakis. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<!-- Including InstantSearch.js library and styling -->
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
+
+<script>
+// Instanciating InstantSearch.js with Algolia credentials
+const search = instantsearch({
+  appId: '17E7BZ51NU',
+  apiKey: '26f3b0d311ae634401c6edbac3334fc5',
+  indexName: 'dev_angeanto',
+  searchParameters: {
+    restrictSearchableAttributes: [
+      'title',
+      'content'
+    ]
+  }
+});
+
+const hitTemplate = function(hit) {
+  const url = hit.url;
+  const hightlight = hit._highlightResult;
+  const title = hightlight.title && hightlight.title.value  || "";
+  const content = hightlight.html && hightlight.html.value  || "";
+
+  return `
+    <div class="list__item">
+      <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+        <h2 class="archive__item-title" itemprop="headline"><a href="${url}">${title}</a></h2>
+        <div class="archive__item-excerpt" itemprop="description">${content}</div>
+      </article>
+    </div>
+  `;
+}
+
+// Adding searchbar and results widgets
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '.search-searchbar',
+    poweredBy: true,
+    placeholder: 'Enter your search term...'
+  })
+);
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '.search-hits',
+    templates: {
+      item: hitTemplate,
+      empty: 'No results',
+    }
+  })
+);
+
+// Starting the search only when toggle is clicked
+$(document).ready(function () {
+  $(".search__toggle").on("click", function() {
+    if(!search.started) {
+      search.start();
+    }
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+  </body>
+</html>
