@@ -1,19 +1,19 @@
 ---
-title: "This is Antonis Angelakis"
+title: "Splash Page"
 layout: splash
-permalink: /testa/
+permalink: /splash-page/
 date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/data-analysis-blog.jpg
+  overlay_image: /assets/images/unsplash-image-1.jpg
   actions:
     - label: "Learn More"
       url: "/terms/"
-  #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "This is my data playground. Explore the content and let me know your thoughts."
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
 intro: 
-  - excerpt: 'Enabling Data Mindsets across organizations'
+  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
