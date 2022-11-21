@@ -1,14 +1,14 @@
 # main links links
 main:
-  - title: "Home"
-    url: /
+  #- title: "Home"
+  #  url: /home/
   - title: "About"
-    url: /
-  - title: "Posts"
+    url: /about/
+  - title: "Data>Opinion"
     url: /year-archive/
   - title: "Skills"
     url: /collection-archive/
-  - title: "Work & Play"
+  - title: "Work"
     url: /portfolio/
   - title: "Contact"
-    url: /sitemap/
+    url: /contact/
