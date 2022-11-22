@@ -13,6 +13,6 @@ header:
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Talking about Business Intelligence, Data Science and how to enable data mindsets accross organisations."
 intro: 
-  - excerpt: "But it ain't about how hard you hit. It's about how hard you can get hit and keep moving forward. How much you can take and keep moving forward."
+  - excerpt: "If we have data, let's look at data. If all we have are opinions let's go with mine."
 ---
 {% include feature_row id="intro" type="center" %}
