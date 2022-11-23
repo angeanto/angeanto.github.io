@@ -13,6 +13,6 @@ header:
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Talking about Business Intelligence, Data Science and how to enable data mindsets accross organisations."
 intro: 
-  - excerpt: "If we have data, let's look at data. If all we have are opinions let's go with mine."
+  - excerpt: "'All we have is data. All we can do is statistics.'"
 ---
 {% include feature_row id="intro" type="center" %}

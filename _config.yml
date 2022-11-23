@@ -169,6 +169,10 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+# Liquid
+strict_front_matter: true
+liquid:
+  error_mode: strict
 
 # Conversion
 markdown: kramdown
@@ -274,15 +278,15 @@ collections:
 
 # Defaults
 defaults:
-  #_posts
+  # _posts
   - scope:
-      path: "/year-archive/"
+      path: ""
       type: posts
     values:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
 
