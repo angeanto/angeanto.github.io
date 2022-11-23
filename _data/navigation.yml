@@ -5,9 +5,9 @@ main:
   - title: "About"
     url: /about/
   - title: "Data>Opinion"
-    url: /year-archive/
+    url: /posts/
   - title: "Skills"
-    url: /collection-archive/
+    url: /skills/
   - title: "Work"
     url: /portfolio/
   - title: "Contact"

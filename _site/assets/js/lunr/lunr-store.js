@@ -438,8 +438,8 @@ var store = [{
         "teaser": "/assets/images/my_photo.png"
       },{
         "title": "My Third Post",
-        "excerpt":"lorem  ","categories": [],
-        "tags": [],
+        "excerpt":"This is my third post  ","categories": [],
+        "tags": ["read time"],
         "url": "/my-third-post/",
         "teaser": "/assets/images/my_photo.png"
       },{
