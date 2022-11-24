@@ -1,16 +1,14 @@
 ---
-title:  "Welcome to Jekyll!"
+title:  "Welcome to my Data Playground!"
+categories:
+  - General
+tags:
+  - thoughts
 ---
 
-# Welcome
+# Introduction
 
-**Hello world**, this is my first Jekyll blog post.
+**Welcome**, this is my first blog post.
+This is a place for everyone in the BI & Data Science field. This blog aims to attract professionals and tries to make that they will find something good to read.
 
-I hope you like it!
-
-```mermaid!
-pie title Pets adopted by volunteers
-  "Dogs" : 386
-  "Cats" : 85
-  "Rats" : 35
-```
+I hope you like it and keep in touch.  

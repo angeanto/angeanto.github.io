@@ -58,7 +58,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -106,31 +106,37 @@ analytics:
 author:
   name             : "Antonis Angelakis"
   avatar           : "/assets/images/my_photo.png"
-  bio              : "I post data related stuff"
+  bio              : "Posting Data related stuff"
   location         : "Athens"
   links:
-    - label:	"Email"
-      icon:	"fas fa-fw fa-envelope-square"
-      url:	"mailto:antonisagg@outlook.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url:  "https://www.linkedin.com/in/antonios-angelakis-249899101/"
     - label:	"Tableau Public"
       icon:	"fas fa-fw fa-link"
       url:	"https://public.tableau.com/app/profile/antonis1649"
+    - label:  "GitHub"
+      icon: "fab fa-fw fa-github"
+      url:  "https://github.com/angeanto"
     - label:	"Twitter"
       icon:	"fab fa-fw fa-twitter-square"
       url:	"https://twitter.com/antonisange"
-    - label:	"GitHub"
-      icon:	"fab fa-fw fa-github"
-      url: 	"https://github.com/angeanto"
+    - label:  "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url:  "mailto:antonisagg@outlook.com"
       
 # Site Footer
 footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/antonisange"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url:  "https://github.com/angeanto"
+  #links:
+  #  - label: "LinkedIn"
+  #    icon: "fab fa-fw fa-linkedin"
+  #    url:  "https://www.linkedin.com/in/antonios-angelakis-249899101/"
+  #  - label: "Twitter"
+  #    icon: "fab fa-fw fa-twitter-square"
+  #    url: "https://twitter.com/antonisange"
+  #  - label: "GitHub"
+  #    icon: "fab fa-fw fa-github"
+  #    url:  "https://github.com/angeanto"
 
 # Reading Files
 include:
