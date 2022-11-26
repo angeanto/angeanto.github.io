@@ -8,7 +8,7 @@ header:
   #teaser: assets/images/unsplash-gallery-image-1-th.jpg
 sidebar:
   - title: "Role"
-    image: '/assets/images/my_photo.png'
+    image: '/assets/images/me/cartoon_rounded.png'
     image_alt: "logo"
     text: "Business Intelligence Lead at Skroutz, Athens Tableau User Group Co-Οrganizer, BI & Data Science"
   - title: "Responsibilities"
