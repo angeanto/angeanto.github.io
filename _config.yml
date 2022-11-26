@@ -24,8 +24,8 @@ description              : "Posting related data stuff."
 url                      : "https://angeanto.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "angeanto.github.io"
-teaser                   : "/assets/images/my_photo.png"
-logo                     : "/assets/images/solvent.png"
+teaser                   : "/assets/images/a_images/solvent.png"
+logo                     : "/assets/images/a_images/solvent.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Antonis Angelakis"
-  avatar           : "/assets/images/my_photo.png"
+  avatar           : "assets/images/me/cartoon_rounded.png"
   bio              : "Posting Data related stuff"
   location         : "Athens"
   links:

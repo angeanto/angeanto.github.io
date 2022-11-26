@@ -1,7 +1,5 @@
 ---
 title:  "Welcome to my Data Playground!"
-categories:
-  - General
 tags:
   - thoughts
 ---

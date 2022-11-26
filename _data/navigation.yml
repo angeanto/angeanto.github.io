@@ -10,5 +10,5 @@ main:
     url: /skills/
   - title: "Work"
     url: /portfolio/
-  - title: "Contact"
-    url: /contact/
+  #- title: "Contact"
+  #  url: /contact/
