@@ -8,4 +8,4 @@ classes: wide
 author_profile: true
 ---
 
-Some projects i've worked for in a nutshell...
+Sample document listing for the collection `_portfolio`.
