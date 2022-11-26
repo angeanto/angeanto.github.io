@@ -4,9 +4,9 @@ main:
     url: /
   - title: "Data>Opinion"
     url: /posts/
-  - title: "Skills"
-    url: /skills/
-  - title: "Work"
+  #- title: "Skills"
+  #  url: /skills/
+  - title: "Projects"
     url: /portfolio/
   - title: "About"
     url: /about/
