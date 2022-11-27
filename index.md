@@ -1,11 +1,12 @@
 ---
-title: "Hello, this is Antonis"
+title: "Hello, this is Antonis.Hey"
 layout: splash
 permalink: 
 date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
-  overlay_image: assets/images/me/cartoon_rounded_homepage.png
+  overlay_image: assets/images/me/cartoon_rounded_homepage_right_small.png
+  og_image: assets/images/me/cartoon_rounded.png
   #edit at https://pixlr.com/x/#editor
   #overlay_filter: 0
   actions:
@@ -16,4 +17,3 @@ excerpt: "Talking about Business Intelligence, Data Science and how to enable da
 intro: 
   - excerpt: "'All we have is data. All we can do is statistics.'"
 ---
-{% include feature_row id="intro" type="center" %}

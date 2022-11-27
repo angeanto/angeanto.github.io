@@ -1,96 +1,23 @@
 ---
+title: About Me
 layout: single
 author_profile: true
 toc: true
 toc_sticky: true
-permalink: /about/
-title: "About Me"
+permalink: "/about/"
 ---
+Hello, I am Antonis, a Data Analytics professional, based in Athens, Greece currently Business Intelligence Lead at Skroutz. Trying to constantly evolve my technical knowledge and shape data mindsets everywhere. Currently, co-leading the [Athens Tableau User Group](https://usergroups.tableau.com/athensusergroup) organising interesting events, sharing tips and meeting great people. 
 
-Grow, through influence, a data enablement mindset across the organizations. 
+# Work Experience
+Started my professional journey in the field when I joined [Cardlink](https://cardlink.gr/en/) in **Jan 19'** with the role of **Data Scientist**. The main responsibilty of the role was to build models that will lead to actions either for cost saving or revenue increase.
 
-# Started his professional journey with Cardlink as a data scientist and currently as Business Intelligence Lead with Skroutz looks to constantly evolve his technical knowledge and always hands on, able to use his data expertise to dive 
-## deep into technical challenges, whilst contributing to strategic initiatives to build data capabilities in line with the roadmap of the organization.
+Next, I joined [Skroutz](https://www.skroutz.gr/) in **April 21**' with the role of **Business Intelligence Analyst** and currently as **Business Intelligence Lead**, one of the things I like the most is to help people reduce the time and individual effort they need to access and explore datasets.
 
-He realized that Athens Tableau User Group is a community that's great to be a part of and joined the leadership team. Lives in Athens, can't say no to cold beer and travels.
+# Education
+I've studied Maths at Department of Mathematics - Aristotle University (Thessaloniki, Greece) and then I had my MSc on Applied Informatics - International Hellenic University (Serres, Greece). 
 
+# Tech Stack
+The **tech stack** consists of: SQL, Tableau, Python, Git, Databricks, AWS, Azure, Statistics
 
-To be continued...
-
-
-## HTML Elements
-
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
-
-## Body text
-
-Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
-
-![Smithsonian Image]({{ site.url }}{{ site.baseurl }}/assets/images/3953273590_704e3899d5_m.jpg)
-{: .image-right}
-
-*This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
-
-HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
-
-### Blockquotes
-
-> Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
-
-## List Types
-
-### Ordered Lists
-
-1. Item one
-   1. sub item one
-   2. sub item two
-   3. sub item three
-2. Item two
-
-### Unordered Lists
-
-* Item one
-* Item two
-* Item three
-
-## Tables
-
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=====
-| Foot1   | Foot2   | Foot3
-{: rules="groups"}
-
-## Code Snippets
-
-```css
-#container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
-}
-```
-
-## Buttons
-
-Make any link standout more when applying the `.btn` class.
-
-```html
-<a href="#" class="btn btn--success">Success Button</a>
-```
-
-<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--success">Success Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--warning">Warning Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--danger">Danger Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--info">Info Button</a></div>
-
-## Notices
-
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
-{: .notice}
+# Interests
+I like watching and playing football with friends, running half-marathons (hopefully going for 3rd time next year), table-tennis (can play forever) and traveling.

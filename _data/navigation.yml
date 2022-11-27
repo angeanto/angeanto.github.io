@@ -6,9 +6,9 @@ main:
     url: /posts/
   #- title: "Skills"
   #  url: /skills/
-  - title: "Projects"
-    url: /portfolio/
+  #- title: "Projects"
+  #  url: /portfolio/
   - title: "About"
     url: /about/
-  #- title: "Contact"
-  #  url: /contact/
+  - title: "Contact"
+    url: /contact/
