@@ -1,5 +1,5 @@
 ---
-title:  "Welcome to my Data Playground!"
+title:  "Welcome to my data playground!"
 tags:
   - general
 toc: true

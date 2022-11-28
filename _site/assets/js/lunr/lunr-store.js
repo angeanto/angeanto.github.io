@@ -5,10 +5,10 @@ var store = [{
         "url": "/portfolio/a-project-sample/",
         "teaser": "/assets/images/project_images/airbnb.png"
       },{
-        "title": "Welcome to my Data Playground!",
+        "title": "Welcome to my data playground!",
         "excerpt":"Introduction   Welcome, this is my first blog post. This is a place for everyone in the BI &amp; Data Science field. This blog aims to attract professionals and tries to make that they will find something good to read.   I hope you like it and keep in touch.  ","categories": [],
         "tags": ["general"],
-        "url": "/Introduction/",
+        "url": "/Welcome-to-my-data-playground/",
         "teaser": null
       },{
         "title": "Chocolate Chip Cookies",
