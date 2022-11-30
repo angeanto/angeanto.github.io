@@ -5,7 +5,7 @@ permalink:
 date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
-  overlay_image: assets/images/me/cartoon_rounded_homepage.png
+  overlay_image: assets/images/me/cartoon_rounded_homepage_center.png
   #edit at https://pixlr.com/x/#editor
   #overlay_filter: 0
   actions:

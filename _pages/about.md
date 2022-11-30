@@ -19,7 +19,7 @@ Currently at Skroutz, with a **Business Intelligence Lead**, I additionally trai
 I've studied Maths at Department of Mathematics - Aristotle University (Thessaloniki, Greece) and then I had my MSc on Applied Informatics - International Hellenic University (Serres, Greece). 
 
 # Tech Stack
-The **tech stack** consists of: SQl, Tableau, Python, Git, Databricks, AWS, Azure, Statistics
+The **tech stack** consists of: SQL, Tableau, Python, Git, Databricks, AWS, Azure, Statistics
 
 # Interests
 I like watching and playing football with friends, running half-marathons (hopefully going for 3rd time next year), table-tennis (can play hours) and traveling.
