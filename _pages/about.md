@@ -11,9 +11,7 @@ Hello, I am Antonis, a Data Analytics professional, based in Athens, Greece curr
 # Work Experience
 Started my professional journey in the field when I joined [Cardlink](https://cardlink.gr/en/) in **Jan 19'** with the role of **Data Scientist**. The main responsibilty of the role was to build models that will lead to actions either for cost saving or revenue increase.
 
-Next, I joined [Skroutz](https://www.skroutz.gr/) in **April 21**' with the role of **Business Intelligence Analyst**. I am working closely with stakeholders to ensure all data and reporting needs are on track and contribute to the adoption of the BI team's initiatives and tools inside the organisation. 
-
-Currently at Skroutz, with a **Business Intelligence Lead**, I additionally train junior analysts  and stakeholders to improve their data mindsets using the BI Team's tools to reduce the time and individual effort needed to access and explore datasets.
+Next, I joined [Skroutz](https://www.skroutz.gr/) in **April 21**' with the role of **Business Intelligence Analyst** and currently as **Business Intelligence Lead**, one of the things I like the most is to help people reduce the time and individual effort they need to access and explore datasets.
 
 # Education
 I've studied Maths at Department of Mathematics - Aristotle University (Thessaloniki, Greece) and then I had my MSc on Applied Informatics - International Hellenic University (Serres, Greece). 
