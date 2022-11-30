@@ -6,7 +6,7 @@ var store = [{
         "teaser": "/assets/images/project_images/airbnb.png"
       },{
         "title": "Welcome to my data playground!",
-        "excerpt":"Introduction   Welcome, this is my first blog post. This is a place for everyone in the BI &amp; Data Science field. This blog aims to attract professionals and tries to make that they will find something good to read.   I hope you like it and keep in touch.  ","categories": [],
+        "excerpt":"Introduction So…this is my first blog post and if you read this now, I’m really glad you’re here. This is my data playground and I’m going to talk about data, business intelligence, data science, machine learning, big data and all this cool great stuff everyone talks about. I’m just another...","categories": [],
         "tags": ["general"],
         "url": "/Welcome-to-my-data-playground/",
         "teaser": null
