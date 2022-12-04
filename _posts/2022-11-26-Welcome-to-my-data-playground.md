@@ -4,6 +4,8 @@ tags:
   - general
 toc: true
 toc_sticky: true
+header:
+  og_image: /assets/images/home/welcome.png
 excerpt: "So...this is my first blog post and if you read this now, I’m really glad you’re here."
 ---
 
