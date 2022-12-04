@@ -20,4 +20,4 @@ I've studied Maths at Department of Mathematics - Aristotle University (Thessalo
 The **tech stack** consists of: SQL, Tableau, Python, Git, Databricks, AWS, Azure, Statistics
 
 # Interests
-I like watching and playing football with friends, running half-marathons (hopefully going for 3rd time next year), table-tennis (can play hours) and traveling.
+I like watching and playing football with friends, running half-marathons (hopefully going for 3rd time next year), table-tennis (can play forever) and traveling.

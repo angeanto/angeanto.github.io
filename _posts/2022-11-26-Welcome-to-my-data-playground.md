@@ -7,8 +7,10 @@ toc_sticky: true
 excerpt: "So...this is my first blog post and if you read this now, I’m really glad you’re here."
 ---
 
+![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/home/welcome.png)
+
 ## Introduction
-So...this is my first blog post and if you read this now, I’m really glad you’re here. This is my data playground and I’m going to talk about data, business intelligence, data science, machine learning, big data and all this cool great stuff everyone talks about. I'm just another person with an opinion, but hopefully i'll bring some data with me. As this is my first post I’ll tell you just a little about me.
+ So...this is my first blog post and if you read this now, I’m really glad you’re here. This is my data playground and I’m going to talk about data, business intelligence, data science, machine learning, big data and all this cool great stuff everyone talks about. I'm just another person with an opinion, but hopefully i'll bring some data with me. As this is my first post I’ll tell you just a little about me.
 ## About me
 Working with data and talking for all this kind of stuff, really delights me. I try to be into as much as possible components of data analytics, from data engineering to data visualization, however I really enjoy returning value to the business, enabling data mindsets, help people think of data, share best practices and in general everything that helps people optimize the way they work with data.
 ## Why
