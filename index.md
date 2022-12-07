@@ -4,7 +4,7 @@ layout: splash
 permalink: 
 date: 2016-03-23T11:48:41-04:00
 header:
-  overlay_color: "#000"
+  overlay_color: "#222831"
   overlay_image: assets/images/me/cartoon_rounded_homepage_right_small.png
   og_image: /assets/images/me/cartoon_rounded_homepage_og.png
   #height: 1200

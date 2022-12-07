@@ -9,7 +9,7 @@ header:
   #height: 1200
   #width: 630
   #The recommended image ratio for an og:image is 1.91:1. The optimal size would be 1200 x 630.
-excerpt: "So...tthis is my first blog post and if you read this now, I’m really glad you’re here."
+excerpt: "So...this is my first blog post and if you read this now, I’m really glad you’re here."
 ---
 
 ![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/post_images/welcome.png)
