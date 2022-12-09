@@ -1,8 +1,6 @@
 ---
 title: "Hello, this is Antonis"
 layout: splash
-permalink: 
-date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#222831"
   overlay_image: assets/images/me/cartoon_rounded_homepage_right_small.png

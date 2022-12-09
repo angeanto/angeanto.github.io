@@ -14,7 +14,7 @@
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
-  background-color: #222831;
+  background-color: #eeeeee;
 
   footer {
     @include clearfix;
@@ -47,8 +47,10 @@
 }
 
 .page__footer-copyright {
+  @include clearfix;
   font-family: $global-font-family;
   font-size: $type-size-7;
+  color: #222831;
 }
 
 .page__footer-follow {
@@ -56,6 +58,7 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
+    color: #222831;
   }
 
   li {

@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "en-US"
 title                    : "Antonis Angelakis"
 title_separator          : "|"
-subtitle                 : "Welcome to my Data Playground"
+subtitle                 : "Welcome to my data playground"
 name                     : "Antonis Angelakis"
 description              : "Posting related data stuff."
 url                      : "https://angeanto.github.io"
@@ -59,15 +59,15 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : true
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true
+search_full_content      : true
+search_provider          : algolia # lunr (default), algolia, google
 lunr:
   search_within_pages    : # true, false (default)
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  application_id         : 17E7BZ51NU
+  index_name             : dev_angeanto
+  search_only_api_key    : 26f3b0d311ae634401c6edbac3334fc5
   powered_by             : # true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
@@ -128,15 +128,18 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "LinkedIn"
+    - label: ""
       icon: "fab fa-fw fa-linkedin"
       url:  "https://www.linkedin.com/in/antonios-angelakis-249899101/"
-  #  - label: "Twitter"
-  #    icon: "fab fa-fw fa-twitter-square"
-  #    url: "https://twitter.com/antonisange"
-  #  - label: "GitHub"
-  #    icon: "fab fa-fw fa-github"
-  #    url:  "https://github.com/angeanto"
+    - label: ""
+      icon: "fas fa-fw fa-link"
+      url:  "https://public.tableau.com/app/profile/antonis1649"
+    - label: ""
+      icon: "fab fa-fw fa-github"
+      url:  "https://github.com/angeanto"
+    - label: ""
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/antonisange"
 
 # Reading Files
 include:
@@ -296,6 +299,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
 
   # _portfolio
   - scope:
