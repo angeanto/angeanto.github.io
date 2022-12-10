@@ -26,7 +26,7 @@ It would make happy reaching out to me with some topics and ideas you feel is me
 Some good news is that it turns out that starting a blog is much easier than you think. The website is created with [Jekyll](https://jekyllrb.com/) where you can transform your plain text into static websites and blogs and I used [Github Pages](https://pages.github.com/) which hosts it directly from the GitHub repository. Like Github Pages mentions,
 > Just edit, push, and the changes are live.
 
-It was cool and easy to modify the code, understand the logic behind Jekyll and go live. It also made me to remember and review my HTML skills since my Masters. i suppose it's the perfect opportinity to get more familiar with SEO, tags, and front end. 
+It was cool and easy to modify the code, understand the logic behind Jekyll, setup (Algolia)[https://www.algolia.com/] for search, deploy it to Github Pages finally and go live. It also made me to remember and review my HTML skills since my Masters. i suppose it's the perfect opportinity to get more familiar with SEO, tags, and front end. 
 The website [repo](https://github.com/angeanto/angeanto.github.io) is public.
 
 Follow me on [LinkedIn](https://www.linkedin.com/in/antonios-angelakis-249899101/), where I already share content and every post which will be published here. I hope you to like it and keep in touch! 

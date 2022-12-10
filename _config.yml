@@ -310,7 +310,7 @@ defaults:
       author_profile: true
       share: true
 
-# Where things are
+#Where things are
 jekyll-spaceship:
   # default enabled processors
   processors:
