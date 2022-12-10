@@ -32,6 +32,3 @@ The website [repo](https://github.com/angeanto/angeanto.github.io) is public.
 Follow me on [LinkedIn](https://www.linkedin.com/in/antonios-angelakis-249899101/), where I already share content and every post which will be published here. I hope you to like it and keep in touch! 
 
 Antonis
-
-panathinaikos
-olympiakos
