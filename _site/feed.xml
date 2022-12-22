@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-12T23:28:28+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Antonis Angelakis</title><subtitle>Posting related data stuff.</subtitle><author><name>Antonis Angelakis</name></author><entry><title type="html">Welcome to my data playground!</title><link href="http://localhost:4000/Welcome-to-my-data-playground/" rel="alternate" type="text/html" title="Welcome to my data playground!" /><published>2022-12-12T00:00:00+02:00</published><updated>2022-12-12T00:00:00+02:00</updated><id>http://localhost:4000/Welcome-to-my-data-playground</id><content type="html" xml:base="http://localhost:4000/Welcome-to-my-data-playground/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/post_images/welcome.png&quot; alt=&quot;no-alignment&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-19T21:45:53+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Antonis Angelakis</title><subtitle>Posting related data stuff.</subtitle><author><name>Antonis Angelakis</name></author><entry><title type="html">Run python scripts and use output tables with Tableau Table Extension</title><link href="http://localhost:4000/Run-python-scripts-with-Tableau-Table-Extension/" rel="alternate" type="text/html" title="Run python scripts and use output tables with Tableau Table Extension" /><published>2022-12-19T00:00:00+02:00</published><updated>2022-12-19T00:00:00+02:00</updated><id>http://localhost:4000/Run%20python-scripts-with-Tableau-Table-Extension</id><content type="html" xml:base="http://localhost:4000/Run-python-scripts-with-Tableau-Table-Extension/">&lt;h2 id=&quot;why&quot;&gt;Why&lt;/h2&gt;
+
+&lt;p&gt;Suppose we are working in a Tableau workbook and we need to process data obtained from an SQL query or a table. We realise that our desired goal either cannot be done using calculated fields or would be achieved more easily, in a more straightforward and readable way by using Python. Furthermore, &lt;strong&gt;we may need some predictions into Tableau’s data model by running a simple scikit-learn model.&lt;/strong&gt;
+&lt;a href=&quot;https://www.tableau.com/blog/release-data-guide-table-extensions-dynamic-zone-visibility&quot;&gt;Available in Tableau 2022.3&lt;/a&gt;, &lt;a href=&quot;https://help.tableau.com/current/pro/desktop/en-us/td_table_extensions.htm&quot;&gt;Table Extensions&lt;/a&gt; allow you to create new data tables with an analytics extensions script. We can write a custom TabPy (or Rserve) script and optionally add one or more input tables. &lt;strong&gt;Using Table Extensions, you can unlock new data and transform, augment, score, or otherwise modify our data using Analytics Extensions like Python, R, and Einstein Discovery.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; Table extensions differs from writing code directly as Tableau calculated fields. It allows to use a desired table in the tableau data model as output after some Python/R processing.&lt;/p&gt;
+
+&lt;h2 id=&quot;setup--configuration&quot;&gt;Setup &amp;amp; Configuration&lt;/h2&gt;
+
+&lt;h3 id=&quot;python&quot;&gt;Python&lt;/h3&gt;
+&lt;p&gt;We need to install Python from &lt;a href=&quot;https://www.python.org/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;tableau-desktop&quot;&gt;Tableau Desktop&lt;/h3&gt;
+&lt;p&gt;We need &lt;a href=&quot;https://www.tableau.com/support/releases&quot;&gt;Tableau Desktop&lt;/a&gt;(&amp;gt;= 2022.3 version).&lt;/p&gt;
+
+&lt;h3 id=&quot;tabpy&quot;&gt;Tabpy&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://tableau.github.io/TabPy/docs/server-install.html&quot;&gt;TabPy&lt;/a&gt;(the Tableau Python Server) is an Analytics Extension implementation that expands Tableau’s capabilities by allowing users to execute Python scripts and use the output either in a calculated field or as table extension.&lt;br /&gt;
+To install TabPy using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip&lt;/code&gt;, run: &lt;br /&gt; 
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip install tabpy&lt;/code&gt;&lt;br /&gt;
+and to start the server run: &lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tabpy&lt;/code&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The desired output is something like this: &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/post_images/2.python_tableau/terminal.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;By navigating to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;localhost:9004&lt;/code&gt; we can ensure that the server is running successfully.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/post_images/2.python_tableau/tabpy_server.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We are now ready to taste our food.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-actual-thing&quot;&gt;The Actual Thing&lt;/h2&gt;
+&lt;p&gt;lorem ipsum&lt;/p&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;lorem ipsum&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.tableau.com/current/prep/en-us/prep_scripts_TabPy.htm&quot;&gt;https://help.tableau.com/current/prep/en-us/prep_scripts_TabPy.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/tabpy-combining-python-and-tableau-511b10da8175&quot;&gt;https://towardsdatascience.com/tabpy-combining-python-and-tableau-511b10da8175&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.tableau.com/blog/release-data-guide-table-extensions-dynamic-zone-visibility&quot;&gt;https://www.tableau.com/blog/release-data-guide-table-extensions-dynamic-zone-visibility&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.tableau.com/current/pro/desktop/en-us/td_table_extensions.htm&quot;&gt;https://help.tableau.com/current/pro/desktop/en-us/td_table_extensions.htm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Antonis Angelakis</name></author><category term="tableau" /><category term="python" /><category term="tabpy" /><summary type="html">Run python scripts and use output tables with Tableau Table Extension</summary></entry><entry><title type="html">Welcome to my data playground!</title><link href="http://localhost:4000/Welcome-to-my-data-playground/" rel="alternate" type="text/html" title="Welcome to my data playground!" /><published>2022-12-12T00:00:00+02:00</published><updated>2022-12-12T00:00:00+02:00</updated><id>http://localhost:4000/Welcome-to-my-data-playground</id><content type="html" xml:base="http://localhost:4000/Welcome-to-my-data-playground/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/post_images/welcome.png&quot; alt=&quot;no-alignment&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;So…this is my first blog post and if you read this now, I’m really glad you’re here. This is my data playground and I’m going to talk about data, business intelligence, data science, machine learning, big data and all this cool great stuff everyone talks about. I’m just another person with an opinion, but hopefully i’ll defend it with some data. As this is my first post I’ll tell you just a little about me.&lt;/p&gt;
