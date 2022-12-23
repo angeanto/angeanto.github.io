@@ -23,9 +23,9 @@ name                     : "Antonis Angelakis"
 description              : "Posting related data stuff."
 url                      : "https://angeanto.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "git@github.com:angeanto/angeanto.github.io.git"
-#teaser                   : "/assets/images/a_images/solvent.png"
-#logo                     : "/assets/images/a_images/solvent.png"
+repository               : "angeanto/angeanto.github.io"
+#teaser                  : "/assets/images/a_images/solvent.png"
+#logo                    : "/assets/images/a_images/solvent.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
