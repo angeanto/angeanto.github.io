@@ -1,20 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-19T21:45:53+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Antonis Angelakis</title><subtitle>Posting related data stuff.</subtitle><author><name>Antonis Angelakis</name></author><entry><title type="html">Run python scripts and use output tables with Tableau Table Extension</title><link href="http://localhost:4000/Run-python-scripts-with-Tableau-Table-Extension/" rel="alternate" type="text/html" title="Run python scripts and use output tables with Tableau Table Extension" /><published>2022-12-19T00:00:00+02:00</published><updated>2022-12-19T00:00:00+02:00</updated><id>http://localhost:4000/Run%20python-scripts-with-Tableau-Table-Extension</id><content type="html" xml:base="http://localhost:4000/Run-python-scripts-with-Tableau-Table-Extension/">&lt;h2 id=&quot;why&quot;&gt;Why&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-23T17:32:48+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Antonis Angelakis</title><subtitle>Posting related data stuff.</subtitle><author><name>Antonis Angelakis</name></author><entry><title type="html">Run python scripts and use output tables with Tableau Table Extension</title><link href="http://localhost:4000/Run-python-scripts-with-Tableau-Table-Extension/" rel="alternate" type="text/html" title="Run python scripts and use output tables with Tableau Table Extension" /><published>2022-12-19T00:00:00+02:00</published><updated>2022-12-19T00:00:00+02:00</updated><id>http://localhost:4000/Run%20python-scripts-with-Tableau-Table-Extension</id><content type="html" xml:base="http://localhost:4000/Run-python-scripts-with-Tableau-Table-Extension/">&lt;h2 id=&quot;why&quot;&gt;Why&lt;/h2&gt;
 
-&lt;p&gt;Suppose we are working in a Tableau workbook and we need to process data obtained from an SQL query or a table. We realise that our desired goal either cannot be done using calculated fields or would be achieved more easily, in a more straightforward and readable way by using Python. Furthermore, &lt;strong&gt;we may need some predictions into Tableau’s data model by running a simple scikit-learn model.&lt;/strong&gt;
-&lt;a href=&quot;https://www.tableau.com/blog/release-data-guide-table-extensions-dynamic-zone-visibility&quot;&gt;Available in Tableau 2022.3&lt;/a&gt;, &lt;a href=&quot;https://help.tableau.com/current/pro/desktop/en-us/td_table_extensions.htm&quot;&gt;Table Extensions&lt;/a&gt; allow you to create new data tables with an analytics extensions script. We can write a custom TabPy (or Rserve) script and optionally add one or more input tables. &lt;strong&gt;Using Table Extensions, you can unlock new data and transform, augment, score, or otherwise modify our data using Analytics Extensions like Python, R, and Einstein Discovery.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Suppose working in a Tableau workbook and need to make some operations that either are impossible with Tableau or a bit hard. You realise that it would be achieved more easily, in a straightforward and readable way by using some Python code. Another case could be to &lt;strong&gt;make some predictions inside the workbook by running a simple scikit-learn model.&lt;/strong&gt; You want the model to run everytime the data is refreshed.
+&lt;a href=&quot;https://www.tableau.com/blog/release-data-guide-table-extensions-dynamic-zone-visibility&quot;&gt;Available in Tableau 2022.3&lt;/a&gt;, &lt;a href=&quot;https://help.tableau.com/current/pro/desktop/en-us/td_table_extensions.htm&quot;&gt;Table Extensions&lt;/a&gt; allow you to create new data tables with an analytics extensions script. We can write a custom Python script using TabPy and optionally add one or more input tables. &lt;strong&gt;Using Table Extensions, you can unlock new data and transform, augment, score, or otherwise modify our data using Analytics Extensions like Python, R, and Einstein Discovery.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; Table extensions differs from writing code directly as Tableau calculated fields. It allows to use a desired table in the tableau data model as output after some Python/R processing.&lt;/p&gt;
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; Table extensions differs from writing code directly as Tableau calculated fields. It unlocks the capability to use a table in the tableau data model as output after some Python processing.&lt;/p&gt;
 
 &lt;h2 id=&quot;setup--configuration&quot;&gt;Setup &amp;amp; Configuration&lt;/h2&gt;
+&lt;p&gt;Let’s start cooking 🧑‍🍳.&lt;/p&gt;
 
-&lt;h3 id=&quot;python&quot;&gt;Python&lt;/h3&gt;
-&lt;p&gt;We need to install Python from &lt;a href=&quot;https://www.python.org/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Python&lt;/strong&gt;&lt;br /&gt;
+First, download Python from &lt;a href=&quot;https://www.python.org/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;tableau-desktop&quot;&gt;Tableau Desktop&lt;/h3&gt;
-&lt;p&gt;We need &lt;a href=&quot;https://www.tableau.com/support/releases&quot;&gt;Tableau Desktop&lt;/a&gt;(&amp;gt;= 2022.3 version).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tableau Desktop&lt;/strong&gt;&lt;br /&gt;
+Next, download &lt;a href=&quot;https://www.tableau.com/support/releases&quot;&gt;Tableau Desktop&lt;/a&gt;(&amp;gt;= 2022.3 version). We’ll NOT use Tableau Server for this example.&lt;/p&gt;
 
-&lt;h3 id=&quot;tabpy&quot;&gt;Tabpy&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://tableau.github.io/TabPy/docs/server-install.html&quot;&gt;TabPy&lt;/a&gt;(the Tableau Python Server) is an Analytics Extension implementation that expands Tableau’s capabilities by allowing users to execute Python scripts and use the output either in a calculated field or as table extension.&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Tabpy&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://tableau.github.io/TabPy/docs/server-install.html&quot;&gt;TabPy&lt;/a&gt;(the Tableau Python Server) is an Analytics Extension implementation that expands Tableau’s capabilities by allowing users to execute Python scripts and use the output either in a calculated field or as table extension.&lt;br /&gt;
 To install TabPy using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip&lt;/code&gt;, run: &lt;br /&gt; 
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip install tabpy&lt;/code&gt;&lt;br /&gt;
 and to start the server run: &lt;br /&gt;
@@ -22,19 +23,62 @@ and to start the server run: &lt;br /&gt;
 
 &lt;p&gt;The desired output is something like this: &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/post_images/2.python_tableau/terminal.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/post_images/2.python_tableau/terminal_rounded.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;By navigating to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;localhost:9004&lt;/code&gt; we can ensure that the server is running successfully.&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;By navigating to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;localhost:9004&lt;/code&gt; ensure that the server is running successfully.&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/post_images/2.python_tableau/tabpy_server.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/post_images/2.python_tableau/tabpy_server_rounded.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;We are now ready to taste our food.&lt;/p&gt;
+&lt;p&gt;We are now ready to taste our food 🥄.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-actual-thing&quot;&gt;The Actual Thing&lt;/h2&gt;
-&lt;p&gt;lorem ipsum&lt;/p&gt;
+&lt;p&gt;We’ll use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sample - Superstore&lt;/code&gt; dataset to build 5 clusters with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Quantity&lt;/code&gt;,&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Discount&lt;/code&gt;,&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Profit&lt;/code&gt; variables.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Connection&lt;/strong&gt; &lt;br /&gt;
+By navigating to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Settings and Performance&lt;/code&gt; and selecting &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Manage Analytics Extension Connection&lt;/code&gt; connect with the python server.&lt;br /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/post_images/2.python_tableau/connect_rounded.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data pane&lt;/strong&gt;&lt;br /&gt;
+We can now select any of the existing tables from our connections and notice that when a table is dragged into the pane the input table and output table selections appear in the bottom.We also can insert our script.&lt;br /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/post_images/2.python_tableau/code_pane_rounded.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; The image used above contains code and schema from another example.&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Our output table is shown as Table extension.In Script, enter your script, select &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Apply&lt;/code&gt; and choose &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Update&lt;/code&gt;. Now and the results will appear in the Output Table tab.
+When the code runs, the output table will include any new columns from the returned python dictonary. The new column &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cluster&lt;/code&gt; has been created. 
+&lt;img src=&quot;http://localhost:4000/assets/images/post_images/2.python_tableau/preview_rounded.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;br /&gt;
+The script contains the code below.&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;libraries&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt; 
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.preprocessing&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;StandardScaler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MinMaxScaler&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.cluster&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;KMeans&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#Convert tableau imported table to pandas df
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arg1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;from_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_arg1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#Fit K-Means
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;kmeans&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;KMeans&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_clusters&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;random_state&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Quantity&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Discount&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Profit&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]])&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#Get cluster assignment labels
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;labels&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kmeans&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;labels_&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#Format results as a DataFrame
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;labels&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#Rename column
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;columns&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;cluster&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inplace&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#Join to main dataframe
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;orders_clusters&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;concat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arg1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#Return table as dictionary
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;orders_clusters&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;orient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;list&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Clusters&lt;/strong&gt;&lt;br /&gt;
+We can now visualize our clusters. In the &lt;strong&gt;Distribution&lt;/strong&gt; worksheet, we can say hello.&lt;br /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/post_images/2.python_tableau/barchart_rounded.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt; The &lt;strong&gt;Discount Profit&lt;/strong&gt; scatterplot displays the correlation between 2 out of the 3 independent variables highlighting the colour of each cluster.&lt;br /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/post_images/2.python_tableau/corr_rounded.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;lorem ipsum&lt;/p&gt;
+&lt;p&gt;In a nutshell…We’ve managed to run python in Tableau Desktop locally and started a TabPy server. We can store data as dataframes from any database. Depending on our desired outcome, we may use tables from existing connections (or not), manipulate this data based on our needs and finally blend with the tables placed in our Tableau Data model. The python script should return a dictionary which will be used as the extended table.&lt;/p&gt;
 
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 &lt;ul&gt;
