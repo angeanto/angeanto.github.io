@@ -7,7 +7,7 @@ tags:
 toc: true
 toc_sticky: true
 header:
-  og_image: assets/images/post_images/blog_rounded_og.png
+  og_image: assets/images/post_images/2.python_tableau/og_image_rounded_sized.jpg
   #height: 1200
   #width: 630
   #The recommended image ratio for an og:image is 1.91:1. The optimal size would be 1200 x 630.
