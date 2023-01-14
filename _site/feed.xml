@@ -1,4 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-23T18:03:10+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Antonis Angelakis</title><subtitle>Posting related data stuff.</subtitle><author><name>Antonis Angelakis</name></author><entry><title type="html">Run python scripts and use output tables with Tableau Table Extension</title><link href="http://localhost:4000/Run-python-scripts-with-Tableau-Table-Extension/" rel="alternate" type="text/html" title="Run python scripts and use output tables with Tableau Table Extension" /><published>2022-12-23T00:00:00+02:00</published><updated>2022-12-23T00:00:00+02:00</updated><id>http://localhost:4000/Run%20python-scripts-with-Tableau-Table-Extension</id><content type="html" xml:base="http://localhost:4000/Run-python-scripts-with-Tableau-Table-Extension/">&lt;h2 id=&quot;why&quot;&gt;Why&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-14T15:14:54+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Antonis Angelakis</title><subtitle>Posting related data stuff.</subtitle><author><name>Antonis Angelakis</name></author><entry><title type="html">Increasing the reputation of Business Intelligence teams within an organization</title><link href="http://localhost:4000/Increasing-the-reputation-of-Business-Intelligence-teams-within-an-organization/" rel="alternate" type="text/html" title="Increasing the reputation of Business Intelligence teams within an organization" /><published>2023-01-14T00:00:00+02:00</published><updated>2023-01-14T00:00:00+02:00</updated><id>http://localhost:4000/Increasing-the-reputation-of-Business-Intelligence-teams-within-an-organization</id><content type="html" xml:base="http://localhost:4000/Increasing-the-reputation-of-Business-Intelligence-teams-within-an-organization/">&lt;p&gt;Business intelligence (BI) teams play a crucial role in helping organizations make informed decisions and achieve their goals. However, establishing and maintaining a strong BI team can be challenging. Here are a few basic tips for establishing and increasing the reputation of BI teams within an organization:&lt;/p&gt;
+
+&lt;h3 id=&quot;clearly-define-the-teams-mandate-and-responsibilities&quot;&gt;Clearly define the team’s mandate and responsibilities&lt;/h3&gt;
+&lt;p&gt;It is important that the BI team’s mandate and responsibilities are clearly defined and understood by all stakeholders. This will help the team focus on its core objectives and deliver value to the organization. It can play cruial role to communicate efficiently the mission of the team within the organization.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;img src=&quot;/assets/images/post_images/3. bi_reputation/bi_structure-initiative.png&quot; /&gt;
+  &lt;img src=&quot;/assets/images/post_images/3. bi_reputation/bi_structure-team.png&quot; /&gt;
+&lt;/figure&gt;
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Example:&lt;/strong&gt; The BI team’s mandate might be to act as a data hub and support initiatives regardless of teams invloved. Alternatively, it can support specific team(s) because of complex data or lack of analysis skills.&lt;/p&gt;
+
+&lt;h3 id=&quot;build-strong-relationships-with-other-teams&quot;&gt;Build strong relationships with other teams&lt;/h3&gt;
+&lt;p&gt;BI teams often work with a variety of teams within an organization, such as sales, marketing, and operations. Building strong relationships with these teams can help the BI team understand their needs and priorities, and ensure that their work is aligned with the organization’s goals.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Clearly communicate the value of the business intelligence team’s work: Make sure other teams understand how the insights and data provided by the team can help them achieve their goals and make better decisions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Foster collaboration: Encourage members of the team to work closely with other teams on projects and initiatives. This will help build trust and understanding between the teams.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Be responsive to other teams’ needs: Show that the team is responsive to the needs of other teams by quickly addressing their requests for data and insights.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Share knowledge: Share the knowledge and skills of the team with other teams. This will help other teams become more self-sufficient in using data and insights to support their work.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Be transparent: Share the team’s process and methodologies to gather, analyze, and present data. This will help other teams understand the context and limitations of the data they are working with.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Encourage feedback: Encourage other teams to give feedback on the work of the BI team. This will help to improve and better serve the needs of the organization.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hold regular meetings: Hold regular meetings between your team and other teams to discuss upcoming projects, share progress and results, and address any concerns or issues.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Show results and celebrate: Share the results and impact of the business intelligence team’s work with the rest of the organization. This will help other teams see the value of the work that the BI team does and how we work together to achieve shared goals.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;foster-a-culture-of-continuous-learning&quot;&gt;Foster a culture of continuous learning&lt;/h3&gt;
+&lt;p&gt;BI teams should be committed to staying up-to-date with the latest technologies and best practices. Encouraging team members to attend conferences, workshops, and training sessions can help the team stay at the forefront of the field.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Encourage cross-training: Encourage members to learn about the work of other teams, and vice versa. This will help build understanding and appreciation for the work of different teams and the skills they bring to the table.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create opportunities for learning: Set up regular training sessions, workshops or seminars where BI staff can share their expertise with other teams, or where other teams can share their knowledge with them.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a mentorship program: Set up a mentorship program where the BI team can mentor less experienced members of other teams, and vice versa. This will help build trust and understanding between team members.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Encourage experimentation: Encourage the team to experiment with new technologies, techniques, and methods. This will help everyone learn and grow.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Share best practices: Share best practices and lessons learned either between team members or other teams. This will help everyone learn from the successes and failures of others.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a learning culture: Create a culture of continuous learning by encouraging everyone to take initiative and take ownership of their own learning.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make use of modern learning technologies: Encourage the use of online resources and digital learning platforms to access training, tutorials and other educational materials.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Celebrate success: Recognize and celebrate the successes of both BI and other teams and how they have grown and developed through learning. Retro sessions are a great way to measure the progress.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use data to drive learning: Encourage the use of data and analytics to measure the effectiveness of learning and training programs, and use this information to guide future learning initiatives.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Lead by example: Lead by example and demonstrate the importance of continuous learning and professional development in your own work.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;deliver-value&quot;&gt;Deliver value&lt;/h3&gt;
+&lt;p&gt;The most effective way to increase the reputation of a BI team is to consistently deliver value to the organization. This means providing insights and recommendations that drive meaningful business outcomes.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Lead by example: Lead by example and demonstrate the importance of data-driven decision making and collaboration in your own work.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Understand the business: Take the time to understand the business goals, objectives, and strategies of the organization. This will help you to provide insights and data that are directly relevant to the business.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Provide actionable insights: Provide insights and data that are actionable, meaning they can be used to make decisions and take actions that will drive the business forward.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Be timely: Provide insights and data in a timely manner, so that they can be used to support decision-making and inform the direction of the business.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Communicate effectively: Communicate the insights and data provided by the BI team in a clear and concise manner, so that they can be easily understood and acted upon by decision-makers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use the right tools: Use the right tools and technologies to collect, analyze, and present data. This will help to deliver insights and data in an efficient and effective manner.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Be flexible: Be flexible and responsive to changing business needs and priorities. In this way, you can deliver value to the business in a timely and effective manner.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Measure and report on the results: Measure and report on the results of the BI team’s work in terms of how it has helped the business to achieve its goals and objectives.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Collaborate with other teams: Collaborate with other teams within the organization to understand their data needs and how the business intelligence team can support them to achieve their objectives.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Continuously improve: Continuously improve the business intelligence team’s processes and methods to ensure they are delivering the most value to the business.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;notice--info notice--info&quot;&gt;&lt;strong&gt;Example:&lt;/strong&gt; A manufacturing company is experiencing high costs and inefficiencies in their production process. The team can collaborate with stakeholders and recommend: &lt;br /&gt;
+• Specific types of equipment or automation that have been proven to reduce downtime, increase production output, and improve efficiency.&lt;br /&gt;
+• Implement new scheduling system to reduce inventory and increase efficiency or a new capacity planning system to optimize production schedules.&lt;br /&gt;
+• Implement a data-driven approach: The team could recommend implementing a data-driven approach to production, where decision-making is based on data analysis, rather than just experience.&lt;br /&gt;
+• Identify key performance indicators such as machine downtime, labor costs, and production output, and track progress against these metrics over time to measure the effectiveness of the implemented changes.&lt;/p&gt;</content><author><name>Antonis Angelakis</name></author><category term="bi" /><summary type="html">Business intelligence (BI) teams play a crucial role in helping organizations make informed decisions and achieve their goals.</summary></entry><entry><title type="html">Run python scripts and use output tables with Tableau Table Extension</title><link href="http://localhost:4000/Run-python-scripts-with-Tableau-Table-Extension/" rel="alternate" type="text/html" title="Run python scripts and use output tables with Tableau Table Extension" /><published>2022-12-23T00:00:00+02:00</published><updated>2022-12-23T00:00:00+02:00</updated><id>http://localhost:4000/Run%20python-scripts-with-Tableau-Table-Extension</id><content type="html" xml:base="http://localhost:4000/Run-python-scripts-with-Tableau-Table-Extension/">&lt;h2 id=&quot;why&quot;&gt;Why&lt;/h2&gt;
 
 &lt;p&gt;Suppose working in a Tableau workbook and need to make some operations that either are impossible with Tableau or a bit hard. You realise that it would be achieved more easily, in a straightforward and readable way by using some Python code. Another case could be to &lt;strong&gt;make some predictions inside the workbook by running a simple scikit-learn model.&lt;/strong&gt; You want the model to run everytime the data is refreshed.
 &lt;a href=&quot;https://www.tableau.com/blog/release-data-guide-table-extensions-dynamic-zone-visibility&quot;&gt;Available in Tableau 2022.3&lt;/a&gt;, &lt;a href=&quot;https://help.tableau.com/current/pro/desktop/en-us/td_table_extensions.htm&quot;&gt;Table Extensions&lt;/a&gt; allow you to create new data tables with an analytics extensions script. We can write a custom Python script using TabPy and optionally add one or more input tables. &lt;strong&gt;Using Table Extensions, you can unlock new data and transform, augment, score, or otherwise modify our data using Analytics Extensions like Python, R, and Einstein Discovery.&lt;/strong&gt;&lt;/p&gt;
