@@ -17,7 +17,7 @@ excerpt: "Business intelligence (BI) teams play a crucial role in helping organi
 Business intelligence (BI) teams play a crucial role in helping organizations make informed decisions and achieve their goals. However, establishing and maintaining a strong BI team can be challenging. Here are a few basic tips for establishing and increasing the reputation of BI teams within an organization:
 
 ### Clearly define the team's mandate and responsibilities
-It is important that the BI team's mandate and responsibilities are clearly defined and understood by all stakeholders. This will help the team focus on its core objectives and deliver value to the organization. It can play cruial role to communicate efficiently the mission of the team within the organization. 
+It is important that the BI team's mandate and responsibilities are clearly defined and understood by all stakeholders. This will help the team focus on its core objectives and deliver value to the organization. It can play significant role to communicate efficiently the mission of the team within the organization. 
 
 <figure class="half">
   <img src="/assets/images/post_images/3. bi_reputation/bi_structure-initiative.png">
