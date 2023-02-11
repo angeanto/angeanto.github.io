@@ -245,7 +245,7 @@ ORDER BY
     c.customer_name ASC, 
     o.order_id DESC;
 ```
-It's a bit faster to read and usnerstand it, isn't it?
+It's a bit faster to read and understand it, isn't it?
 {: .notice--info}
 
 # Summary
