@@ -5,7 +5,7 @@ tags:
 toc: true
 toc_sticky: true
 header:
-  og_image: assets/images/post_images/4. SQL/sql_og.jpg
+  og_image: assets/images/post_images/5. effective visualization/chart_front.jpg
   #height: 1200
   #width: 630
   #Background color: #eeeeee
