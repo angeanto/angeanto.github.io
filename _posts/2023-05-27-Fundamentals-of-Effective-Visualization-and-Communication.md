@@ -11,7 +11,7 @@ header:
   #Background color: #eeeeee
   #Text color: #222831
   #The recommended image ratio for an og:image is 1.91:1. The optimal size would be 1200 x 630.
-excerpt: "In this post, we will explore some of these advanced techniques in greater detail, providing examples and best practices for optimizing SQL queries."
+excerpt: "In this post, we will explore the basics for effective Visualization and Communication with data."
 ---
 
 # Introduction
