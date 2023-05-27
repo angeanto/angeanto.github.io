@@ -1,4 +1,140 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-11T15:29:26+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Antonis Angelakis</title><subtitle>Posting related data stuff.</subtitle><author><name>Antonis Angelakis</name></author><entry><title type="html">Fundamentals of SQL Query Optimization</title><link href="http://localhost:4000/Fundamentals-of-SQL-Query-Optimization/" rel="alternate" type="text/html" title="Fundamentals of SQL Query Optimization" /><published>2023-02-11T00:00:00+02:00</published><updated>2023-02-11T00:00:00+02:00</updated><id>http://localhost:4000/Fundamentals-of-SQL-Query-Optimization</id><content type="html" xml:base="http://localhost:4000/Fundamentals-of-SQL-Query-Optimization/">&lt;p&gt;SQL query optimization is critical for advanced users who work with large, complex databases. Even small improvements in query performance can translate to significant gains in productivity and cost savings.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-27T21:19:37+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Antonis Angelakis</title><subtitle>Posting related data stuff.</subtitle><author><name>Antonis Angelakis</name></author><entry><title type="html">Fundamentals of Effective Visualization and Communication</title><link href="http://localhost:4000/Fundamentals-of-Effective-Visualization-and-Communication/" rel="alternate" type="text/html" title="Fundamentals of Effective Visualization and Communication" /><published>2023-05-27T00:00:00+03:00</published><updated>2023-05-27T00:00:00+03:00</updated><id>http://localhost:4000/Fundamentals-of-Effective-Visualization-and-Communication</id><content type="html" xml:base="http://localhost:4000/Fundamentals-of-Effective-Visualization-and-Communication/">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;In data-driven decision-making world, effective visualization and communication of insights play a vital role in driving understanding, engagement, and action. Visualizing data in a clear and compelling manner enables stakeholders to grasp complex information quickly and make informed decisions. In this blog post we explore the fundamentals of an effective visualization and communication approach, along with real-life examples that showcase its impact.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Did you know?&lt;/strong&gt; &lt;strong&gt;69%&lt;/strong&gt; of directors have fast-tracked digital business adoption.&lt;/p&gt;
+
+&lt;h1 id=&quot;tailor-visualizations-to-the-audience&quot;&gt;Tailor visualizations to the audience&lt;/h1&gt;
+&lt;p&gt;Adapting visualizations to the audience’s needs and preferences is essential. Consider an ecommerce organization sharing performance metrics with different stakeholders. While executives may prefer high-level summary dashboards with kpis such as sales, orders and revenue, operations team and marketing might benefit from detailed visualizations showcasing operational speed outcomes and CRM campaings effectiveness. By tailoring visualizations to specific user groups, the information becomes more relevant, engaging, and actionable. Three basic pillars of dashboards and visualizations are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Strategic Dashboards&lt;/strong&gt;: Provide a high-level overview of key performance indicators (KPIs) aligned with the organization’s strategic goals. They help executives and senior management track progress, identify trends, and make informed strategic decisions. Strategic dashboards often include summary charts, trend indicators, and visualizations that focus on long-term performance.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Operational Dashboards&lt;/strong&gt;: Designed to monitor real-time or near-real-time operational data. They provide insights into ongoing processes, performance metrics, and operational efficiency. Operational dashboards are commonly used by managers and operational teams to identify bottlenecks, address issues promptly, and optimize day-to-day operations. These dashboards may include metrics such as sales performance, production rates, or customer service response times etc.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Analytical Dashboards&lt;/strong&gt;: Used to explore and analyze data in detail. They offer interactive capabilities, allowing users to drill down, filter, and manipulate data to uncover insights. Analytical dashboards are commonly used not only by relevant business stakeholders but additonaly by data professionals to conduct in-depth analysis, identify patterns, and generate hypotheses. These dashboards often include various charts, tables, and filters to support data exploration.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/post_images/5. effective visualization/tableau_executive_sales_summary.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Why?&lt;/strong&gt; With this report, sales executives can track quarter to date (QTD) sales performance, review numbers in relation to the current quota and previous quarters, filtered by product and opportunity type in this dashboard based on CRM data&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/post_images/5. effective visualization/pepsico_dashboard.jpg&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Why?&lt;/strong&gt; Above dashboard analyzes inventory, logistical, and finance data from across the country. Bringing the data into Tableau Desktop allows stakeholders to make sense of big data and empowers analysts to create supply chain and forecasting reports in record time.&lt;/p&gt;
+
+&lt;h1 id=&quot;choose-the-right-visualization-type&quot;&gt;Choose the right visualization type&lt;/h1&gt;
+&lt;p&gt;Selecting the appropriate visualization approach is crucial to convey insights effectively. For instance, a retail company analyzing sales performance across different states might use a geographic heat map instead of a simple barchart to highlight sales hotspots and identify areas for expansion. By visually representing sales data on a map, decision-makers can easily identify patterns and make targeted business decisions. In the example below it’s clear that the company makes the majority of sales in the south. Such kind of information is hidden in our case if we choose a barchart.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/post_images/5. effective visualization/Viz Type (Bad).png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Tip&lt;/strong&gt; This barchart highlights the top states by sales. Don’t focus on labels etc. The main idea here is that we have somehow to identify any hidden corellations behind data.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/post_images/5. effective visualization/Viz Type (Good).png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Tip&lt;/strong&gt; In contrast with previous viz, we can now notice that sales are concentrated in the southeast regions. Blend your technical skills with analytical thinking and business knowledge.&lt;/p&gt;
+
+&lt;h1 id=&quot;choose-the-right-visualization-tools&quot;&gt;Choose the right visualization tools&lt;/h1&gt;
+&lt;p&gt;Selecting the right visualization tools can greatly enhance the effectiveness of data communication. From widely used tools like Tableau and Power BI to programming languages like Python with libraries such as Matplotlib and Seaborn, the choice depends on factors like data complexity, interactivity requirements, and the target audience’s familiarity with the tools.
+Understand the Data:
+Begin by thoroughly understanding the nature of your data. Consider its complexity, size, structure, and the relationships you want to highlight. Determine whether the data is numerical, categorical, time-series, spatial, or a combination of these.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Define Objectives and Audience:&lt;/strong&gt;
+Clarify your objectives for data visualization. Are you aiming to explore patterns, present trends, compare data, or tell a compelling story? Additionally, identify your target audience and their familiarity with visualization tools. This information will guide you in selecting user-friendly options or more advanced tools.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Assess Data Interactivity Requirements:&lt;/strong&gt;
+Evaluate whether your visualization needs to be interactive. Interactive visualizations allow users to explore and manipulate data, providing a more engaging experience. Consider if you require features like filtering, drill-down, zooming, or hover-over tooltips to enhance data exploration.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Consider Data Size and Performance:&lt;/strong&gt;
+If you are dealing with large datasets, assess the performance capabilities of the visualization tools. Some tools may struggle to handle extensive data, resulting in slow rendering or potential crashes. Ensure the chosen tool can efficiently handle the volume of data you’re working with.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Evaluate Tool Capabilities:&lt;/strong&gt;
+Research and compare the features and capabilities of different visualization tools. Consider factors such as chart types supported, customization options, data integration capabilities (e.g., connecting to databases or APIs), ease of use, learning curve, and community support.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Explore Pre-Built Solutions:&lt;/strong&gt;
+Many visualization tools offer pre-built templates or dashboards tailored for specific industries or data types. Evaluate whether these ready-to-use solutions align with your requirements. They can significantly reduce development time and provide inspiration for your own visualizations.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Consider Data Source and Compatibility:&lt;/strong&gt;
+Examine the data sources you’ll be working with and determine if the visualization tool can easily connect to and import data from those sources. Compatibility with popular file formats, databases, or data analysis platforms is important for a smooth workflow.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Evaluate Scalability and Deployment Options:&lt;/strong&gt;
+Consider the scalability of the visualization tool. Will it support your future needs as your data grows? Additionally, assess the deployment options available. Some tools may offer cloud-based solutions, while others require on-premises installations.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Review Cost and Budget:&lt;/strong&gt;
+Take into account the cost of the visualization tools and any associated licensing fees or subscriptions. Compare the pricing models and choose a tool that fits within your budget while meeting your requirements. Some tools offer free versions or open-source alternatives.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Seek User Feedback and Reviews:&lt;/strong&gt;
+Look for reviews and feedback from users who have used the visualization tools you are considering. Their experiences and insights can provide valuable information about the tool’s strengths, weaknesses, and usability.&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Did you know?&lt;/strong&gt; More than &lt;strong&gt;46%&lt;/strong&gt; of businesses are already using a BI tool as a core part of their business strategy.&lt;/p&gt;
+
+&lt;h1 id=&quot;simplify-complexity&quot;&gt;Simplify complexity&lt;/h1&gt;
+&lt;p&gt;Simplifying complex data into intuitive visual representations enhances understanding. For example, a financial institution visualizing portfolio risk might use a spider chart to depict risk exposure across different asset classes. By distilling intricate risk calculations into a visually intuitive chart, portfolio managers can easily identify areas of concern and adjust their investment strategies accordingly.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/post_images/5. effective visualization/sankey1.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Did you know?&lt;/strong&gt; 85% of business leaders agree that big data will significantly change the way that they do business.&lt;/p&gt;
+
+&lt;h1 id=&quot;utilize-interactive-visualizations&quot;&gt;Utilize interactive visualizations&lt;/h1&gt;
+&lt;p&gt;Interactive visualizations allow stakeholders to explore data and derive insights based on their specific interests. A social media platform analyzing user engagement might provide interactive dashboards that enable marketers to filter and drill down into specific demographic segments, engagement metrics, or campaign performance. By enabling users to interact with the data, organizations empower stakeholders to make data-driven decisions in real-time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/post_images/5. effective visualization/All Reports by State.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Did you know?&lt;/strong&gt; &lt;strong&gt;56%&lt;/strong&gt; of organizations that utilized analytics in 2020 reported faster and effective decision-making.&lt;/p&gt;
+
+&lt;h1 id=&quot;contextualize-data-with-annotations&quot;&gt;Contextualize data with annotations&lt;/h1&gt;
+&lt;p&gt;Annotations provide additional context and guidance within visualizations. For instance, an e-commerce company analyzing website traffic might annotate significant events, such as marketing campaigns or website updates, on a line chart showcasing user visits.Stakeholders can correlate fluctuations in traffic with specific initiatives, enabling a deeper understanding of the impact of those events.By incorporating annotations into visualizations, you can add clarity, prevent misinterpretation, provide additional context, and guide the audience’s attention towards the most important aspects of the data. They are an effective means of enhancing understanding, promoting accurate interpretation, and facilitating meaningful communication of insights derived from the visualization.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/post_images/5. effective visualization/annot.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Did you know?&lt;/strong&gt; &lt;strong&gt;70%&lt;/strong&gt; of organizations think that data discovery and visualization are vital.&lt;/p&gt;
+
+&lt;h1 id=&quot;visualize-comparisons-and-trends&quot;&gt;Visualize comparisons and trends&lt;/h1&gt;
+&lt;p&gt;Visualizing comparisons and trends allows stakeholders to identify patterns and make data-informed decisions. For example, a manufacturing company comparing sales across different regions and product categories may use a line chart to display sales side by side. This visualization makes it easy to identify underperforming lines and take corrective actions to improve quality.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/post_images/5. effective visualization/factors_1.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Did you know?&lt;/strong&gt;  &lt;strong&gt;90%&lt;/strong&gt; of sales and marketing teams cite BI as a crucial tool in getting their work done effectively.&lt;/p&gt;
+
+&lt;h1 id=&quot;tell-a-story-with-data&quot;&gt;Tell a story with data&lt;/h1&gt;
+&lt;p&gt;Data storytelling involves presenting insights in a narrative format to captivate and engage stakeholders. Consider an environmental organization showcasing the impact of climate change. They could create a series of visualizations illustrating the rise in global temperatures, melting ice caps, and endangered species. By combining data visualizations with compelling narratives, the organization effectively communicates the urgency for action and mobilizes support. It’s easier to find an analyst  writing some high quality pandas from finding someone who can make an impact by presenting a data story in a senior management meeting. Data storytelling is an important skill that becomes increasingly valuable as data analysts progress in seniority.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Communication and Influence:&lt;/strong&gt; As a data analyst, you often need to present complex data and insights to diverse stakeholders, including executives, managers, and non-technical team members. Data storytelling allows you to effectively communicate the meaning and implications of the data in a compelling and accessible manner. By telling a cohesive and engaging story, you can capture attention, inspire action, and influence decision-making based on data-driven insights.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bridging the Gap between Data and Decision-makers:&lt;/strong&gt; Senior data analysts often serve as intermediaries between technical teams and business stakeholders. Data storytelling enables you to bridge the gap between these groups by translating technical findings into meaningful narratives that resonate with decision-makers. By presenting data in a context that decision-makers understand, you can help them make informed choices and build trust in the data analysis process.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Persuasion and Buy-in:&lt;/strong&gt; Senior data analysts are frequently involved in driving data-driven initiatives and implementing changes within an organization. Data storytelling plays a crucial role in gaining buy-in from stakeholders, including executives and teams responsible for implementing recommended actions. By crafting a persuasive narrative, supported by relevant data, you can effectively communicate the rationale behind your recommendations and secure support for your proposed strategies.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Influence Organizational Culture:&lt;/strong&gt; As an analyst, you have the opportunity to influence the organizational culture around data-driven decision-making. Data storytelling helps create a culture where data is not only understood but also valued and utilized. By presenting compelling narratives and consistently demonstrating the power of data in driving insights and outcomes, you can inspire others to embrace data-driven approaches and make it an integral part of the decision-making process.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/post_images/5. effective visualization/LondonStolenBikes.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Did you know?&lt;/strong&gt; When some students were asked to recall the speeches, only 5% remembered a statistic, but 63% remembered the stories.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;Effective visualization and communication of data insights are essential for driving understanding, engagement, and action. By choosing the right visualization approaches, tailoring visualizations to the audience, simplifying complexity, utilizing interactivity, telling data-driven stories, providing context through annotations, visualizing comparisons and trends, and leveraging appropriate tools, organizations can unlock the power of their data. By adopting these best practices, stakeholders can make more informed decisions, drive positive outcomes, and fuel business success.&lt;/p&gt;
+
+&lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://public.tableau.com/app/profile/athan.mavrantonis/viz/StolenBikesinLondon/LondonStolenBikes&quot;&gt;How to Keep Your Bike From Getting Stolen in London by Athan Mavrantonis&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.tableau.com/solutions/customer/pepsico-cuts-analysis-time-90-tableau-trifacta?fbclid=IwAR26InceAFQWafqhgkHl-xgsGdE0U7jRL0i4yaQ4mbC8zr8wEbipzXSPz3E&quot;&gt;PepsiCo cuts analysis time by up to 90% with Tableau + Trifacta&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.tableau.com/learn/articles/sales-dashboards-examples-and-templates?fbclid=IwAR1qpZGXblQoyyckiv9JLbT1FbiJ_WJRsvDiTURqR_rjrqKA8fE3DKOMgg0&quot;&gt;7 Great Examples &amp;amp; Templates Of Sales Dashboards&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://community.devexpress.com/blogs/analytics/archive/2020/08/25/sankey-diagram-control-a-new-data-visualization-for-desktop-winforms-wpf.aspx?fbclid=IwAR1XvbAVB9pIg1sswwDcNlBYyjAldaVuEAt9m-bWk-qVsjW_cMvB8DruHJs&quot;&gt;Sankey Diagram Control — A New Data Visualization&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://techjury.net/blog/business-intelligence-statistics/?fbclid=IwAR1qpZGXblQoyyckiv9JLbT1FbiJ_WJRsvDiTURqR_rjrqKA8fE3DKOMgg0&quot;&gt;45 Amazing Business Intelligence Statistics for 2023&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://public.tableau.com/app/profile/federal.trade.commission/viz/FraudandIDTheftMaps/AllReportsbyState&quot;&gt;Fraud and ID Theft Maps&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.infragistics.com/community/blogs/b/tim_brock/posts/annotate-wisely&quot;&gt;How to Improve Your Data Visualizations with Annotations&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cxl.com/blog/data-storytelling/&quot;&gt;Data Storytelling: How to Inspire &amp;amp; Convince with Data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Antonis Angelakis</name></author><category term="bi" /><summary type="html">In this post, we will explore some of these advanced techniques in greater detail, providing examples and best practices for optimizing SQL queries.</summary></entry><entry><title type="html">Fundamentals of SQL Query Optimization</title><link href="http://localhost:4000/Fundamentals-of-SQL-Query-Optimization/" rel="alternate" type="text/html" title="Fundamentals of SQL Query Optimization" /><published>2023-02-11T00:00:00+02:00</published><updated>2023-02-11T00:00:00+02:00</updated><id>http://localhost:4000/Fundamentals-of-SQL-Query-Optimization</id><content type="html" xml:base="http://localhost:4000/Fundamentals-of-SQL-Query-Optimization/">&lt;p&gt;SQL query optimization is critical for advanced users who work with large, complex databases. Even small improvements in query performance can translate to significant gains in productivity and cost savings.
 &lt;br /&gt;
 In some cases, poorly optimized queries can even bring a system to its knees.&lt;br /&gt;
 At its core, query optimization involves finding the most efficient way to retrieve data from a database. This often requires a deep understanding of the database structure, as well as the underlying hardware and software environment. Optimizing queries involves a variety of techniques.In this post, we will explore some of these advanced techniques in greater detail, providing examples and best practices for optimizing SQL queries.&lt;/p&gt;
@@ -215,7 +351,7 @@ Ultimately, the choice between uppercase and lowercase SQL keywords comes down t
     &lt;span class=&quot;k&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;customer_name&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;ASC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
     &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;order_id&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;DESC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p class=&quot;notice--info&quot;&gt;It’s a bit faster to read and usnerstand it, isn’t it?&lt;/p&gt;
+&lt;p class=&quot;notice--info&quot;&gt;It’s a bit faster to read and understand it, isn’t it?&lt;/p&gt;
 
 &lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
 &lt;p&gt;SQL optimization can have significant benefits for both performance and team collaboration.&lt;br /&gt;
