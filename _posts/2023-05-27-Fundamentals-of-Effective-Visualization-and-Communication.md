@@ -35,7 +35,7 @@ Adapting visualizations to the audience's needs and preferences is essential. Co
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/post_images/5. effective visualization/pepsico_dashboard.jpg){: .align-center}
 
-**Why?** Above dashboard analyzes inventory, logistical, and finance data from across the country. Bringing the data into Tableau Desktop allows stakeholders to make sense of big data and empowers analysts to create supply chain and forecasting reports in record time.
+**Why?** Above dashboard analyzes inventory, logistical, and finance data from across the country. Bringing the data into an analytical dashboard allows stakeholders to make sense of big data and empowers analysts to create supply chain and forecasting reports in record time.
 {: .notice--info}
 
 # Choose the right visualization type
@@ -43,12 +43,12 @@ Selecting the appropriate visualization approach is crucial to convey insights e
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/post_images/5. effective visualization/Viz Type (Bad).png){: .align-center}
 
-**Tip** This barchart highlights the top states by sales. Don't focus on labels etc. The main idea here is that we have somehow to identify any hidden corellations behind data. 
+**Tip** This barchart highlights the top states by sales. Don't focus on the visualization's format (labels etc) but only in its type. The main idea here is that sometimes there are corellations behind data. 
 {: .notice--info}
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/post_images/5. effective visualization/Viz Type (Good).png){: .align-center}
 
-**Tip** In contrast with previous viz, we can now notice that sales are concentrated in the southeast regions. Blend your technical skills with analytical thinking and business knowledge.
+**Tip** In contrast with previous viz, we can now notice that sales are concentrated in the southeast regions. Perhaps this is something that the business may is aware of but imagine a scenario that you found something interesting.Blend your technical skills with analytical thinking and business knowledge.
 {: .notice--info}
 
 # Choose the right visualization tools
@@ -87,7 +87,7 @@ Look for reviews and feedback from users who have used the visualization tools y
 {: .notice--info}
 
 # Simplify complexity
-Simplifying complex data into intuitive visual representations enhances understanding. For example, a financial institution visualizing portfolio risk might use a spider chart to depict risk exposure across different asset classes. By distilling intricate risk calculations into a visually intuitive chart, portfolio managers can easily identify areas of concern and adjust their investment strategies accordingly.
+Simplifying complex data into intuitive visual representations enhances understanding. For example, a manufacturing company visualizing the amount of transportations per continent. We might use a sankey chart to depict the magnitude across different countries. By simplifying our complex dataset into one visualizatin ortfolio managers can easily identify areas of concern and adjust their investment strategies accordingly.
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/post_images/5. effective visualization/sankey1.png){: .align-center}
 
@@ -131,7 +131,7 @@ Data storytelling involves presenting insights in a narrative format to captivat
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/post_images/5. effective visualization/LondonStolenBikes.png){: .align-center}
 
-**Did you know?** When some students were asked to recall the speeches, only 5% remembered a statistic, but 63% remembered the stories.
+**Did you know?** When some students were asked to recall the speeches, only 5% remembered a statistic, but 63% remembered the stories. Take notice of the dashboard above (thanks to Athan Mavrantonis, link in references). It depicts hours/days of analyzing in an accelerated manner. 
 {: .notice--info}
 
 # Conclusion
