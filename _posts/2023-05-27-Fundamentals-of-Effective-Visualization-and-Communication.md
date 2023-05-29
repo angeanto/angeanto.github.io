@@ -87,7 +87,7 @@ Look for reviews and feedback from users who have used the visualization tools y
 {: .notice--info}
 
 # Simplify complexity
-Simplifying complex data into intuitive visual representations enhances understanding. For example, a manufacturing company visualizing the amount of transportations per continent. We might use a sankey chart to depict the magnitude across different countries. By simplifying our complex dataset into one visualizatin ortfolio managers can easily identify areas of concern and adjust their investment strategies accordingly.
+Simplifying complex data into intuitive visual representations enhances understanding. For example, a manufacturing company visualizing the amount of transportations per continent. We might use a sankey chart to depict the magnitude across different countries. By simplifying our complex dataset into one visualizatin senior managers can easily identify areas of concern and adjust their business strategies accordingly.
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/post_images/5. effective visualization/sankey1.png){: .align-center}
 
