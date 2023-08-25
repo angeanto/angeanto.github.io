@@ -19,7 +19,7 @@ Started my professional journey in the field when I joined [Cardlink](https://ca
 
 Next, I joined [Skroutz](https://www.skroutz.gr/) in **April 21**' with the role of **Business Intelligence Analyst** and **Business Intelligence Lead** trying to help people make effective and quick decisions with data. 
 
-Currently as Senior Data Analyst at [Hack The Box](https://www.hackthebox.com/), helping to establish a data culture and supporting decisions for the platform. 
+Currently as **Senior Data Analyst** at [Hack The Box](https://www.hackthebox.com/), helping to establish a data culture and supporting decisions for the platform. 
 
 # Education
 I've studied Maths at [Department of Mathematics - Aristotle University](https://math.auth.gr/en/) (Thessaloniki, Greece) and then I had my MSc on [Applied Informatics - International Hellenic University](http://informatics.teicm.gr/msc_informatics/) (Serres, Greece). 
