@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 permalink: "/about/"
 ---
-Hello, I am Antonis, a Data Analytics and Business Intelligence professional, based in Athens, Greece currently Senior Data Analyst at Hack The Box. My goal is to constantly evolve my technical knowledge and shape data mindsets everywhere. Currently, co-leading the [Athens Tableau User Group](https://usergroups.tableau.com/athensusergroup) organising interesting events, sharing tips and meeting great people. 
+Hello, I am Antonis, a Data Analytics and Business Intelligence professional, based in Thessaloniki, Greece, currently **Senior Data Analyst** at **Hack The Box**. My goal is to constantly evolve my technical knowledge and shape data mindsets everywhere. Co-leading the [Athens Tableau User Group](https://usergroups.tableau.com/athensusergroup) organising interesting events, sharing tips and meeting great people. 
 
 <figure class="half">
   <img src="/assets/images/post_images/about_tug_2.jpg">
