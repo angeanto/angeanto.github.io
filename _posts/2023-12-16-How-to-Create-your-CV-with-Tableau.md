@@ -75,3 +75,5 @@ Putting all these together, below you can find my personal CV using Tableau.
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/post_images/6. tableau dashboard/my_cv.png){: .align-center}
 
 Crafting your CV with Tableau offers a unique opportunity to showcase your BI skills creatively while adhering to essential CV and visualization guidelines. By leveraging Tableau's dynamic features, you can artfully present your professional journey, skillset, and achievements in a visually compelling manner. Through imaginative yet structured visualizations, emphasize clarity, relevance, and a cohesive narrative. Ensure readability by using clear labels, concise descriptions, and intuitive design elements. Balance creativity with professionalism, incorporating industry-standard CV sections such as experience, education, and skills, while infusing innovation through interactive elements and engaging storytelling.
+
+My CV in [Tableau Public](https://public.tableau.com/app/profile/antonis1649/viz/AngelakisAntonisCV_v3/AntonisAngelakis).
