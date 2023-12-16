@@ -21,6 +21,10 @@
 <lastmod>2023-05-27T00:00:00+03:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/How-to-Create-your-CV-with-Tableau/</loc>
+<lastmod>2023-12-16T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -34,5 +38,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/posts/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page2/</loc>
 </url>
 </urlset>
