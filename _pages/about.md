@@ -25,7 +25,7 @@ Currently as **Senior Data Analyst** at [Hack The Box](https://www.hackthebox.co
 I've studied Maths at [Department of Mathematics - Aristotle University](https://math.auth.gr/en/) (Thessaloniki, Greece) and then I had my MSc on [Applied Informatics - International Hellenic University](http://informatics.teicm.gr/msc_informatics/) (Serres, Greece). 
 
 # Tech Stack
-The **tech stack** consists of: SQL, Tableau, Python, Git, dbt, Snowflake, Databricks, AWS, Azure, Statistics
+The **tech stack** consists of: SQL, Tableau, Python, R, Metabase, Git, AWS Cloud, Azure Cloud, Snowflake, dbt, Machine Learning, databricks, pyspark, Business Analytics, Scrum
 
 # Interests
-I like watching and playing football with friends, running half-marathons (hopefully going for 3rd time next year) and table-tennis.
+I like watching and playing football(soccer) with friends, running half-marathons and table-tennis.
