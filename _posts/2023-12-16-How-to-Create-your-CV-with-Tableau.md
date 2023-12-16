@@ -5,7 +5,7 @@ tags:
 toc: true
 toc_sticky: true
 header:
-  og_image: /assets/images/post_images/6. tableau dashboard/my_cv_og.png.jpg
+  og_image: /assets/images/post_images/6. tableau dashboard/my_cv_og.jpg
   #height: 1200
   #width: 630
   #Background color: #eeeeee
