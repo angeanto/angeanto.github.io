@@ -104,3 +104,8 @@ In a nutshell...We've managed to run python in Tableau Desktop locally and start
 - [https://towardsdatascience.com/tabpy-combining-python-and-tableau-511b10da8175](https://towardsdatascience.com/tabpy-combining-python-and-tableau-511b10da8175)
 - [https://www.tableau.com/blog/release-data-guide-table-extensions-dynamic-zone-visibility](https://www.tableau.com/blog/release-data-guide-table-extensions-dynamic-zone-visibility)
 - [https://help.tableau.com/current/pro/desktop/en-us/td_table_extensions.htm](https://help.tableau.com/current/pro/desktop/en-us/td_table_extensions.htm)
+
+{: .notice--info}
+Did you like the post? Empower me to dedicate more time and resources to curate, create, and share content that educates and inspires.
+
+<a href="https://www.buymeacoffee.com/antonisangelakis" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>

@@ -98,3 +98,8 @@ The most effective way to increase the reputation of a BI team is to consistentl
 • Implement a data-driven approach: The team could recommend implementing a data-driven approach to production, where decision-making is based on data analysis, rather than just experience.<br>
 • Identify key performance indicators such as machine downtime, labor costs, and production output, and track progress against these metrics over time to measure the effectiveness of the implemented changes.
 {: .notice--info}
+
+{: .notice--info}
+Did you like the post? Empower me to dedicate more time and resources to curate, create, and share content that educates and inspires.
+
+<a href="https://www.buymeacoffee.com/antonisangelakis" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
