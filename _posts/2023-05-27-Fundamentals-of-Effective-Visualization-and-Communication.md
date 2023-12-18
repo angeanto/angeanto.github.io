@@ -150,3 +150,8 @@ Effective visualization and communication of data insights are essential for dri
 - [How to Improve Your Data Visualizations with Annotations](https://www.infragistics.com/community/blogs/b/tim_brock/posts/annotate-wisely)
 
 - [Data Storytelling: How to Inspire & Convince with Data](https://cxl.com/blog/data-storytelling/)
+
+{: .notice--info}
+Did you like the post? Empower me to dedicate more time and resources to curate, create, and share content that educates and inspires.
+
+<a href="https://www.buymeacoffee.com/antonisangelakis" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
