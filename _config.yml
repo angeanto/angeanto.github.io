@@ -65,9 +65,9 @@ search_provider          : algolia # lunr (default), algolia, google
 lunr:
   search_within_pages    : # true, false (default)
 algolia:
-  application_id         : 17E7BZ51NU
+  application_id         : W2BH3Z2JQC
   index_name             : dev_angeanto
-  search_only_api_key    : 26f3b0d311ae634401c6edbac3334fc5
+  search_only_api_key    : a77560fe2401a55130c12b6b09993f0f
   powered_by             : # true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
