@@ -9,6 +9,7 @@ header:
   #Background color: #eeeeee
   #Text color: #222831
   #The recommended image ratio for an og:image is 1.91:1. The optimal size would be 1200 x 630.
+excerpt: "* Enhancing your data analysis skills, navigate career decisions, dive deeper into the world of data analytics and BI. The first introductory session is for free."
 toc: true
 toc_sticky: true
 author_profile: true
@@ -25,7 +26,7 @@ Feel free to reach out to me if you need to:
 * **Switch company/role**
 * **Explore the field of data analytics/business intelligence**
 
-**Note:** First ession is for **FREE** to meet each other and establish a plan for our next steps
+**Note:** First session is for **FREE** to meet each other and establish a plan for our next steps
 {: .notice--info}
 
 #### **Skill Development**
