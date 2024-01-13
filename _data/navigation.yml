@@ -4,11 +4,11 @@ main:
     url: /
   - title: "Data>Opinion"
     url: /posts/
+  - title: "Mentoring"
+    url: /mentoring/
   #- title: "Skills"
   #  url: /skills/
   #- title: "Projects"
   #  url: /portfolio/
   - title: "About"
     url: /about/
-  - title: "Contact"
-    url: /contact/
