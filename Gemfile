@@ -15,3 +15,4 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
 end
+gem "jekyll-glossary_tooltip", "~> 1.5", :group => :jekyll_plugins

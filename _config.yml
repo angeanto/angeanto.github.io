@@ -226,6 +226,7 @@ plugins:
   - jekyll-admin
   - jekyll-spaceship
   - jekyll-seo-tag
+  - jekyll-glossary_tooltip
 
 # mimic GitHub Pages with --safe
 whitelist:

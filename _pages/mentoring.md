@@ -26,58 +26,99 @@ Feel free to reach out to me if you need to:
 * **Switch company/role**
 * **Explore the field of data analytics/business intelligence**
 
-**Note:** First session is for **FREE** to meet each other and establish a plan for our next steps
+**Note:** First session is for **FREE** to meet each other and establish a plan for our next steps<br>
 {: .notice--info}
 
-#### **Skill Development**
-- **Master your SQL level**
-   * Advanced Querying Skills
-   * Optimization and Performance Tuning
-- **Data analysis tools and software**
-   * Python, R, Git
-- **Master Data Analytics techniques and concepts**
-   * Critical Thinking and Problem-Solving
-   * Domain Knowledge Application
-   * Understanding of Statistical Methods
-   * Analytics concepts (See [here](https://github.com/angeanto/ai_and_beers_hacking_data_and_analytics/blob/main/Hacking_Data_Analytics_with_SQL_%26_Python.ipynb) for some examples from the [workshop](https://www.meetup.com/ai-and-beers/events/297355998/) at the meetup series AI&Beers 'Hacking' Data Analytics with SQL & Python).
-   * Data Cleaning and Preprocessing
-   * Big Data Handling
-- **Data visualization tools & best practices**
-   * Tableau, Metabase
-- **Effective Communication**
-   * Learn how to build a narrative with data using visualization best practices
-   * Effective communication of insights
-- **Career advice** and **professional development** in the data industry
-   * Goal Setting
-   * Resume Building and Job Search Strategies
-   * Interview Preparation & Negotiation Skills
-   * Skills Assessment
-   * Networking and Community Engagement
-   * Soft Skills Enhancement
-   * Building a Personal Brand
-- **Work on Real-World Projects in a corporate environment**
-   * Apply your skills in a professional setting
-   * Preparing for challenges
-- **Data & Business**
-   * Combine data analytics with business domain knowledge effectively for **fintech**, **ecommerce** and **cybersecurity** industries.
+[About Me](https://angeanto.github.io/about/){: .btn .btn--info}
+
+#### **Skills Development**
+
+<details>
+   <summary>Master your SQL level</summary>
+   <span class="inner-pre" style="font-size: 13px">
+   - Advanced Querying Skills<br>
+   - Optimization and Performance Tuning<br>
+   </span>
+</details>
+
+<details>
+   <summary>Data analysis tools and software</summary>
+   <span class="inner-pre" style="font-size: 13px">
+   - Python<br>
+   - R<br>
+   - Git<br>
+   </span>
+</details>
+
+<details>
+   <summary>Master Data Analytics techniques and concepts</summary>
+   <span class="inner-pre" style="font-size: 13px">
+   - Critical Thinking and Problem-Solving<br>
+   - Domain Knowledge Application<br>
+   - Understanding of Statistical Methods<br>
+   - Data Cleaning and Preprocessing<br>
+   - Big Data Handling<br>
+   </span>
+</details>
+
+   For some analytics concepts from the [workshop](https://www.meetup.com/ai-and-beers/events/297355998/) at the meetup series AI&Beers 'Hacking' Data Analytics with SQL & Python see [here](https://github.com/angeanto/ai_and_beers_hacking_data_and_analytics/blob/main/Hacking_Data_Analytics_with_SQL_%26_Python.ipynb)
+{: .notice--info}
+
+<details>
+   <summary>Data visualization tools & best practices</summary>
+   <span class="inner-pre" style="font-size: 13px">
+   - Tableau<br>
+   - Metabase<br>
+   </span>
+</details>
+
+<details>
+   <summary>Effective Communication</summary>
+   <span class="inner-pre" style="font-size: 13px">
+   - Learn how to build a narrative with data using visualization best practices<br>
+   - Effective communication of insights<br>
+   </span>
+</details>
+
+<details>
+   <summary>Career advice and professional development</summary>
+   <span class="inner-pre" style="font-size: 13px">
+   - Goal Setting<br>
+   - Resume Building and Job Search Strategies<br>
+   - Interview Preparation & Negotiation Skills<br>
+   - Skills Assessment<br>
+   - Networking and Community Engagement<br>
+   - Soft Skills Enhancement<br>
+   - Building a Personal Brand<br>
+   </span>
+</details>
+
+<details>
+   <summary>Work on Real-World Projects in a corporate environment</summary>
+   <span class="inner-pre" style="font-size: 13px">
+   - Apply your skills in a professional setting<br>
+   - Preparing for challenges<br>
+   </span>
+</details>
+
+<details>
+   <summary>Data & Business</summary>
+   <span class="inner-pre" style="font-size: 13px">
+   - Combine data analytics with business domain knowledge effectively for fintech, ecommerce and cybersecurity industries.<br>
+   </span>
+</details>
 
 #### **Service Packages**
 
-**Basic**:
-- 1x Weekly mentoring session (1 hour)
-- Chat support (Up to 2 days response time)
-- Resume review and interview preparation
-- Access to foundational learning resources
-
-**Elite**:
-- 2x weekly mentoring sessions (1 hour)
-- Chat support (Up to 2 days response time)
-- Resume review and interview preparation
-- Access to foundational learning resources
-- Phone support
-- Real-world project collaboration with mentor guidance
-- Hands-on specialized training
-- Specialized Workshops on specific tools (e.g., Python, R), techniques, or industry-specific applications
+|Service|Basic|Advanced|
+|----------|----------|----------|
+|**Weekly Sessions**|x1 weekly(1h)|x2 weekly(1h)
+|**Support**|Chat(2d response time)**|Chat(2d response time) & Phone|
+|**Resume review and interview preparation**|Yes|Yes|
+|**Learning resources**|Yes|Yes|
+|**Real-world project collaboration with mentor guidance**|No|Yes|
+|**Hands-on specialized training**|No|Yes|
+|**Specialized Workshops on specific tools, techniques, industry-specific applications**|No|Yes|
 
 **Pricing** available upon request and depends on the selected package, additional services, and customization requirements.
 {: .notice--info}
