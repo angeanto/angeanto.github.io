@@ -110,7 +110,7 @@ Feel free to reach out to me if you need to:
 
 #### **Service Packages**
 
-|Service|Basic|Advanced|
+|Service|Standard|Advanced|
 |----------|----------|----------|
 |**Weekly Sessions**|x1 weekly(1h)|x2 weekly(1h)
 |**Support**|Chat(2d response time)**|Chat(2d response time) & Phone|
