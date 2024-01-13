@@ -2,6 +2,13 @@
 title: "Upskill your career"
 permalink: /mentoring/
 layout: single
+header:
+  og_image: assets/images/post_images/5. effective visualization/chart_og.jpg
+  #height: 1200
+  #width: 630
+  #Background color: #eeeeee
+  #Text color: #222831
+  #The recommended image ratio for an og:image is 1.91:1. The optimal size would be 1200 x 630.
 toc: true
 toc_sticky: true
 author_profile: true
@@ -56,11 +63,10 @@ Feel free to reach out to me if you need to:
 #### **Service Packages**
 
 **Basic**:
-- 1x Weekly mentoring session (1 hour)
+- Weekly mentoring session (1 hour)
 - Chat support (Up to 2 days response time)
 - Resume review and interview preparation
 - Access to foundational learning resources
-
 **Elite**:
 - 2x weekly mentoring sessions (1 hour)
 - Chat support (Up to 2 days response time)
