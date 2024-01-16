@@ -112,7 +112,7 @@ Feel free to reach out to me if you need to:
 
 |Service|Standard|Advanced|
 |----------|----------|----------|
-|**Weekly Sessions**|x1 weekly(1h)|x2 weekly(1h)
+|**Weekly Sessions**|x1 biweekly(1h)|x1 weekly(1h)
 |**Support**|Chat(2d response time)|Chat(2d response time) & Phone|
 |**Resume review and interview preparation**|Yes|Yes|
 |**Learning resources**|Yes|Yes|
