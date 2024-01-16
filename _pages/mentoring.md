@@ -116,7 +116,7 @@ Feel free to reach out to me if you need to:
 |**Support**|Chat(2d response time)|Chat(2d response time) & Phone|
 |**Resume review and interview preparation**|Yes|Yes|
 |**Learning resources**|Yes|Yes|
-|**Real-world project collaboration with mentor guidance**|No|Yes|
+|**Real-world project collaboration with mentor guidance**|Yes|Yes|
 |**Hands-on specialized training**|No|Yes|
 |**Specialized Workshops on specific tools, techniques, industry-specific applications**|No|Yes|
 
