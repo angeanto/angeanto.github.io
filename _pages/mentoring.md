@@ -120,7 +120,7 @@ Feel free to reach out to me if you need to:
 |**Hands-on specialized training**|No|Yes|
 |**Specialized Workshops on specific tools, techniques, industry-specific applications**|No|Yes|
 
-**Pricing** available upon request and depends on the selected package, additional services, and customization requirements.
+**Plans** available upon request and depends on the selected package, additional services, and customization requirements.
 {: .notice--info}
 
 #### **How It Works**
