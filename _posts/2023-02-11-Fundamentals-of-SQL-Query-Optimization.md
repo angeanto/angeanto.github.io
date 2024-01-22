@@ -63,7 +63,7 @@ Trailing commas style is easier to read for most people. One advantage of using 
 
 To my experience, **leading commas style is easier for debugging as for errors that will occur due to missing commas, it will be faster to check the lines from start instead of their end and fix the appropriate line.**<br>
 
-The most crucial thing here is to **adapt ourselves** in the organisation that you belong and stick to the team's coding style. It's more useful to have pieces of code with a consistent look, rather applying your personal preferences.
+The most crucial thing here is to **adapt ourselves** in the organisation that we belong and stick to the team's coding style. It's more useful to have pieces of code with a consistent look, rather applying your personal preferences.
 {: .notice--info}
 
 **Instead of this**
