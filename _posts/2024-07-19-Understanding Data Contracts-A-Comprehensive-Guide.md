@@ -11,7 +11,7 @@ header:
   #Background color: #eeeeee
   #Text color: #222831
   #The recommended image ratio for an og:image is 1.91:1. The optimal size would be 1200 x 630.
-excerpt: "In this post, we will describe how data contracts work and why they are importand in a modern corporate business data setting."
+excerpt: "In this post, we will describe how data contracts work and why they are important in a modern corporate business data setting."
 ---
 
 # Understanding Data Contracts: A Comprehensive Guide
