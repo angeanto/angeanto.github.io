@@ -71,7 +71,7 @@ The cost of poor data quality is a significant burden for businesses, impacting 
 
 By understanding the financial impact of poor data quality and taking proactive steps to address it, businesses can safeguard their revenue and build a strong foundation for future growth.
 
-For more information on data contracts, visit these resources:
+# References
 - [MIT Sloan Review](https://sloanreview.mit.edu/article/seizing-opportunity-in-data-quality/#:~:text=When%20Totaled%2C%20the%20Business%20Costs,dealing%20with%20data%20quality%20issues.)
 - [Attacama](https://www.ataccama.com/blog/the-cost-of-poor-data-quality)
 - [Cluedin](https://www.cluedin.com/cost-of-poor-quality-data)
