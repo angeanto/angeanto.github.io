@@ -6,15 +6,15 @@ toc: true
 toc_sticky: true
 permalink: "/about/"
 ---
-Hello, this Antonis, a Data Analytics and Business Intelligence professional, based in Thessaloniki, Greece. I work in the analytics industry since **January 2019**.<br>
+Hello, this Antonis, a Data professional, based in Thessaloniki, Greece. I work in the data analytics industry since **January 2019**.<br>
 I am a **Senior Data Analyst II** at **Hack The Box** (Cybersecurity learning platform) and my mission is to constantly evolve my technical knowledge and shape data mindsets everywhere. <br>
-Since **Jan 21'** I am a co-leader at the [Athens Tableau User Group](https://usergroups.tableau.com/athens-tableau-user-group/) organising interesting Tableau related events, sharing tips for the tool and meeting great people.<br>
+From **Jan 21'** to **Mar 24'**I was a co-leader at the [Athens Tableau User Group](https://usergroups.tableau.com/athens-tableau-user-group/) organising interesting Tableau related events, sharing tips for the tool and meeting great people.<br>
 
 # Work Experience
 - Transitioning from providing private mathematics tutorials to high school students, I started my professional data journey in the field when I joined [Cardlink](https://cardlink.gr/en/)(fintech, payments provider) in **Jan 19'** with the role of **Data Scientist**. The main responsibilty of the role was to build models that will lead to actions either for cost saving or revenue increase.
 
-- Next station was [Skroutz](https://www.skroutz.gr/)(#1 ecommerce Marketplace in Greece) in **April 21'**' with the role of **Business Intelligence Analyst** in which I performed data analytics and operation reporting tasks and delivered actionable insights to business units which impacted user acquisition strategy and policies.
-- Having promoted to **Business Intelligence Lead** the team acted as the touch point of contact between BI and 2 operational teams. I mentored both team and external analysts and stakeholders, created training material and sessions for Tableau, Metabase and internal data. 
+- My next step was working at [Skroutz](https://www.skroutz.gr/)(#1 ecommerce Marketplace in Greece) in **April 21'**' with the role of **Business Intelligence Analyst** in which I performed data analytics and operation reporting tasks and delivered actionable insights to business units which impacted user acquisition strategy and policies.
+- As a **Business Intelligence Lead** I led a team that acted as the touch point of contact between BI and other operational teams. I mentored both team and external analysts and stakeholders, created training material and sessions for Tableau, Metabase and internal data. 
 
 - Since **May 23'**, I am working as **Senior Data Analyst** at [Hack The Box](https://www.hackthebox.com/), contributing to establish a data culture in the organization and supporting decisions for the platform.
 
@@ -22,7 +22,7 @@ Since **Jan 21'** I am a co-leader at the [Athens Tableau User Group](https://us
 I've studied Maths at [Department of Mathematics - Aristotle University](https://math.auth.gr/en/) (Thessaloniki, Greece) and then I had my MSc on [Applied Informatics - International Hellenic University](http://informatics.teicm.gr/msc_informatics/) (Serres, Greece). 
 
 # Tech Stack
-My **tech stack** consists of: SQL, Python, R, Tableau, Metabase, Git, AWS Cloud, Azure Cloud, Snowflake, dbt, Machine Learning, databricks, pyspark, Business Analytics, Scrum
+My **tech stack** consists of: SQL, Python, R, Tableau, Metabase, Git, AWS Cloud, Azure Cloud, Google Cloud Platform, Snowflake, dbt, Machine Learning, databricks, pyspark
 
 # Interests
 I like watching and playing football(soccer) with friends, running half-marathons and table-tennis.
