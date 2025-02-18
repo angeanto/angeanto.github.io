@@ -2,8 +2,8 @@
 main:
   - title: "Home"
     url: /
-  - title: "Data>Opinion"
-    url: /posts/
+  #- title: "Data>Opinion"
+  #  url: /posts/
   - title: "Mentoring"
     url: /mentoring/
   #- title: "Skills"
