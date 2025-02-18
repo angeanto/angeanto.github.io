@@ -18,4 +18,4 @@ gem 'webrick'
 gem 'rackup'
 gem 'faraday-retry'
 gem "sinatra", ">= 3", "< 4"
-gem "rubyzip"
+gem 'rubyzip', '~> 1.3.0'
