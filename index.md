@@ -10,8 +10,8 @@ header:
   #edit at https://pixlr.com/x/#editor
   #overlay_filter: 0
   actions:
-    - label: "Send Me an Email"
-      url: "mailto:antonisagg@outlook.com"
+    - label: "DataConscious on Substack"
+      url: "https://antonisangelakis.substack.com/"
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Talking about Business Intelligence, data related topics and how to enable data mindsets accross organisations."
 intro: 

@@ -109,6 +109,9 @@ author:
   bio              : "Posting Data related stuff"
   location         : "Thessaloniki"
   links:
+    - label:  "Substack"
+      icon: "fas fa-fw fa-layer-group"
+      url:  "https://antonisangelakis.substack.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url:  "https://www.linkedin.com/in/antonios-angelakis-249899101/"
