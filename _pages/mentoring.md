@@ -110,15 +110,15 @@ Feel free to reach out to me if you need to:
 
 #### **Service Packages**
 
-|Service|Standard|Advanced|
-|----------|----------|----------|
-|**Sessions**|x1 biweekly(1h)|x1 weekly(1h)
-|**Support**|Chat(2d response time)|Chat(2d response time) & Phone|
-|**Resume review and interview preparation**|Yes|Yes|
-|**Learning resources**|Yes|Yes|
-|**Real-world project collaboration with mentor guidance**|Yes|Yes|
-|**Hands-on specialized training**|No|Yes|
-|**Specialized Workshops on specific tools, techniques, industry-specific applications**|No|Yes|
+|Service|Standard|
+|----------|------------|
+|**Sessions**|x1 biweekly (1h)|
+|**Support**|Chat (1d response time)|
+|**Resume review and interview preparation**|Yes|
+|**Learning resources**|Yes|
+|**Real-world project collaboration with mentor guidance**|Yes|
+|**Hands-on specialized training**|Yes|
+|**Specialized Workshops on specific tools, techniques, industry-specific applications**|No|
 
 **Plans** available upon request and depends on the selected package, additional services, and customization requirements.
 {: .notice--info}
