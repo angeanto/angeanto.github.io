@@ -31,6 +31,18 @@ Become a data-driven professional and master modern analytics in a corporate set
 
 ## 💬 Testimonials
 
+### 🧑‍🎓 Loukas Apostolidis  
+> _""What I wanted from the course and it delivered was to understand the data flow, even if it's not your job to build data pipelines."_
+
+<div align="center">
+  <img src="/assets/images/post_images/loukas_apost.jpeg" width="200" height="200" style="border-radius: 50%;">
+  <p>
+    <a href="https://www.linkedin.com/in/loukas-apostolidis-9207b7104/" target="_blank">
+      <em>Business Intelligence Associate, Blueground</em>
+    </a>
+  </p>
+</div>
+
 ### 🧑‍🎓 Spyridon Armeniakos  
 > _""I had never seen a complete pipeline before; I really liked that part, especially the one with BigQuery"_
 
