@@ -2,13 +2,13 @@
 main:
   - title: "Home"
     url: /
-  #- title: "Data>Opinion"
-  #  url: /posts/
+  - title: "Data Analytics Course"
+    url: /dmcb
   - title: "Mentoring"
     url: /mentoring/
-  #- title: "Skills"
-  #  url: /skills/
-  #- title: "Projects"
-  #  url: /portfolio/
-  - title: "About Me"
+  - title: "Posts"
+    url: /posts/
+  - title: "Substack"
+    url: https://antonisangelakis.substack.com/
+  - title: "About"
     url: /about/
