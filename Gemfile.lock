@@ -165,6 +165,8 @@ GEM
     jekyll-github-metadata (2.16.1)
       jekyll (>= 3.4, < 5.0)
       octokit (>= 4, < 7, != 4.4.0)
+    jekyll-glossary_tooltip (2.0.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-mentions (1.6.0)
@@ -333,6 +335,7 @@ DEPENDENCIES
   jekyll-admin (~> 0.11.0)
   jekyll-algolia
   jekyll-feed
+  jekyll-glossary_tooltip
   jekyll-include-cache
   jekyll-paginate
   jekyll-seo-tag
