@@ -108,4 +108,5 @@ In this talk, we unpacked:
 Half-marathons, netflix marathons, table-tennis, beers
 
 Explore my **Interactive CV** in [Tableau Public](https://public.tableau.com/app/profile/antonis1649/viz/AngelakisAntonisCV_v3/AntonisAngelakis). How-To build your CV with Tableau is fully described in this [blogpost](https://angeanto.github.io/How-to-Create-your-CV-with-Tableau/)
+
 {: .notice--info}
