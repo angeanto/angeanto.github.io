@@ -80,20 +80,30 @@ Talent Days 2025 by [linq](https://linq.co/) is a premier career development eve
 
 ## World Data Summit 2025
 
-Will visit Amsterdam 🇳🇱 at [World Data Summit](https://worlddatasummit.com/europe/) (21-23 May 2025), joining an amazing community of data people and tech wizards. This event brings together leading experts, innovators and influencers from around the world to explore the latest trends, challenges and opportunities in the data landscape.
+Visited Amsterdam 🇳🇱 at [World Data Summit](https://worlddatasummit.com/europe/) (21-23 May 2025), joined an amazing community of data people and tech wizards. This event brings together leading experts, innovators and influencers from around the world to explore the latest trends, challenges and opportunities in the data landscape.
 
 Session Title: **“Track Impact, Not Just Activity: ROI from Data Initiatives”**
+
+In this talk, we unpacked:
+- What ROI really means in data (hint: it’s not easy to capture)
+- Why measuring success is messier than it seems
+- Frameworks that help turn fuzzy outcomes into clear value
+- Use Cases
+- Practical ways to connect your data project to business goals
+
+<figure class="half">
+  <img src="/assets/images/post_images/ams4.jpeg" style="width: 300px; height: 200px;">
+  <img src="/assets/images/post_images/ams5.jpeg" style="width: 300px; height: 200px;">
+</figure>
+
 
 <figure class="half">
   <img src="/assets/images/post_images/ams3.jpeg" style="width: 300px; height: 200px;">
   <img src="/assets/images/post_images/ams2.jpeg" style="width: 300px; height: 200px;">
 </figure>
 
-Stay tuned! 
-
-
 # Interests
 Half-marathons, netflix marathons, table-tennis, beers
 
-Explore my **Interactive CV** in [Tableau Public](https://public.tableau.com/app/profile/antonis1649/viz/AngelakisAntonisCV_v3/AntonisAngelakis). The way I built it, is fully described in this [blogpost](https://angeanto.github.io/How-to-Create-your-CV-with-Tableau/)
+Explore my **Interactive CV** in [Tableau Public](https://public.tableau.com/app/profile/antonis1649/viz/AngelakisAntonisCV_v3/AntonisAngelakis). How-To build your CV with Tableau is fully described in this [blogpost](https://angeanto.github.io/How-to-Create-your-CV-with-Tableau/)
 {: .notice--info}
