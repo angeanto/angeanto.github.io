@@ -21,7 +21,7 @@ Become a data-driven professional and master modern analytics in a corporate set
 
 ## 📌 About the Course
 
-[Data Analytics in Modern Corporate Business](https://kedivim-apply.ihu.gr/en/progs/prog-350) is a comprehensive course designed to equip participants with the essential skills and knowledge needed to harness the power of data analytics within a modern corporate setting.
+[Data Analytics in Modern Corporate Business](https://kedivim-apply.ihu.gr/en/progs/prog-390) is a comprehensive course designed to equip participants with the essential skills and knowledge needed to harness the power of data analytics within a modern corporate setting.
 
 <div align="center">
 	<img src="/assets/images/post_images/dmcb_info.png" width="400" height="400" style="border-radius: 15%;">
