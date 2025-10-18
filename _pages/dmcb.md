@@ -50,7 +50,7 @@ Become a data-driven professional and master modern analytics in a corporate set
   <img src="/assets/images/post_images/spir_arm.jpeg" width="200" height="200" style="border-radius: 50%;">
   <p>
     <a href="https://www.linkedin.com/in/spyridon-armeniakos-06bb71182/" target="_blank">
-      <em>Big Data & DevOps Engineer, Intracom</em>
+      <em>Data Engineer, Accenture</em>
     </a>
   </p>
 </div>
