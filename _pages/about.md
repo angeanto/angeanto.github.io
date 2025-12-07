@@ -6,8 +6,8 @@ toc: true
 toc_sticky: true
 permalink: "/about/"
 ---
-Hello, this Antonis, a Data professional, based in Thessaloniki, Greece. I work in the data analytics industry since **January 2019**.<br>
-I am a **Senior Data Analyst** at Chubb, a global insurance leader and my mission is to constantly evolve my technical knowledge, shape data mindsets everywhere get inspired and inspire. <br>
+Hello, this Antonis, a Data professional, based in Athens, Greece. I work in the data analytics industry since **January 2019**.<br>
+My current role is **Principal BI Consultant** at [Seven Red Lines](https://www.srl.gr/), a data consulting firm. I have also created the [Data Analytics in Modern Corporate Business](https://kedivim-apply.ihu.gr/en/progs/prog-350) course for [International Hellenic University](https://www.ihu.gr/en/enhome) and through a modern corporate architecture I provide mentoring sessions to people who want to work in the data industry or change roles/companies.
 
 From **Jan 21'** to **Mar 24'**I was a co-leader at the [Athens Tableau User Group](https://usergroups.tableau.com/athens-tableau-user-group/) organising interesting Tableau related events, sharing tips for the tool and meeting great people.<br>
 
@@ -28,7 +28,9 @@ Participants engage in a real-world scenario that replicates a corporate data en
 
 - From **May 23'** to **Nov 24'** I worked as **Senior Data Analyst II** at [Hack The Box](https://www.hackthebox.com/), contributing to establish a data culture in the organization and supporting decisions for the platform.
 
-- Now, as a **Sr. Data Analyst** at [Chubb](https://www.chubb.com/us-en/) I'm involved in large scale projects to ensure alignment,documentation and needs plus contributing to a global working group to define Data Analysis standards and best practices.
+- From **Nov 24'** to **July 25'** as a **Sr. Data Analyst** at [Chubb](https://www.chubb.com/us-en/) I got involved in large scale projects to ensure alignment,documentation and needs plus contributing to a global working group to define Data Analysis standards and best practices.
+
+- Now as a **Principal BI Consultant** at [Seven Red Lines](https://www.srl.gr/) , a data consulting firm, I deliver end to end BI projects for clients from requirements, architecture and data modeling to visualization and delivery using Microsoft stack and mainly Power BI.
 
 ---
 
