@@ -13,6 +13,7 @@ excerpt: "* Enhancing your data analysis skills, navigate career decisions, dive
 toc: true
 toc_sticky: true
 author_profile: true
+
 ---
 
 I offer **mentoring** services, **tailored** guidance and **support** to help you achieve your goals and excel in the field by 
@@ -132,6 +133,29 @@ Feel free to reach out to me if you need to:
 2. **Plan of Attack:** We'll set clear goals and expectations along with our plan of attack which will help us to get there.
 3. **Schedule Sessions:** Arrange one-on-one mentoring sessions.
 4. **Start Learning:** Begin mentoring journey, learning at your own pace and receiving guidance every step of the way.
+
+#### **What they Say?**
+
+##### **Tasos Matrapazis**
+
+My connection with Anastasios Matrapazis began after a simple interview yet it quickly grew into something much deeper.<br>
+We started working together for a couple of months with one clear goal: 𝗧𝗼 𝗳𝗶𝗴𝘂𝗿𝗲 𝗼𝘂𝘁 𝘁𝗵𝗲 𝗱𝗶𝗿𝗲𝗰𝘁𝗶𝗼𝗻 𝘄𝗲 𝘄𝗮𝗻𝘁𝗲𝗱 𝘁𝗼 𝘁𝗮𝗸𝗲.<br>
+From that point on, 𝗧𝗮𝘀𝗼𝘀 𝗱𝗶𝗱𝗻’𝘁 𝗷𝘂𝘀𝘁 𝗳𝗼𝗹𝗹𝗼𝘄 𝘁𝗵𝗲 𝗽𝗮𝘁𝗵… 𝗵𝗲 𝗮𝗯𝘀𝗼𝗹𝘂𝘁𝗲𝗹𝘆 𝗲𝗹𝗲𝘃𝗮𝘁𝗲𝗱 𝗶𝘁.<br>
+
+<p><img src="/assets/images/mentoring/tasos_matrapazis/1.png" alt="Mentoring Success Story" style="display:block; width:100%; max-width:500px; margin:0 auto 1rem;"></p>
+<p><img src="/assets/images/mentoring/tasos_matrapazis/2.png" alt="Mentoring Success Story - Slide 2" style="display:block; width:100%; max-width:500px; margin:0 auto;"></p>
+<p><img src="/assets/images/mentoring/tasos_matrapazis/3.png" alt="Mentoring Success Story - Slide 3" style="display:block; width:100%; max-width:500px; margin:0 auto;"></p>
+<p><img src="/assets/images/mentoring/tasos_matrapazis/4.png" alt="Mentoring Success Story - Slide 4" style="display:block; width:100%; max-width:500px; margin:0 auto;"></p>
+
+##### **Antonis Choustoulakis**
+
+Antonis Dmed me on Linkedin.<br>
+Throughout our time working together, we talked about goals, challenges, doubts, growth, big and small victories along the way.<br>
+I watched someone who chose to show up, put in the work, listen, reflect and keep moving forward.<br>
+And finally, I saw him taking meaningful next steps. He joined a great company in a role he truly deserves.<br>
+
+<p><img src="/assets/images/mentoring/antonis_choustoulakis/angeanto.jpeg" alt="Mentoring Success Story" style="display:block; width:100%; max-width:500px; margin:0 auto 1rem;"></p>
+
 
 **Interested? Book a slot below.**
 {: .notice--info}

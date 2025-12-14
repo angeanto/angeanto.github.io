@@ -104,6 +104,28 @@ In this talk, we unpacked:
   <img src="/assets/images/post_images/ams2.jpeg" style="width: 300px; height: 200px;">
 </figure>
 
+## Skill Up Forum by linq | Panel Discussion (2025)
+
+Digital maturity in practice: What does a mature tech team look like?
+Together with Stefanos Karagos and Alexandros Kossivas, we share our experiences and bring real energy to the stage. 
+- Definition and characteristics of a digitally mature tech team
+- Common challenges and obstacles on the road to digital/technological maturity
+- How AI affects all of the above and creates a new starting point for “maturity”
+- Skills, culture, and mindset that enhance performance
+- The role of leadership in developing and maintaining digitally mature teams
+- Future outlook for digital maturity
+- Bonus my favorite topic: Speed vs Quality in tech teams. Where’s the balance?
+
+<figure class="half">
+  <img src="/assets/images/events/skillup-2025/1.jpeg" style="width: 300px; height: 200px;">
+  <img src="/assets/images/events/skillup-2025/2.jpg" style="width: 300px; height: 200px;">
+</figure>
+
+<figure class="half">
+  <img src="/assets/images/events/skillup-2025/3.jpg" style="width: 300px; height: 200px;">
+  <img src="/assets/images/events/skillup-2025/4.jpg" style="width: 300px; height: 200px;">
+</figure>
+
 # Interests
 Half-marathons, netflix marathons, table-tennis, beers
 
