@@ -15,6 +15,8 @@ toc_sticky: true
 author_profile: true
 ---
 
+<img src="/assets/images/damcb/DAMCB-Cycle-3-Promo.png">
+
 Become a data-driven professional and master modern analytics in a corporate setting.
 
 ---

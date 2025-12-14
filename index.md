@@ -11,9 +11,10 @@ header:
   #overlay_filter: 0
   actions:
     - label: "Data Analytics in Modern Corporate Business"
-      url: "https://kedivim-apply.ihu.gr/en/progs/prog-350"
+      url: "https://kedivim-apply.ihu.gr/en/progs/prog-428"
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Talking about data related topics and how to enable data mindsets accross organisations. I help people land their 1st data analytics job. Visit my Data Analytics course."
+excerpt: "I help people find their next Data job through a simulated modern corporate architecture.
+"
 intro: 
   - excerpt: "'All we have is data. All we can do is statistics.'"
 ---
