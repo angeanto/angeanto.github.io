@@ -1,4 +1,5 @@
-<div class="page__footer-follow">
+    <div class="page__footer-follow">
+
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
@@ -16,6 +17,64 @@
       <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
     {% endunless %}
   </ul>
+  <button id="subscribe-button" class="subscribe-button">Subscribe</button>
+<!-- Subscribe modal -->
+<style>
+.subscribe-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.7);
+  z-index: 1000;
+}
+.subscribe-modal-content {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+}
+.subscribe-button {
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.subscribe-button:hover {
+  opacity: 0.9;
+}
+.close-modal {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+</style>
+<div id="subscribe-modal" class="subscribe-modal">
+  <div class="subscribe-modal-content">
+    <button id="close-modal" class="close-modal" aria-label="Close">&times;</button>
+    <form id="subscribe-form">
+      <label for="subscriber-email">Enter your email</label>
+      <input type="email" id="subscriber-email" name="email" required style="width:100%;padding:0.5rem;margin-top:0.5rem;margin-bottom:0.5rem;border:1px solid #ccc;border-radius:4px;">
+      <button type="submit" class="subscribe-button">Subscribe</button>
+    </form>
+    <p id="subscribe-message" style="display:none;margin-top:1rem;"></p>
+  </div>
 </div>
+
+      
+    </div>
 
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
