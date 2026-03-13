@@ -1,7 +1,41 @@
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler / Ruby
+.bundle/
+vendor/bundle/
+vendor/cache/
+vendor/gems/
+vendor/ruby/
+
+# Node (αν χρησιμοποιήσεις tooling)
+node_modules/
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
+*.swp
+*.swo
+
+# Custom folders from this repo
 posts_samples/
 test/
 portfolio_samples/
 _recipes/
 kouvas/
-_site/
-.DS_Store
