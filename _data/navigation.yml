@@ -8,9 +8,9 @@ main:
 #  - title: "Products"
 #    url: /products/
 
-  - title: "Data Analytics Course"
+  - title: "Course"
     url: /dmcb/
-  - title: "Mentoring"
+  - title: "1:1 Sessions"
     url: /mentoring/
   - title: "Substack"
     url: /posts/
