@@ -195,3 +195,41 @@ details[open] summary {
   color: #ffffff !important;
   transform: translateY(-2px);
 }
+
+@media (min-width: 901px) and (max-height: 900px) {
+  .hero-personal {
+    gap: 1.25rem;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+  }
+
+  .hero-personal__text h1 {
+    font-size: clamp(2rem, 3vw, 2.8rem);
+    margin-bottom: 0.55rem;
+  }
+
+  .hero-personal__text p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    margin-bottom: 0.55rem;
+  }
+
+  .subscribe-wrap {
+    transform: scale(0.88);
+    margin-top: 0.35rem;
+  }
+
+  .hero-links-wrap {
+    margin-top: 0.35rem;
+  }
+
+  .hero-links a {
+    min-height: 34px;
+    font-size: 0.76rem;
+    padding: 0.35rem 0.42rem;
+  }
+
+  .hero-personal__image {
+    gap: 0.6rem;
+  }
+}
