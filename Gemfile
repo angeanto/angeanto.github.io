@@ -19,3 +19,4 @@ gem 'rackup'
 gem 'faraday-retry'
 gem "sinatra", ">= 3", "< 4"
 gem 'jekyll-glossary_tooltip'
+gem "minimal-mistakes-jekyll"

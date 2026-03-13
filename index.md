@@ -1,3 +1,4 @@
+---
 layout: single
 classes: wide
 ---
@@ -151,4 +152,3 @@ classes: wide
 </a>
 
 </div>
->>>>>>> 6e7880a (change home)

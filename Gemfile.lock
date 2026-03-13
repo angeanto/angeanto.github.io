@@ -261,6 +261,13 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
+    minimal-mistakes-jekyll (4.28.0)
+      jekyll (>= 3.7, < 5.0)
+      jekyll-feed (~> 0.1)
+      jekyll-gist (~> 1.5)
+      jekyll-include-cache (~> 0.1)
+      jekyll-paginate (~> 1.1)
+      jekyll-sitemap (~> 1.3)
     minitest (5.25.4)
     multi_json (1.15.0)
     mustermann (3.0.3)
@@ -341,6 +348,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-spaceship
+  minimal-mistakes-jekyll
   rackup
   sinatra (>= 3, < 4)
   webrick
