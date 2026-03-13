@@ -6,6 +6,7 @@ classes: wide
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 <style>
+
 /* Page width */
 .page,
 .page__content,
@@ -274,7 +275,16 @@ classes: wide
     </div>
   </div>
 
-  <div class="hero-personal__image">
-    <img src="/assets/images/me/antonis-speaking.webp" alt="Antonis speaking at an event">
-  </div>
+<div class="hero-personal__image">
+
+  <img src="/assets/images/me/antonis-speaking.webp" alt="Antonis speaking at an event">
+
+  <a class="hero-calendly-btn"
+     href="https://calendly.com/antonisangelakis"
+     target="_blank">
+     Book a free call 🚀
+  </a>
+
 </div>
+
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
