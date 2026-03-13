@@ -1,11 +1,19 @@
 ---
 layout: single
-classes: wide
+classes:
+  - wide
+  - homepage-clean
 ---
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 <style>
+
+.homepage-clean .site-title,
+.homepage-clean .site-subtitle,
+.homepage-clean .masthead__menu-item--lg {
+  display: none !important;
+}
 
 /* Page width */
 .page,
