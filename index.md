@@ -6,6 +6,11 @@ classes: wide
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 <style>
+
+.ml-embedded {
+  margin-left: 150px;
+}
+
 .hero-links {
   display: flex;
   flex-wrap: wrap;
@@ -115,9 +120,8 @@ classes: wide
       🎓 Created a <strong>university course</strong> focused on modern data analytics in corporate environments with <strong>80+</strong> participants. <strong>Teaching</strong>, <strong>mentoring</strong> and <strong>data solutions</strong> become a core part of my work.
     </p>
 
-    <div class="newsletter-form">
-      <div class="ml-embedded" data-form="veywtM"></div>
-    </div>
+<div class="ml-embedded" data-form="veywtM"></div>
+
   </div>
 
   <div class="hero-personal__image">
