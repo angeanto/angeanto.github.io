@@ -29,3 +29,169 @@ details[open] summary {
   border-bottom: 1px solid #aaa;
   margin-bottom: 0.5em;
 }
+
+/* ===== Substack section ===== */
+.substack-feed-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.substack-mini-card {
+  border: 1px solid rgba(127, 127, 127, 0.16);
+  border-radius: 14px;
+  overflow: hidden;
+  background: #F3F4F6;
+  border: 1px solid #E5E7EB;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  min-width: 0;
+  width: 100%;
+  max-width: 720px;
+}
+
+.substack-mini-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  border-color: rgba(127, 127, 127, 0.28);
+}
+
+.substack-mini-card-link {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.substack-mini-card-media {
+  width: 160px;
+  min-width: 160px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.substack-mini-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.substack-mini-card-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  opacity: 0.72;
+}
+
+.substack-mini-card-body {
+  flex: 1;
+  padding: 0;
+}
+
+.substack-mini-card-date {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  opacity: 0.62;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.substack-mini-card-title {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+
+.substack-mini-card-excerpt {
+  margin: 0;
+  font-size: 0.97rem;
+  line-height: 1.6;
+  opacity: 0.84;
+}
+
+.substack-mini-card-cta {
+  margin-top: 0.2rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .substack-mini-card-media {
+    height: 200px;
+  }
+
+  .substack-mini-card {
+    max-width: 100%;
+  }
+}
+/* ===== Responsive ===== */
+
+@media (max-width: 900px) {
+  .substack-feed-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .substack-mini-card-media {
+    height: 180px;
+  }
+}
+
+.hero-personal__image {
+  flex: 0 0 150px;
+  margin-top: 0.15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.hero-personal__image img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 22px;
+  display: block;
+}
+
+.hero-calendly-btn {
+  width: 150px;
+  height: 150px;
+  border-radius: 22px;
+  background: #38b6ff;
+  color: #ffffff !important;
+  text-decoration: none !important;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+
+  padding: 12px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  transition: all 0.15s ease;
+}
+
+.hero-calendly-btn span {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-calendly-btn:hover {
+  background: #3b97cc;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+}

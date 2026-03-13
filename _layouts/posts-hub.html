@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page posts-hub" itemscope itemtype="https://schema.org/CollectionPage">
+    <div class="page__inner-wrap">
+      <section class="page__content" itemprop="text">
+        {{ content }}
+
+        <section class="posts-hub-section">
+          <div class="section-heading">
+            <div class="section-heading-copy">
+              <h2>Latest from Substack</h2>
+            </div>
+            <div class="section-heading-actions">
+              <a
+                class="substack-view-all"
+                href="https://antonisangelakis.substack.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View all on Substack
+              </a>
+            </div>
+          </div>
+
+          <div id="substack-feed" class="substack-feed-grid">
+            <p class="substack-feed-loading">Loading latest posts...</p>
+          </div>
+        </section>
+      </section>
+    </div>
+  </article>
+</div>
+
+<script src="{{ '/assets/js/substack-feed.js' | relative_url }}"></script>
