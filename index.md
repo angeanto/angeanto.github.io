@@ -7,10 +7,6 @@ classes: wide
 
 <style>
 
-.ml-embedded {
-  margin-left: 150px;
-}
-
 .hero-links {
   display: flex;
   flex-wrap: wrap;
