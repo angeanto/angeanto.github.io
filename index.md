@@ -109,7 +109,7 @@ classes: wide
     </p>
 
     <p>
-      👨🏻‍💻 Worked across <strong>fintech, e-commerce, insurance, cybersecurity and consulting</strong>, taking on different roles that gave me a broad understanding of how data supports real business decisions.
+      👨🏻‍💻 Worked across <strong>fintech, e-commerce, insurance, cybersecurity and consulting</strong>, taking on different both lead and contributor roles that gave me a broad understanding of how data supports real business decisions.
     </p>
 
     <p>
