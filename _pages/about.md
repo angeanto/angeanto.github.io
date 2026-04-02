@@ -6,10 +6,27 @@ toc: true
 toc_sticky: true
 permalink: "/about/"
 ---
-Hello, this Antonis, a Data professional, based in Athens, Greece. I work in the data analytics industry since **January 2019**.<br>
-My current role is **Principal BI Consultant** at [Seven Red Lines](https://www.srl.gr/), a data consulting firm. I have also created the [Data Analytics in Modern Corporate Business](https://kedivim-apply.ihu.gr/en/progs/prog-350) course for [International Hellenic University](https://www.ihu.gr/en/enhome) and through a modern corporate architecture I provide mentoring sessions to people who want to work in the data industry or change roles/companies.
+I’m Antonis, a BI & Analytics Engineering Consultant based in Athens, currently working with the European Commission (CINEA).
+
+I help organizations turn data into decisions that actually drive business impact, focusing on building end-to-end analytics solutions from data modeling and pipelines to business-facing reporting. 
+
+Alongside consulting, I design and teach data analytics programs, helping professionals understand how data works inside real organizations, not just in theory.
 
 From **Jan 21'** to **Mar 24'**I was a co-leader at the [Athens Tableau User Group](https://usergroups.tableau.com/athens-tableau-user-group/) organising interesting Tableau related events, sharing tips for the tool and meeting great people.<br>
+
+---
+
+# Work Experience
+
+- European Commission (CINEA) – BI & Analytics Engineering Consultant
+- Seven Red Lines (Data Consulting Firm) – Principal BI Consultant (end-to-end BI delivery)
+- Chubb (Global Insurance Leader) – Senior Data Analyst (global analytics standards)
+- Hack The Box (Global Cybersecurity Leader) – Senior Data Analyst II (data culture & Product decision support)
+- Skroutz (#1 Marketplace in Greece) – BI Lead (team leadership & analytics strategy)
+- Worldline (Fintech) – Data Scientist (ML for revenue & cost optimization)
+
+---
+
 
 # International Hellenic University: Data Analytics in Modern Corporate Business
 To fulfill my mission, I designed the [Data Analytics in Modern Corporate Business](https://kedivim-apply.ihu.gr/en/progs/prog-350) course for [International Hellenic University](https://www.ihu.gr/en/enhome). This comprehensive program is crafted to provide participants with essential skills and hands-on experience in data analytics within a corporate setting.
@@ -19,20 +36,6 @@ Participants engage in a real-world scenario that replicates a corporate data en
   <img src="/assets/images/post_images/dmcb_info.png" width="400" height="400" style="border-radius: 15%;">
 </div>
 
----
-
-# Work Experience
-- Transitioning from providing private mathematics tutorials to high school students, I started my professional data journey in the field when I joined [Cardlink](https://cardlink.gr/en/)(fintech, payments provider) in **Jan 19'** with the role of **Data Scientist**. The main responsibilty of the role was to build models that will lead to actions either for cost saving or revenue increase.
-
-- My next step was working at [Skroutz](https://www.skroutz.gr/) (#1 ecommerce Marketplace in Greece) in **April 21'**' with the role of **Business Intelligence Analyst** in which I performed data analytics and operation reporting tasks and delivered actionable insights to business units which impacted user acquisition strategy and policies. As a **Business Intelligence Lead** I led a team that acted as the touch point of contact between BI and other operational teams. I mentored both team and external analysts and stakeholders, created training material and sessions for Tableau, Metabase and internal data. 
-
-- From **May 23'** to **Nov 24'** I worked as **Senior Data Analyst II** at [Hack The Box](https://www.hackthebox.com/), contributing to establish a data culture in the organization and supporting decisions for the platform.
-
-- From **Nov 24'** to **July 25'** as a **Sr. Data Analyst** at [Chubb](https://www.chubb.com/us-en/) I got involved in large scale projects to ensure alignment,documentation and needs plus contributing to a global working group to define Data Analysis standards and best practices.
-
-- Now as a **Principal BI Consultant** at [Seven Red Lines](https://www.srl.gr/) , a data consulting firm, I deliver end to end BI projects for clients from requirements, architecture and data modeling to visualization and delivery using Microsoft stack and mainly Power BI.
-
----
 
 # Education
 I've studied Maths at [Department of Mathematics - Aristotle University](https://math.auth.gr/en/) (Thessaloniki, Greece) and then I had my MSc on [Applied Informatics - International Hellenic University](http://informatics.teicm.gr/msc_informatics/) (Serres, Greece). 
@@ -40,7 +43,7 @@ I've studied Maths at [Department of Mathematics - Aristotle University](https:/
 ---
 
 # Tech Stack
-My **tech stack** consists of: SQL, Python, R, Tableau, Metabase, Git, AWS Cloud, Azure Cloud, Google Cloud Platform, Snowflake, dbt, Machine Learning, databricks, pyspark
+My **tech stack** consists of: SQL, Python, R, Power BI, Tableau, Metabase, Git, Fabric, AWS Cloud, Azure Cloud, Google Cloud Platform, Snowflake, dbt, Machine Learning, databricks, pyspark
 
 ---
 

@@ -243,7 +243,7 @@ classes:
     </p>
 
     <p>
-      👨🏻‍💻 Worked across <strong>fintech, e-commerce, insurance, cybersecurity and consulting</strong>, taking on both lead and contributor roles that gave me a broad understanding of how data supports real business decisions.
+      👨🏻‍💻 Worked across <strong>fintech, e-commerce, insurance, cybersecurity and consulting in companies and the European Commission</strong>, taking on both lead and contributor roles that gave me a broad understanding of how data supports real business decisions.
     </p>
 
     <p>
