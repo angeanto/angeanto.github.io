@@ -235,7 +235,11 @@ classes:
     <h1>Hello, this is Antonis</h1>
 
     <p>
-      🚀 Sharing insights about <strong>data analytics</strong>, <strong>business intelligence</strong>, and how data actually works inside modern companies.
+      🚀 The 
+      <a href="https://labs.data-conscious.com/daaccelerator/" target="_blank" rel="noopener noreferrer">
+        Senior Data Analyst Accelerator
+      </a> 
+      is LIVE! The first 10-seat focused commercial learning experience starts in September 2026! 4 seats remaining!
     </p>
 
     <p>
