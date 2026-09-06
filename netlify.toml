@@ -1,5 +1,6 @@
 # netlify.toml
 # This file should be at the root of your project
 [build]
-  command = "jekyll build && jekyll algolia"
+  # Search is disabled; deployments must not depend on Algolia indexing.
+  command = "bundle exec jekyll build"
   publish = "_site"

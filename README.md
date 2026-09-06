@@ -20,6 +20,8 @@ The lockfile supports macOS ARM and Netlify's Linux x86-64 environment. Keep bot
 
 The initial PR #71 preview failed during dependency installation because the locked `rubyzip` 2.4 release was no longer available from RubyGems. The lockfile now uses 2.4.1, within the remote theme plugin's existing `< 3.0` requirement. A successful build with locally cached gems does not prove a fresh CI install can succeed; verify clean dependency installation when changing the lockfile.
 
-`netlify.toml` currently builds the site and then runs Algolia indexing. Do not run that indexing command as a local test: it writes to an external index. Site search is disabled in `_config.yml`.
+After dependency installation was fixed, the preview built the site successfully but failed in the separate Algolia indexing step with an unreachable-server error. Site search is disabled in `_config.yml`, so `netlify.toml` now runs only `bundle exec jekyll build`. Deployments no longer depend on the unavailable search service or update its index.
+
+If search is restored later, validate the Algolia application and credentials and design indexing separately from pull-request previews. Do not run indexing as a local build test: it writes to an external index.
 
 Work on branches and submit changes for pull-request review. Never merge into `main` or `master` automatically.
