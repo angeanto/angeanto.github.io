@@ -29,7 +29,7 @@ From **Jan 21'** to **Mar 24'**I was a co-leader at the [Athens Tableau User Gro
 
 
 # International Hellenic University: Data Analytics in Modern Corporate Business
-To fulfill my mission, I designed the [Data Analytics in Modern Corporate Business](https://kedivim-apply.ihu.gr/en/progs/prog-350) course for [International Hellenic University](https://www.ihu.gr/en/enhome). This comprehensive program is crafted to provide participants with essential skills and hands-on experience in data analytics within a corporate setting.
+To fulfill my mission, I designed the [Data Analytics in Modern Corporate Business](https://kedivim-apply.ihu.gr/en/progs/prog-482) course for [International Hellenic University](https://www.ihu.gr/en/enhome). This comprehensive program is crafted to provide participants with essential skills and hands-on experience in data analytics within a corporate setting.
 Participants engage in a real-world scenario that replicates a corporate data environment. From setting up data pipelines with PostgreSQL and BigQuery to automating ETL tasks with Python and creating dashboards, this simulation ensures hands-on, practical learning.
 
 <div align="center">

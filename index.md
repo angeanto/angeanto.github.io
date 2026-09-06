@@ -276,7 +276,7 @@ classes:
           <i class="fab fa-spotify"></i> Podcast
         </a>
 
-        <a href="https://kedivim-apply.ihu.gr/en/progs/prog-428" target="_blank">
+        <a href="https://kedivim-apply.ihu.gr/en/progs/prog-482" target="_blank">
           <i class="fas fa-graduation-cap"></i> Course
         </a>
 

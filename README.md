@@ -25,3 +25,9 @@ After dependency installation was fixed, the preview built the site successfully
 If search is restored later, validate the Algolia application and credentials and design indexing separately from pull-request previews. Do not run indexing as a local build test: it writes to an external index.
 
 Work on branches and submit changes for pull-request review. Never merge into `main` or `master` automatically.
+
+## Course content and external Accelerator page
+
+Current university enrollment links in `index.md`, `_pages/dmcb.md`, and `_pages/about.md` use program `prog-482` (fourth cycle). Update all three when enrollment changes. The course page links to the published alumni podcast; the previous third-cycle poster is retained as an asset but no longer displayed there. Historical course pages are separate.
+
+The navigation's Accelerator destination is hosted in MailerLite, independently of this Jekyll repository. See [reviewed replacement fragments and publication steps](docs/maintenance/accelerator/README.md). Merging this repository does not update that landing page.
