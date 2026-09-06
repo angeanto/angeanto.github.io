@@ -8,10 +8,10 @@ main:
 #  - title: "Products"
 #    url: /products/
 
+  - title: "Senior Data Analyst Accelerator"
+    url: https://labs.data-conscious.com/daaccelerator
   - title: "Course"
     url: /dmcb/
-  - title: "1:1 Sessions"
-    url: /mentoring/
   - title: "Substack"
     url: /posts/
   - title: "About"
