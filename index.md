@@ -239,7 +239,7 @@ classes:
       <a href="https://labs.data-conscious.com/daaccelerator/" target="_blank" rel="noopener noreferrer">
         Senior Data Analyst Accelerator
       </a> 
-      is LIVE! The first 10-seat focused commercial learning experience starts in September 2026! 4 seats remaining!
+      is LIVE! The first 10-seat focused commercial learning experience starts in September 2026! 1 seat remaining!
     </p>
 
     <p>
@@ -280,8 +280,8 @@ classes:
           <i class="fas fa-graduation-cap"></i> Course
         </a>
 
-        <a href="/mentoring/">
-          <i class="fas fa-brain"></i> Mentoring
+        <a href="https://labs.data-conscious.com/daaccelerator">
+          <i class="fas fa-brain"></i> Accelerator
         </a>
       </div>
     </div>
