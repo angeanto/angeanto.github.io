@@ -31,3 +31,7 @@ Work on branches and submit changes for pull-request review. Never merge into `m
 Current university enrollment links in `index.md`, `_pages/dmcb.md`, and `_pages/about.md` use program `prog-482` (fourth cycle). Update all three when enrollment changes. The course page links to the published alumni podcast; the previous third-cycle poster is retained as an asset but no longer displayed there. Historical course pages are separate.
 
 The navigation's Accelerator destination is hosted in MailerLite, independently of this Jekyll repository. See [reviewed replacement fragments and publication steps](docs/maintenance/accelerator/README.md). Merging this repository does not update that landing page.
+
+## For Data Teams
+
+`_pages/for-data-teams.md` serves `/for-data-teams/` and is linked from `_data/navigation.yml`. It contains the owner-provided training and advisory copy. Both discussion calls to action use the existing Calendly destination, `https://calendly.com/antonisangelakis`. Page styling is scoped to `.data-teams-page` in `assets/css/main.scss`. Update the page and navigation together if its URL changes.

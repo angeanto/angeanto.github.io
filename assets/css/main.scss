@@ -233,3 +233,31 @@ details[open] summary {
     gap: 0.6rem;
   }
 }
+
+
+/* For Data Teams: scoped training and advisory landing page. */
+.data-teams-page {
+  .page__content { max-width: 1100px; }
+  .teams-hero {
+    padding: clamp(1.5rem, 4vw, 3rem);
+    margin-bottom: 2.5rem;
+    background: #e8f3f7;
+    border-left: 5px solid #007a9e;
+    border-radius: 0 12px 12px 0;
+    h2 { margin-top: 0; border: 0; font-size: 1.9em; }
+    .teams-eyebrow { color: #285365; font-size: 0.7em; font-weight: 700; letter-spacing: 0.08em; }
+  }
+  .teams-capabilities {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 0 2rem;
+    h3 { padding: 1.2rem 1.2rem 0; margin: 0; background: #f0f4f6; border-radius: 8px 8px 0 0; }
+    p { padding: 0.8rem 1.2rem 1.2rem; margin: 0 0 1rem; background: #f0f4f6; border-radius: 0 0 8px 8px; }
+  }
+  .teams-data-flow { padding: 1.4rem; border: 1px solid #a2bdc8; border-radius: 8px; color: #234b5b; font-weight: 600; p { margin: 0; } }
+  .btn { white-space: normal; }
+  @media (max-width: 767px) {
+    .teams-capabilities { display: block; }
+    .teams-hero h2 { font-size: 1.4em; }
+  }
+}
