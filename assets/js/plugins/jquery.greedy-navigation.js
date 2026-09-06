@@ -88,7 +88,8 @@ $(function() {
     // Update the button accordingly
     $btn.attr("count", numOfItems - numOfVisibleItems);
     if (numOfVisibleItems === numOfItems) {
-      $btn.addClass('hidden');
+      $btn.addClass('hidden').removeClass('close').attr('aria-expanded', 'false');
+      $hlinks.addClass('hidden');
     } else $btn.removeClass('hidden');
   }
 
@@ -100,18 +101,28 @@ $(function() {
   $btn.on('click', function() {
     $hlinks.toggleClass('hidden');
     $(this).toggleClass('close');
+    $btn.attr("aria-expanded", !$hlinks.hasClass("hidden"));
     clearTimeout(timer);
   });
 
   $hlinks.on('mouseleave', function() {
     // Mouse has left, start the timer
     timer = setTimeout(function() {
+      if ($hlinks.find(":focus").length) return;
       $hlinks.addClass('hidden');
+      $btn.removeClass("close").attr("aria-expanded", "false");
     }, closingTime);
   }).on('mouseenter', function() {
     // Mouse is back, cancel the timer
     clearTimeout(timer);
   })
+
+  $nav.on('keydown', function(event) {
+    if (event.key === 'Escape' && !$hlinks.hasClass('hidden')) {
+      $hlinks.addClass('hidden');
+      $btn.removeClass('close').attr('aria-expanded', 'false').trigger('focus');
+    }
+  });
 
   // check if page has a logo
   if($logoImg.length !== 0){

@@ -3,7 +3,7 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
         {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
         {% endunless %}
@@ -14,7 +14,10 @@
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              {% assign active_section = page.url %}
+              {% if page.url == '/dmcb/' %}{% assign active_section = '/programs/' %}{% endif %}
+              {% if page.url contains '/articles/' or page.collection == 'posts' %}{% assign active_section = '/posts/' %}{% endif %}
+              <a href="{{ link.url | relative_url }}"{% if active_section == link.url %} aria-current="{% if page.url == link.url %}page{% else %}location{% endif %}"{% endif %}{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
           {%- endfor -%}
         </ul>
@@ -24,11 +27,11 @@
           <i class="fas fa-search"></i>
         </button>
         {% endif %}
-        <button class="greedy-nav__toggle hidden" type="button">
+        <button class="greedy-nav__toggle hidden" type="button" aria-expanded="false" aria-controls="mobile-nav-links">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>
         </button>
-        <ul class="hidden-links hidden"></ul>
+        <ul id="mobile-nav-links" class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>

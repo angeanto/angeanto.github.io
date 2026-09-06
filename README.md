@@ -47,3 +47,7 @@ The shared identity uses the existing MailerLite Labs logo URL, Poppins (Google 
 The newsletter retains MailerLite form `veywtM`, in an expandable block lower on the homepage. No subscriber destination was changed. The workshop photograph already existed in the repository. Five unique screenshots supplied by the owner live in `assets/images/lab/`; the duplicate dbt attachment is stored once. Captions distinguish demonstration DAGs and a failed contract check from successful production output. Screenshots have not been retouched. No new stock or generated imagery was introduced.
 
 The main site is reviewed through this PR. Existing Labs logo, font and palette were used as the visual reference; this redesign does not change MailerLite content or publish new main-site URLs there before they exist. Future MailerLite edits are applied directly in its editor per the owner's instruction.
+
+## UI consistency and accessibility
+
+See [UI review and design system](docs/maintenance/ui-review.md) for palette, typography, rounded components, navigation states, page coverage and verification limits. Change the Sass tokens before theme imports when adjusting the shared palette. Navigation JavaScript changes require regenerating `assets/js/main.min.js` using `npm run build:js`.
