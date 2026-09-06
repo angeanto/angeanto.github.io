@@ -51,3 +51,7 @@ The main site is reviewed through this PR. Existing Labs logo, font and palette 
 ## UI consistency and accessibility
 
 See [UI review and design system](docs/maintenance/ui-review.md) for palette, typography, rounded components, navigation states, page coverage and verification limits. Change the Sass tokens before theme imports when adjusting the shared palette. Navigation JavaScript changes require regenerating `assets/js/main.min.js` using `npm run build:js`.
+
+## Recommendations
+
+`_data/testimonials.yml` contains the three recommendations transcribed from owner-supplied LinkedIn screenshots. `_includes/testimonials.html` renders exact excerpts on the homepage and full text on About, with author, relationship context and recommendation date. Do not imply company endorsement or Accelerator participation: these comments concern past course, mentoring and colleague experiences. Each excerpt links to its full on-site recommendation. Profile URLs and portraits were not invented or extracted.

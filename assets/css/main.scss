@@ -220,3 +220,18 @@ pre { overflow-x: auto; }
 .page-toc > summary { padding: 0.8rem 1rem; background: #faf3d8; color: #202124; font-size: 0.95rem; min-height: 44px; }
 .page-toc[open] > summary { margin-bottom: 0; }
 .page-toc .toc { border: 0; border-radius: 0; }
+
+/* Text-based recommendations retain readable copy and clear attribution. */
+.testimonials { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.testimonials .testimonial { display: flex; flex-direction: column; margin: 0; padding: 1.4rem; border: 1px solid #deded7; border-radius: 16px; background: #faf9f4; }
+.testimonial blockquote { margin: 0 0 1rem; padding: 0; border: 0; font-style: normal; color: #202124; }
+.testimonial blockquote p { font-size: 1rem; line-height: 1.8; }
+.testimonial blockquote p:last-child { margin-bottom: 0; }
+.testimonial figcaption { margin-top: auto; font-size: 0.9rem; line-height: 1.6; color: #50534f; }
+.testimonial figcaption span { display: block; }
+.testimonial__name { color: #202124; font-weight: 600; }
+.testimonial__source { margin-top: 0.5rem; }
+.testimonial figcaption a { display: inline-block; padding: 0.65rem 0 0; }
+.testimonials--full { grid-template-columns: 1fr; }
+.testimonials--full .testimonial { scroll-margin-top: 1.5rem; }
+@media (max-width: 900px) { .testimonials { grid-template-columns: 1fr; } }

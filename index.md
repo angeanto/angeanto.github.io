@@ -27,6 +27,12 @@ excerpt: "Analytics, engineering and business judgment. Practical programmes, te
 </div>
 </section>
 
+<section class="brand-section" aria-labelledby="recommendations">
+<p class="eyebrow">Learning and working together</p>
+<h2 id="recommendations">What people say about working with me.</h2>
+{% include testimonials.html %}
+</section>
+
 <section class="brand-section" aria-labelledby="inside-lab">
 <p class="eyebrow">Inside DataConscious Labs</p>
 <h2 id="inside-lab">See how the pieces connect.</h2>

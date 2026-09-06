@@ -16,6 +16,12 @@ From **Jan 21'** to **Mar 24'**I was a co-leader at the [Athens Tableau User Gro
 
 ---
 
+## Recommendations
+
+Feedback from a former colleague, a course participant and a mentee, shared on LinkedIn.
+
+{% include testimonials.html full=true %}
+
 ## Work Experience
 
 - European Commission (CINEA) – BI & Analytics Engineering Consultant
