@@ -35,3 +35,15 @@ The navigation's Accelerator destination is hosted in MailerLite, independently 
 ## For Data Teams
 
 `_pages/for-data-teams.md` serves `/for-data-teams/` and is linked from `_data/navigation.yml`. It contains the owner-provided training and advisory copy. Both discussion calls to action use the existing Calendly destination, `https://calendly.com/antonisangelakis`. Page styling is scoped to `.data-teams-page` in `assets/css/main.scss`. Update the page and navigation together if its URL changes.
+
+## DataConscious navigation and visual identity
+
+Primary navigation is Programs, For Teams, Insights and About. Programs (`_pages/programs.md`) groups individual and team offers. Projects (`_pages/projects.md`) and Speaking (`_pages/speaking.md`) are linked from the homepage and custom footer. Existing course, About and Insights permalinks are unchanged.
+
+`index.md` is the sole homepage. The inherited paginated article listing moved to `articles/index.html`; the archive is linked from Insights. Pagination uses `/articles/page:num/`, and the existing `/page2/` address redirects to its new location.
+
+The shared identity uses the existing MailerLite Labs logo URL, Poppins (Google Fonts), white backgrounds, charcoal text and Labs gold (#e5b600) for primary actions. The website uses dark button text for contrast. These external logo/font resources require network access. Homepage styling is under `.brand-home` in `assets/css/main.scss`; the old homepage inline CSS was removed.
+
+The newsletter retains MailerLite form `veywtM`, in an expandable block lower on the homepage. No subscriber destination was changed. The workshop photograph already existed in the repository. Five unique screenshots supplied by the owner live in `assets/images/lab/`; the duplicate dbt attachment is stored once. Captions distinguish demonstration DAGs and a failed contract check from successful production output. Screenshots have not been retouched. No new stock or generated imagery was introduced.
+
+The main site is reviewed through this PR. Existing Labs logo, font and palette were used as the visual reference; this redesign does not change MailerLite content or publish new main-site URLs there before they exist. Future MailerLite edits are applied directly in its editor per the owner's instruction.

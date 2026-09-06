@@ -106,7 +106,9 @@ The aim is to make the learning directly relevant while giving your team princip
 
 ## A working architecture makes the concepts tangible.
 
-### Learn through Data Conscious Lab.
+### Learn through DataConscious Labs.
+
+<figure><img src="/assets/images/lab/customer-lineage.png" alt="Customer data lineage across the lab models" loading="lazy"><figcaption>Following a field from its source into analytical models. <a href="/projects/">Explore the lab examples.</a></figcaption></figure>
 
 The programme draws on an instructor-prepared analytics platform that connects the data journey from source systems to reporting and decision support.
 

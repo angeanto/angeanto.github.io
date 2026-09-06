@@ -261,3 +261,67 @@ details[open] summary {
     .teams-hero h2 { font-size: 1.4em; }
   }
 }
+
+/* Shared DataConscious identity: Poppins, white, charcoal and Labs gold. */
+body { background: #fff; color: #202124; font-family: 'Poppins', Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6, .greedy-nav, button, input { font-family: 'Poppins', Arial, sans-serif; }
+.masthead, .greedy-nav { background: #fff; }
+.masthead { border-bottom: 1px solid #e8e8e8; }
+.site-logo img { max-height: 54px; }
+.site-title { color: #202124; }
+.greedy-nav a { color: #202124; }
+.greedy-nav .visible-links a:before, .navicon, .navicon:before, .navicon:after { background: #e5b600; }
+.page__content a:not(.btn) { color: #725900; text-decoration: underline; text-underline-offset: 3px; }
+.btn--primary { background: #e5b600; color: #202124 !important; border-radius: 28px; }
+.btn--primary:hover { background: #ffd145; color: #202124 !important; }
+a:focus-visible, button:focus-visible { outline: 3px solid #725900; outline-offset: 4px; }
+.page__footer { background: #f7f7f4; color: #414141; border-top: 1px solid #e8e8e8; }
+.brand-footer-nav { display: flex; flex-wrap: wrap; gap: 1rem 1.8rem; margin-bottom: 1.5rem; }
+.brand-home, .brand-page, .data-teams-page {
+  .page { float: none; width: 100%; padding-right: 0; }
+  .page__content { max-width: 1200px; margin: auto; }
+  .page__content p, .page__content li { font-size: 0.9em; line-height: 1.8; }
+  .page__content h2 { border: 0; }
+  figure { margin: 0; }
+  figcaption { color: #666; font-size: 0.65em; line-height: 1.6; margin-top: 0.7rem; }
+  .eyebrow { text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.65em; font-weight: 600; color: #725900; }
+  .brand-note { color: #666; font-size: 0.7em; }
+}
+.brand-home {
+  .page__title { display: none; }
+  .page__content h1 { font-size: clamp(2rem, 3vw, 2.5rem); letter-spacing: -0.04em; line-height: 1.15; margin: 0.7rem 0 1.3rem; }
+  .brand-hero { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; padding: 2.5rem 0 3rem; }
+  .brand-hero img { width: 100%; border-radius: 12px; }
+  .brand-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; margin: 1.5rem 0; }
+  .text-link { font-size: 0.8em; }
+  .brand-section { padding: 3rem 0; border-top: 1px solid #e8e8e8; }
+  .brand-section h2 { margin-top: 0.5rem; }
+  .brand-grid { display: grid; gap: 1.5rem; }
+  .brand-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .brand-grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 3rem; }
+  .brand-card { background: #faf9f4; padding: 1.5rem; border: 1px solid #e8e5d8; border-radius: 12px; }
+  .brand-card h3 { margin-top: 0; }
+  .brand-card a { font-size: 0.8em; }
+  .lab-feature { margin: 1.5rem 0; }
+  .lab-feature img { width: 100%; border: 1px solid #eee; border-radius: 12px; }
+  .brand-newsletter { background: #faf9f4; border-radius: 12px; padding: 1.8rem; display: grid; grid-template-columns: 1.5fr 1fr; gap: 2rem; align-items: center; }
+  .brand-newsletter h2 { font-size: 1.2em; margin-top: 0; }
+}
+.brand-page .lab-example { margin: 2rem 0 3rem; padding-bottom: 2rem; border-bottom: 1px solid #e8e8e8; }
+.brand-page .lab-example img { width: 100%; height: auto; }
+.data-teams-page {
+  .teams-hero { background: #faf9f4; border-color: #e5b600; }
+  .teams-hero .teams-eyebrow, .teams-data-flow { color: #725900; }
+  .teams-capabilities h3, .teams-capabilities p { background: #faf9f4; }
+  .teams-data-flow { border-color: #d9c570; }
+}
+@media (max-width: 800px) {
+  .brand-home .brand-hero, .brand-home .brand-grid.three, .brand-home .brand-grid.two, .brand-home .brand-newsletter { grid-template-columns: 1fr; gap: 1.5rem; }
+  .brand-home .brand-section { padding: 2rem 0; }
+  .site-logo img { max-height: 38px; }
+  .site-title { font-size: 0.8em; }
+}
+
+.brand-subscribe { border: 0; padding: 0; }
+.brand-subscribe summary { background: #e5b600; color: #202124; border-radius: 24px; padding: 0.8rem 1.2rem; margin: 0; cursor: pointer; font-size: 0.85rem; }
+.brand-subscribe[open] summary { border: 0; margin-bottom: 1rem; }
