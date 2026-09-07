@@ -7,6 +7,7 @@
 - The compiled CSS and JavaScript asset URLs include the build timestamp so navigation and visual fixes replace stale browser-cached versions after deployment.
 - Poppins, 16px base reading size, generous line height, constrained paragraph measure. Every `.btn` uses the same Labs-gold background, charcoal 0.9rem bold Poppins label, 44px minimum height and 24px pill corners across normal and visited states. Hover and keyboard focus share the same lighter-gold state. Disabled and selected controls remain distinct so their state is understandable.
 - Header and footer expose the same destinations in the same order. Active sections use `aria-current` plus a shape/border cue. Masthead is deliberately not cached because it depends on the current route. When all seven header links no longer fit, they move together into the menu toggle instead of leaving an incomplete visible subset.
+- The external DataConscious Labs destination opens in a new tab from both the header and footer, preserving the visitor's place on the main site.
 - Mobile navigation exposes expansion state, closes on Escape and restores focus. Auto-close respects focus inside the menu. Reduced-motion preferences disable animation.
 - Tables of contents start collapsed on mobile and expanded on desktop, and use a native disclosure control.
 - About, course, legacy pages, article layouts, tables, notices, gallery images, cards and footer share these rules. External iframes and text inside supplied screenshots remain controlled by their providers/source images.

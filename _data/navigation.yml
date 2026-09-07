@@ -13,3 +13,4 @@ main:
     url: /about/
   - title: "DataConscious Labs"
     url: https://labs.data-conscious.com/
+    new_window: true

@@ -17,7 +17,7 @@
               {% assign active_section = page.url %}
               {% if page.url == '/dmcb/' %}{% assign active_section = '/programs/' %}{% endif %}
               {% if page.url contains '/articles/' or page.collection == 'posts' %}{% assign active_section = '/posts/' %}{% endif %}
-              <a href="{{ link.url | relative_url }}"{% if active_section == link.url %} aria-current="{% if page.url == link.url %}page{% else %}location{% endif %}"{% endif %}{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              <a href="{{ link.url | relative_url }}"{% if active_section == link.url %} aria-current="{% if page.url == link.url %}page{% else %}location{% endif %}"{% endif %}{% if link.description %} title="{{ link.description }}"{% endif %}{% if link.new_window %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a>
             </li>
           {%- endfor -%}
         </ul>
