@@ -10,6 +10,7 @@
 - Mobile navigation exposes expansion state, closes on Escape and restores focus. Auto-close respects focus inside the menu. Reduced-motion preferences disable animation.
 - Tables of contents start collapsed on mobile and expanded on desktop, and use a native disclosure control.
 - About, course, legacy pages, article layouts, tables, notices, gallery images, cards and footer share these rules. External iframes and text inside supplied screenshots remain controlled by their providers/source images.
+- The Speaking page uses a narrower reading column and limits event photographs to 680px, preserving their native aspect ratio while keeping the session list compact.
 
 ## Page review
 

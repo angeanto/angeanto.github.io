@@ -1,6 +1,6 @@
 ---
 layout: single
-classes: [wide, brand-page]
+classes: [wide, brand-page, speaking-page]
 author_profile: false
 title: "Speaking & Workshops"
 permalink: /speaking/
