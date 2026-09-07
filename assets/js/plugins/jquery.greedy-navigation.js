@@ -64,31 +64,34 @@ $(function() {
     // Set the last measured CSS width breakpoint with the current breakpoint
     lastBreakpoint = curBreakpoint;
 
-    // Get instant state
+    // Keep the primary navigation complete. If all links do not fit, move the
+    // entire set into one menu instead of leaving a different partial list at
+    // each viewport width.
     numOfVisibleItems = $vlinks.children().length;
-    // Decrease the width of visible elements from the nav innerWidth to find out the available space for navItems
+    // Decrease the width of fixed elements from the nav innerWidth to find the
+    // space available for the complete set of navigation links.
     availableSpace = /* nav */ $nav.innerWidth()
                    - /* logo */ ($logo.length !== 0 ? $logo.outerWidth(true) : 0)
                    - /* title */ $title.outerWidth(true)
-                   - /* search */ ($search.length !== 0 ? $search.outerWidth(true) : 0)
-                   - /* toggle */ (numOfVisibleItems !== breakWidths.length ? $btn.outerWidth(true) : 0);
-    requiredSpace = breakWidths[numOfVisibleItems - 1];
+                   - /* search */ ($search.length !== 0 ? $search.outerWidth(true) : 0);
+    requiredSpace = breakWidths[numOfItems - 1];
 
-    // There is not enought space
     if (requiredSpace > availableSpace) {
-      $vlinks.children().last().prependTo($hlinks);
-      numOfVisibleItems -= 1;
-      check();
-      // There is more than enough space. If only one element is hidden, add the toggle width to the available space
-    } else if (availableSpace + (numOfVisibleItems === breakWidths.length - 1?$btn.outerWidth(true):0) > breakWidths[numOfVisibleItems]) {
-      $hlinks.children().first().appendTo($vlinks);
-      numOfVisibleItems += 1;
-      check();
+      while ($vlinks.children().length) {
+        $vlinks.children().last().prependTo($hlinks);
+      }
+    } else {
+      while ($hlinks.children().length) {
+        $hlinks.children().first().appendTo($vlinks);
+      }
     }
+
+    numOfVisibleItems = $vlinks.children().length;
     // Update the button accordingly
     $btn.attr("count", numOfItems - numOfVisibleItems);
     if (numOfVisibleItems === numOfItems) {
-      $btn.addClass('hidden');
+      $btn.addClass('hidden').removeClass('close').attr('aria-expanded', 'false');
+      $hlinks.addClass('hidden');
     } else $btn.removeClass('hidden');
   }
 
@@ -100,18 +103,28 @@ $(function() {
   $btn.on('click', function() {
     $hlinks.toggleClass('hidden');
     $(this).toggleClass('close');
+    $btn.attr("aria-expanded", !$hlinks.hasClass("hidden"));
     clearTimeout(timer);
   });
 
   $hlinks.on('mouseleave', function() {
     // Mouse has left, start the timer
     timer = setTimeout(function() {
+      if ($hlinks.find(":focus").length) return;
       $hlinks.addClass('hidden');
+      $btn.removeClass("close").attr("aria-expanded", "false");
     }, closingTime);
   }).on('mouseenter', function() {
     // Mouse is back, cancel the timer
     clearTimeout(timer);
   })
+
+  $nav.on('keydown', function(event) {
+    if (event.key === 'Escape' && !$hlinks.hasClass('hidden')) {
+      $hlinks.addClass('hidden');
+      $btn.removeClass('close').attr('aria-expanded', 'false').trigger('focus');
+    }
+  });
 
   // check if page has a logo
   if($logoImg.length !== 0){

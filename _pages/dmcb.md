@@ -15,7 +15,9 @@ toc_sticky: true
 author_profile: true
 ---
 
-<img src="/assets/images/damcb/DAMCB-Cycle-3-Promo.png">
+**Fourth cycle — Data Analytics in Modern Corporate Business**<br>
+[View the current program and apply through International Hellenic University](https://kedivim-apply.ihu.gr/en/progs/prog-482).
+{: .notice--info}
 
 Become a data-driven professional and master modern analytics in a corporate setting.
 
@@ -167,9 +169,11 @@ Thus, to achieve the required final score of 75, the candidate needs at least:
 
 ---
 
-## 🎙️ Podcast: Coming Soon
+## 🎙️ Alumni Podcast: From Classroom to Companies
 
-Stay tuned for our upcoming podcast episode featuring alumni discussing the value of of the course in today’s businesses.
+Listen to Financial Analyst and course alumnus **Lampros Kouremenos** discuss how the program helped him connect data tools, build an end-to-end pipeline, and bring analytics ideas into his finance work.
+
+[Listen to the episode on Spotify](https://open.spotify.com/episode/5OPh5tPdloQhqtd2K7YV9C) · [Read the alumni story on DataConscious](https://antonisangelakis.substack.com/p/data-analytics-in-modern-corporate)
 
 ---
 
@@ -177,6 +181,6 @@ Stay tuned for our upcoming podcast episode featuring alumni discussing the valu
 
 If you're ready to master data analytics and boost your career — this is your next step.
 
-[👉 Click here to Enroll](https://kedivim-apply.ihu.gr/en/progs/prog-350)
+[👉 Click here to Enroll](https://kedivim-apply.ihu.gr/en/progs/prog-482)
 
 ---

@@ -16,7 +16,13 @@ From **Jan 21'** to **Mar 24'**I was a co-leader at the [Athens Tableau User Gro
 
 ---
 
-# Work Experience
+## Recommendations
+
+Feedback from a former colleague, a course participant and a mentee, shared on LinkedIn.
+
+{% include testimonials.html full=true %}
+
+## Work Experience
 
 - European Commission (CINEA) – BI & Analytics Engineering Consultant
 - Seven Red Lines (Data Consulting Firm) – Principal BI Consultant (end-to-end BI delivery)
@@ -28,8 +34,8 @@ From **Jan 21'** to **Mar 24'**I was a co-leader at the [Athens Tableau User Gro
 ---
 
 
-# International Hellenic University: Data Analytics in Modern Corporate Business
-To fulfill my mission, I designed the [Data Analytics in Modern Corporate Business](https://kedivim-apply.ihu.gr/en/progs/prog-350) course for [International Hellenic University](https://www.ihu.gr/en/enhome). This comprehensive program is crafted to provide participants with essential skills and hands-on experience in data analytics within a corporate setting.
+## International Hellenic University: Data Analytics in Modern Corporate Business
+To fulfill my mission, I designed the [Data Analytics in Modern Corporate Business](https://kedivim-apply.ihu.gr/en/progs/prog-482) course for [International Hellenic University](https://www.ihu.gr/en/enhome). This comprehensive program is crafted to provide participants with essential skills and hands-on experience in data analytics within a corporate setting.
 Participants engage in a real-world scenario that replicates a corporate data environment. From setting up data pipelines with PostgreSQL and BigQuery to automating ETL tasks with Python and creating dashboards, this simulation ensures hands-on, practical learning.
 
 <div align="center">
@@ -37,24 +43,24 @@ Participants engage in a real-world scenario that replicates a corporate data en
 </div>
 
 
-# Education
+## Education
 I've studied Maths at [Department of Mathematics - Aristotle University](https://math.auth.gr/en/) (Thessaloniki, Greece) and then I had my MSc on [Applied Informatics - International Hellenic University](http://informatics.teicm.gr/msc_informatics/) (Serres, Greece). 
 
 ---
 
-# Tech Stack
+## Tech Stack
 My **tech stack** consists of: SQL, Python, R, Power BI, Tableau, Metabase, Git, Fabric, AWS Cloud, Azure Cloud, Google Cloud Platform, Snowflake, dbt, Machine Learning, databricks, pyspark
 
 ---
 
-# 🎤 Open to Conferences, Talks & Events
+## 🎤 Open to Conferences, Talks & Events
 
 I genuinely enjoy connecting with people through events, whether it's a conference, a panel, a university lecture or a casual meetup around data & analytics. If there's a space to share ideas, stories and practical lessons from the data world, count me in! 🙌
 Over the years, I've had the chance to speak and participate in various events across the data landscape. Whether it’s about data strategy, BI tools, building analytics teams or just surviving dashboards gone wrong, I try to keep it honest, practical, and human. 😊
 
 📬 If you're planning an event and think my experience could bring value, I’d love to hear from you!
 
-## Athens Tableau User Groups (Co-leading the event organization)
+### Athens Tableau User Groups (Co-leading the event organization)
 Along with an excellent team, we organised Tableau related events, bringing the community closer, sharing tips for the tool and meeting great people.
 
 <figure class="half">
@@ -63,7 +69,7 @@ Along with an excellent team, we organised Tableau related events, bringing the 
   <figcaption>1st in person Athens Tableau User Group Meetup</figcaption>
 </figure>
 
-## AI & Beers Meetup
+### AI & Beers Meetup
 June 21, 2023, I had the pleasure of participating in the [AI and Beers](https://www.meetup.com/ai-and-beers/events/297355998/) meetup in Thessaloniki, a vibrant gathering that brings together AI enthusiasts, developers and data professionals over insightful talks and casual networking. The event provided an excellent platform to discuss real-world applications of data analytics with SQL and Python and share experiences. 
 
 <figure class="half">
@@ -71,7 +77,7 @@ June 21, 2023, I had the pleasure of participating in the [AI and Beers](https:/
   <img src="/assets/images/post_images/ai_beers_2.png" style="width: 300px; height: 300px;">
 </figure>
 
-## Linq - Talent Days 2025
+### Linq - Talent Days 2025
 
 Talent Days 2025 by [linq](https://linq.co/) is a premier career development event scheduled for April 5–6, 2025, at the Zappeion Hall in Athens. Tailored for recent graduates and early-career professionals with up to four years of experience, the event offers a dynamic platform to connect with over 50 leading companies and industry experts. 
 
@@ -83,7 +89,7 @@ Talent Days 2025 by [linq](https://linq.co/) is a premier career development eve
   <img src="/assets/images/post_images/panel.jpeg" style="width: 300px; height: 250px;">
 </figure>
 
-## World Data Summit 2025
+### World Data Summit 2025
 
 Visited Amsterdam 🇳🇱 at [World Data Summit](https://worlddatasummit.com/europe/) (21-23 May 2025), joined an amazing community of data people and tech wizards. This event brings together leading experts, innovators and influencers from around the world to explore the latest trends, challenges and opportunities in the data landscape.
 
@@ -107,7 +113,7 @@ In this talk, we unpacked:
   <img src="/assets/images/post_images/ams2.jpeg" style="width: 300px; height: 200px;">
 </figure>
 
-## Skill Up Forum by linq | Panel Discussion (2025)
+### Skill Up Forum by linq | Panel Discussion (2025)
 
 Digital maturity in practice: What does a mature tech team look like?
 Together with Stefanos Karagos and Alexandros Kossivas, we share our experiences and bring real energy to the stage. 
@@ -129,7 +135,7 @@ Together with Stefanos Karagos and Alexandros Kossivas, we share our experiences
   <img src="/assets/images/events/skillup-2025/4.jpg" style="width: 300px; height: 200px;">
 </figure>
 
-# Interests
+## Interests
 Half-marathons, netflix marathons, table-tennis, beers
 
 Explore my **Interactive CV** in [Tableau Public](https://public.tableau.com/app/profile/antonis1649/viz/AngelakisAntonisCV_v3/AntonisAngelakis). How-To build your CV with Tableau is fully described in this [blogpost](https://angeanto.github.io/How-to-Create-your-CV-with-Tableau/)

@@ -1,0 +1,19 @@
+<div class="testimonials {% if include.full %}testimonials--full{% endif %}">
+  {% for testimonial in site.data.testimonials %}
+  <figure class="testimonial"{% if include.full %} id="recommendation-{{ testimonial.id }}"{% endif %}>
+    <blockquote>
+      {% if include.full %}
+        {% for paragraph in testimonial.paragraphs %}<p>{{ paragraph | escape }}</p>{% endfor %}
+      {% else %}
+        <p>“{{ testimonial.excerpt | escape }}”</p>
+      {% endif %}
+    </blockquote>
+    <figcaption>
+      <span class="testimonial__name">{{ testimonial.name | escape }}</span>
+      <span>{{ testimonial.context | escape }}</span>
+      <span class="testimonial__source">LinkedIn recommendation · {{ testimonial.date }}</span>
+      {% unless include.full %}<a href="{{ '/about/' | relative_url }}#recommendation-{{ testimonial.id }}">Read full recommendation<span class="visually-hidden"> from {{ testimonial.name | escape }}</span> →</a>{% endunless %}
+    </figcaption>
+  </figure>
+  {% endfor %}
+</div>

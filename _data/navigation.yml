@@ -1,18 +1,16 @@
-# main links links
 main:
   - title: "Home"
     url: /
-#  - title: "Consulting"
-#    url: /consulting/
-
-#  - title: "Products"
-#    url: /products/
-
-  - title: "Senior Data Analyst Accelerator"
-    url: https://labs.data-conscious.com/daaccelerator
-  - title: "Course"
-    url: /dmcb/
-  - title: "Substack"
+  - title: "Programs"
+    url: /programs/
+  - title: "For Teams"
+    url: /for-data-teams/
+  - title: "Insights"
     url: /posts/
+  - title: "Speaking"
+    url: /speaking/
   - title: "About"
     url: /about/
+  - title: "DataConscious Labs"
+    url: https://labs.data-conscious.com/
+    new_window: true

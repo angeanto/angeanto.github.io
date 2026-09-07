@@ -3,6 +3,11 @@
    ========================================================================== */
 
 $(function() {
+  // Start long tables of contents collapsed on small screens.
+  if (window.matchMedia("(max-width: 800px)").matches) {
+    $(".page-toc").removeAttr("open");
+  }
+
   // FitVids init
   $("#main").fitVids();
 
