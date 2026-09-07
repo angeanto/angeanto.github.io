@@ -19,7 +19,7 @@ excerpt: "Analytics, engineering and business judgment. Practical programmes, te
       <img src="/assets/images/me/antonis-profile-2026.jpeg" alt="Antonis Angelakis" fetchpriority="high" width="400" height="400">
       <div>
         <p class="eyebrow"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</p>
-        <h2 id="linkedin-profile-title">Follow me on Linkedin.</h2>
+        <h2 id="linkedin-profile-title">Follow me on LinkedIn.</h2>
       </div>
     </div>
     <p>I write regularly about analytics, data careers, team leadership and turning technical work into business impact.</p>
