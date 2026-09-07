@@ -138,24 +138,23 @@ figcaption, .page__meta, .archive__item-excerpt, .sidebar p, .sidebar li { color
 .page__footer { color: #414141 !important; }
 .page__footer a { color: #414141; opacity: 1; }
 .page__footer a:hover { color: #473800; }
-.btn, .btn--info, .btn--success, .btn--warning, .btn--danger, .btn--inverse, .pagination li a {
+.btn, .pagination li a {
   border-radius: 24px; background: #e5b600; color: #202124 !important;
   min-height: 44px; padding: 0.65rem 1rem; font-size: 0.9rem; line-height: 1.5;
+  font-family: 'Poppins', Arial, sans-serif; font-weight: 700;
   text-decoration: none; white-space: normal;
 }
-.btn:hover { background: #ffd145; }
-.btn--disabled { background: #ecece7; color: #50534f !important; }
-.page__content .btn--primary { color: #202124 !important; }
-.page__content a.btn--primary,
-.page__content a.btn--primary:visited {
+.btn:not(.btn--disabled),
+.btn:not(.btn--disabled):visited {
   background: #e5b600;
   color: #202124 !important;
 }
-.page__content a.btn--primary:hover,
-.page__content a.btn--primary:focus-visible {
+.btn:not(.btn--disabled):hover,
+.btn:not(.btn--disabled):focus-visible {
   background: #ffd145;
   color: #202124 !important;
 }
+.btn--disabled { background: #ecece7; color: #50534f !important; }
 .greedy-nav .visible-links a { padding: 0.55rem 0.7rem; margin: 0 0.15rem; border-radius: 12px; font-size: 0.95rem; }
 .greedy-nav .visible-links a:before { display: none; }
 .greedy-nav a:hover, .greedy-nav a[aria-current] { background: #faf3d8; color: #473800; }
@@ -213,7 +212,13 @@ pre { overflow-x: auto; }
 .brand-home .brand-card { display: flex; flex-direction: column; }
 .brand-home .brand-card > a { margin-top: auto; }
 .brand-subscribe { background: transparent; padding: 0; border: 0; }
-.brand-subscribe summary { min-height: 44px; }
+.brand-subscribe summary {
+  min-height: 44px;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
 @media (max-width: 800px) {
   html { font-size: 16px; }
   .masthead__inner-wrap { padding: 0.8rem 1rem; }
