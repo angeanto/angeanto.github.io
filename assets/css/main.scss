@@ -153,6 +153,20 @@ figcaption, .page__meta, .archive__item-excerpt, .sidebar p, .sidebar li { color
   background: $button-background-color;
   color: $button-text-color !important;
 }
+// Override the theme's more specific per-variant visited colours.
+a.btn:visited,
+a.btn--primary:visited,
+a.btn--info:visited,
+a.btn--success:visited,
+a.btn--warning:visited,
+a.btn--danger:visited,
+a.btn--inverse:visited,
+a.btn--twitter:visited,
+a.btn--facebook:visited,
+a.btn--linkedin:visited {
+  background-color: $button-background-color !important;
+  color: $button-text-color !important;
+}
 .btn:not(.btn--disabled):hover,
 .btn:not(.btn--disabled):focus-visible {
   background: $button-hover-background-color;
