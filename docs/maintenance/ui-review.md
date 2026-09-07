@@ -13,6 +13,7 @@
 - About, course, legacy pages, article layouts, tables, notices, gallery images, cards and footer share these rules. External iframes and text inside supplied screenshots remain controlled by their providers/source images.
 - The Speaking page uses a narrower reading column and limits event photographs to 680px, preserving their native aspect ratio while keeping the session list compact.
 - The homepage hero pairs the core positioning with a compact LinkedIn profile card using the About portrait, a short description of Antonis's active writing and a direct follow action.
+- The newsletter signup sits directly below the homepage hero and before the programme choices, making subscription the first follow-up action after the main positioning and LinkedIn profile.
 - Author avatar and name links use the current site's relative homepage, so local and deploy previews stay inside their own environment instead of redirecting to the production domain.
 
 ## Page review

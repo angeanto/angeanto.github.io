@@ -28,6 +28,11 @@ excerpt: "Analytics, engineering and business judgment. Practical programmes, te
   </aside>
 </section>
 
+<section class="brand-newsletter" aria-labelledby="newsletter-title">
+<div><p class="eyebrow">DataConscious newsletter</p><h2 id="newsletter-title">Keep learning, one idea at a time.</h2><p>Practical perspectives on analytics, careers and business decisions.</p></div>
+<details class="brand-subscribe"><summary>Subscribe to DataConscious</summary><div class="ml-embedded" data-form="veywtM"></div></details>
+</section>
+
 <section class="brand-section" aria-labelledby="ways-to-work">
 <p class="eyebrow">Learn. Apply. Improve.</p>
 <h2 id="ways-to-work">A practical next step for your data work.</h2>
@@ -55,9 +60,4 @@ excerpt: "Analytics, engineering and business judgment. Practical programmes, te
 <section class="brand-section brand-grid two" aria-label="Writing and speaking">
 <div><p class="eyebrow">Insights</p><h2>Ideas from the work.</h2><p>Writing and conversations about analytics, business impact and building a career in data.</p><a href="/posts/">Read the latest insights →</a><p><a href="https://open.spotify.com/show/4yPdUxVgB8v7PoqnBvUulH">Listen to the podcast →</a></p></div>
 <div><p class="eyebrow">Speaking</p><h2>Bring the conversation to your audience.</h2><p>Talks, panels and workshops on data teams, analytical judgment and the business value of data.</p><a href="/speaking/">Explore speaking and workshops →</a></div>
-</section>
-
-<section class="brand-newsletter" aria-labelledby="newsletter-title">
-<div><p class="eyebrow">DataConscious newsletter</p><h2 id="newsletter-title">Keep learning, one idea at a time.</h2><p>Practical perspectives on analytics, careers and business decisions.</p></div>
-<details class="brand-subscribe"><summary>Subscribe to DataConscious</summary><div class="ml-embedded" data-form="veywtM"></div></details>
 </section>
