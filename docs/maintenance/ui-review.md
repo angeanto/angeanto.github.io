@@ -2,9 +2,9 @@
 
 ## Shared rules
 
-- White background, charcoal text `#202124`, muted text `#50534f`, warm neutral panels `#faf9f4`, gold actions `#e5b600`, dark gold text links `#725900`.
+- White background, charcoal text `#202124`, muted text `#50534f`, warm neutral panels `#faf9f4` and dark gold text links `#725900`. Primary buttons use Labs gold `#e5b600` with charcoal text; hover and keyboard focus use the lighter gold `#ffd145` with charcoal text.
 - Sass tokens precede theme imports in `assets/css/main.scss`, so inherited notices, menus and article components use the same palette. Dark text on gold; gold is not used for body text on white.
-- Poppins, 16px base reading size, generous line height, constrained paragraph measure. Every `.btn` uses the same gold background, charcoal text, 0.9rem bold Poppins label, 44px minimum height and 24px pill corners across normal and visited states. Hover and keyboard focus share the same lighter-gold state. Disabled and selected controls remain distinct so their state is understandable.
+- Poppins, 16px base reading size, generous line height, constrained paragraph measure. Every `.btn` uses the same Labs-gold background, charcoal 0.9rem bold Poppins label, 44px minimum height and 24px pill corners across normal and visited states. Hover and keyboard focus share the same lighter-gold state. Disabled and selected controls remain distinct so their state is understandable.
 - Header and footer expose the same destinations in the same order. Active sections use `aria-current` plus a shape/border cue. Masthead is deliberately not cached because it depends on the current route.
 - Mobile navigation exposes expansion state, closes on Escape and restores focus. Auto-close respects focus inside the menu. Reduced-motion preferences disable animation.
 - Tables of contents start collapsed on mobile and expanded on desktop, and use a native disclosure control.
