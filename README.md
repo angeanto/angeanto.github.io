@@ -36,6 +36,10 @@ The Accelerator destination linked from the Programs page is hosted in MailerLit
 
 `_pages/for-data-teams.md` serves `/for-data-teams/` and is linked from `_data/navigation.yml`. It contains the owner-provided training and advisory copy. Both discussion calls to action use the existing Calendly destination, `https://calendly.com/antonisangelakis`. Page styling is scoped to `.data-teams-page` in `assets/css/main.scss`. Update the page and navigation together if its URL changes.
 
+## Social preview
+
+The site description and canonical URL are defined in `_config.yml`. The default Open Graph image is `assets/images/social/data-conscious-preview.png`, a 1200×630 card using the centered DataConscious mark. The homepage repeats the image and its dimensions under `header.og_image` so compatible clients request a large image card. The shared layout relies on `_includes/seo.html` as its single metadata source; do not add a second `{% seo %}` tag. Rebuild the site and inspect the generated Open Graph and Twitter metadata after changing the description or preview image.
+
 ## DataConscious navigation and visual identity
 
 Header and footer navigation use the same order: Home, Programs, For Teams, Insights, Speaking, About and DataConscious Labs. Programs (`_pages/programs.md`) groups individual and team offers. The Labs screenshots are part of the working-architecture section on For Data Teams; there is no separate Projects page. Existing course, About and Insights permalinks are unchanged.

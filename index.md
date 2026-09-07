@@ -2,7 +2,12 @@
 layout: single
 classes: [wide, brand-home]
 author_profile: false
-excerpt: "Analytics, engineering and business judgment. Practical programmes, team training and insights from Antonis Angelakis."
+excerpt: "I help data professionals and teams connect analytics, engineering and business judgment."
+header:
+  og_image: "/assets/images/social/data-conscious-preview.png"
+  og_image_alt: "DataConscious brain and laboratory flask mark"
+  og_image_width: 1200
+  og_image_height: 630
 ---
 
 <section class="brand-hero">
