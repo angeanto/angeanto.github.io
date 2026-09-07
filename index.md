@@ -12,18 +12,18 @@ excerpt: "Analytics, engineering and business judgment. Practical programmes, te
     <p>I help data professionals and teams connect analytics, engineering and business judgment.</p>
     <p>Through practical programmes, team training and advisory, we explore how reliable data becomes useful decisions.</p>
     <div class="brand-actions"><a class="btn btn--primary" href="/programs/">Explore programmes</a><a class="text-link" href="/for-data-teams/">Work with your team →</a></div>
-    <p class="brand-note">Experience across fintech, e-commerce, insurance, cybersecurity and consulting. University programmes with 80+ participants.</p>
+    <p>Experience across fintech, e-commerce, insurance, cybersecurity and consulting. University programmes with 80+ participants.</p>
   </div>
   <aside class="linkedin-profile-card" aria-labelledby="linkedin-profile-title">
     <div class="linkedin-profile-card__header">
       <img src="/assets/images/me/antonis-profile-2026.jpeg" alt="Antonis Angelakis" fetchpriority="high" width="400" height="400">
       <div>
         <p class="eyebrow"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</p>
-        <h2 id="linkedin-profile-title">Follow my writing on LinkedIn.</h2>
+        <h2 id="linkedin-profile-title">Follow me on Linkedin.</h2>
       </div>
     </div>
     <p>I write regularly about analytics, data careers, team leadership and turning technical work into business impact.</p>
-    <p class="brand-note">Follow me for practical ideas, lessons from the work and conversations with the data community.</p>
+    <p>Follow me for practical ideas, lessons from the work and conversations with the data community.</p>
     <a class="btn btn--primary" href="https://www.linkedin.com/in/antonios-angelakis-249899101/" target="_blank" rel="noopener noreferrer me"><i class="fab fa-linkedin" aria-hidden="true"></i> Follow on LinkedIn</a>
   </aside>
 </section>
