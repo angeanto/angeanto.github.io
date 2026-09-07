@@ -11,6 +11,7 @@
 - Tables of contents start collapsed on mobile and expanded on desktop, and use a native disclosure control.
 - About, course, legacy pages, article layouts, tables, notices, gallery images, cards and footer share these rules. External iframes and text inside supplied screenshots remain controlled by their providers/source images.
 - The Speaking page uses a narrower reading column and limits event photographs to 680px, preserving their native aspect ratio while keeping the session list compact.
+- The homepage hero pairs the core positioning with a compact LinkedIn profile card using the About portrait, a short description of Antonis's active writing and a direct follow action.
 
 ## Page review
 
