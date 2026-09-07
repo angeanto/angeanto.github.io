@@ -14,7 +14,7 @@ excerpt: "Analytics, engineering and business judgment. Practical programmes, te
     <div class="brand-actions"><a class="btn btn--primary" href="/programs/">Explore programmes</a><a class="text-link" href="/for-data-teams/">Work with your team →</a></div>
     <p class="brand-note">Experience across fintech, e-commerce, insurance, cybersecurity and consulting. University programmes with 80+ participants.</p>
   </div>
-  <figure><img src="/assets/images/post_images/workshop.jpg" alt="Antonis teaching a workshop to an audience at Talent Days 2025" fetchpriority="high" width="2048" height="1363"><figcaption>Teaching data roles and business impact at Talent Days 2025.</figcaption></figure>
+  <figure><img src="/assets/images/post_images/workshop.jpg" alt="Antonis teaching a workshop to an audience at Talent Days 2025" fetchpriority="high" width="2048" height="1363"><figcaption>linq Talent Days 2025</figcaption></figure>
 </section>
 
 <section class="brand-section" aria-labelledby="ways-to-work">
@@ -37,8 +37,8 @@ excerpt: "Analytics, engineering and business judgment. Practical programmes, te
 <p class="eyebrow">Inside DataConscious Labs</p>
 <h2 id="inside-lab">See how the pieces connect.</h2>
 <p>Explore the journey from source data to models, metrics and decisions. Work with lineage, validation and AI-assisted analysis in a connected learning environment.</p>
-<figure class="lab-feature"><a href="/projects/"><img src="/assets/images/lab/customer-lineage.png" loading="lazy" alt="Customer field lineage from source through bronze, snapshots, dimensions and a gold model" width="1332" height="739"></a><figcaption>Following customer data through transformations and into analytical models.</figcaption></figure>
-<a class="text-link" href="/projects/">Explore lab projects and examples →</a>
+<figure class="lab-feature"><a href="/for-data-teams/#a-working-architecture-makes-the-concepts-tangible"><img src="/assets/images/lab/customer-lineage.png" loading="lazy" alt="Customer field lineage from source through bronze, snapshots, dimensions and a gold model" width="1332" height="739"></a><figcaption>Following customer data through transformations and into analytical models.</figcaption></figure>
+<a class="text-link" href="/for-data-teams/#a-working-architecture-makes-the-concepts-tangible">Explore the DataConscious Labs environment →</a>
 </section>
 
 <section class="brand-section brand-grid two" aria-label="Writing and speaking">

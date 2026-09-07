@@ -1,9 +1,15 @@
 main:
+  - title: "Home"
+    url: /
   - title: "Programs"
     url: /programs/
   - title: "For Teams"
     url: /for-data-teams/
   - title: "Insights"
     url: /posts/
+  - title: "Speaking"
+    url: /speaking/
   - title: "About"
     url: /about/
+  - title: "DataConscious Labs"
+    url: https://labs.data-conscious.com/

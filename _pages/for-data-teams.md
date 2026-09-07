@@ -108,8 +108,6 @@ The aim is to make the learning directly relevant while giving your team princip
 
 ### Learn through DataConscious Labs.
 
-<figure><img src="/assets/images/lab/customer-lineage.png" alt="Customer data lineage across the lab models" loading="lazy"><figcaption>Following a field from its source into analytical models. <a href="/projects/">Explore the lab examples.</a></figcaption></figure>
-
 The programme draws on an instructor-prepared analytics platform that connects the data journey from source systems to reporting and decision support.
 
 <div class="teams-data-flow" markdown="1">
@@ -125,6 +123,35 @@ The environment brings together PostgreSQL, dlt, Airflow, ClickHouse, dbt, Metab
 This connected architecture allows participants to examine how the pieces interact: how a source change affects a model, how that model feeds a metric, and what evidence supports trusting the resulting analysis.
 
 The platform provides a practical reference. We use it to discuss which approaches make sense in your own stack, given your scale, constraints and operating model.
+
+<div class="labs-examples">
+<figure class="lab-example lab-example--lineage">
+<a href="/assets/images/lab/customer-lineage.png"><img src="/assets/images/lab/customer-lineage.png" alt="Customer lineage across source, bronze, snapshot, dimension and gold models" loading="lazy"></a>
+<figcaption>Trace a customer field through the data lifecycle and examine how transformations affect its meaning.</figcaption>
+</figure>
+
+<div class="labs-example-grid">
+<figure class="lab-example">
+<a href="/assets/images/lab/wren-question-sql.png"><img src="/assets/images/lab/wren-question-sql.png" alt="Saved business questions and reference SQL in Wren AI" loading="lazy"></a>
+<figcaption>Connect business questions with reference SQL so AI-assisted exploration has concrete examples to work from.</figcaption>
+</figure>
+
+<figure class="lab-example">
+<a href="/assets/images/lab/wren-validation-rules.png"><img src="/assets/images/lab/wren-validation-rules.png" alt="Ambiguity and validation rules in Wren AI" loading="lazy"></a>
+<figcaption>Define when an answer needs clarification and what evidence is required before trusting it.</figcaption>
+</figure>
+
+<figure class="lab-example">
+<a href="/assets/images/lab/dbt-contract-check.png"><img src="/assets/images/lab/dbt-contract-check.png" alt="dbt contract check reporting a missing canceled_order_rate column" loading="lazy"></a>
+<figcaption>A contract check catches a missing column. This failed check illustrates how a model mismatch can be surfaced before downstream use.</figcaption>
+</figure>
+
+<figure class="lab-example">
+<a href="/assets/images/lab/airflow-dags.png"><img src="/assets/images/lab/airflow-dags.png" alt="Airflow interface listing example DAGs with active and paused states" loading="lazy"></a>
+<figcaption>Airflow example DAG interface: examine scheduling, task states and orchestration concepts. The screenshot contains demonstration DAGs.</figcaption>
+</figure>
+</div>
+</div>
 
 ## From concepts to practical judgment.
 
@@ -160,4 +187,3 @@ More consistent metrics. More reliable delivery. Clearer stakeholder conversatio
 Let’s understand your current situation and shape an engagement around the capabilities your team needs next.
 
 [Discuss your team’s needs →](https://calendly.com/antonisangelakis){: .btn .btn--primary .btn--large}
-
