@@ -28,9 +28,9 @@ Work on branches and submit changes for pull-request review. Never merge into `m
 
 ## Course content and external Accelerator page
 
-Current university enrollment links in `index.md`, `_pages/dmcb.md`, and `_pages/about.md` use program `prog-482` (fourth cycle). Update all three when enrollment changes. The course page links to the published alumni podcast; the previous third-cycle poster is retained as an asset but no longer displayed there. Historical course pages are separate.
+Current university enrollment links in `_pages/dmcb.md` and `_pages/about.md` use program `prog-482` (fourth cycle). The homepage and Programs page lead visitors to `/dmcb/`; update the two direct enrollment links together when enrollment changes. The course page links to the published alumni podcast; the previous third-cycle poster is retained as an asset but no longer displayed there. Historical course pages are separate.
 
-The navigation's Accelerator destination is hosted in MailerLite, independently of this Jekyll repository. See [reviewed replacement fragments and publication steps](docs/maintenance/accelerator/README.md). Merging this repository does not update that landing page.
+The Accelerator destination linked from the Programs page is hosted in MailerLite, independently of this Jekyll repository. See [reviewed replacement fragments and publication steps](docs/maintenance/accelerator/README.md). Merging this repository does not update that landing page.
 
 ## For Data Teams
 
