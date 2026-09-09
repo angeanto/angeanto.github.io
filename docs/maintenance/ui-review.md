@@ -7,13 +7,13 @@
 - The compiled CSS and JavaScript asset URLs include the build timestamp so navigation and visual fixes replace stale browser-cached versions after deployment.
 - Poppins, 16px base reading size, generous line height, constrained paragraph measure. Every `.btn` uses the same Labs-gold background, charcoal 0.9rem bold Poppins label, 44px minimum height and 24px pill corners across normal and visited states. Hover and keyboard focus share the same lighter-gold state. Disabled and selected controls remain distinct so their state is understandable.
 - Header and footer expose the same destinations in the same order. Active sections use `aria-current` plus a shape/border cue. Masthead is deliberately not cached because it depends on the current route. When all seven header links no longer fit, they move together into the menu toggle instead of leaving an incomplete visible subset.
-- The external DataConscious Labs destination opens in a new tab from both the header and footer, preserving the visitor's place on the main site.
+- The final header and footer link promotes The Senior Data Analyst Accelerator and opens its local product page in the same tab. The Programs listing and homepage programme link use the same local destination.
 - Mobile navigation exposes expansion state, closes on Escape and restores focus. Auto-close respects focus inside the menu. Reduced-motion preferences disable animation.
 - Tables of contents start collapsed on mobile and expanded on desktop, and use a native disclosure control.
 - About, course, legacy pages, article layouts, tables, notices, gallery images, cards and footer share these rules. External iframes and text inside supplied screenshots remain controlled by their providers/source images.
 - The Speaking page uses a narrower reading column and limits event photographs to 680px, preserving their native aspect ratio while keeping the session list compact.
-- The homepage hero pairs the core positioning with a compact LinkedIn profile card using the About portrait, a short description of Antonis's active writing and a direct follow action.
-- The newsletter signup sits directly below the homepage hero and before the programme choices, making subscription the first follow-up action after the main positioning and LinkedIn profile.
+- The homepage hero pairs the core positioning with two stacked cards: a compact LinkedIn profile card using the About portrait, followed by the November 2026 second-cohort Accelerator enrollment card. Both share warm panels, rounded corners and gold primary buttons; enrollment links directly to hosted Stripe checkout. The cards remain stacked below the introduction on mobile.
+- The newsletter signup sits directly below the homepage hero and before the programme choices, making subscription the first follow-up action after the main positioning, LinkedIn profile and cohort enrollment.
 - Author avatar and name links use the current site's relative homepage, so local and deploy previews stay inside their own environment instead of redirecting to the production domain.
 
 ## Page review
@@ -24,6 +24,10 @@ The computed-style contrast check samples rendered headings, links, paragraphs, 
 
 Validation also includes locked Jekyll build and doctor, JavaScript syntax and bundle regeneration, internal link/image checks, active navigation, keyboard Escape behaviour and the newsletter disclosure. No real booking or subscription is submitted.
 
+## Accelerator product page
+
+The Accelerator extends `.brand-page` with scoped `.accelerator-page` styles: a programme overview, clearly labeled November enrollment actions, eight session cards, architecture and lineage images, pricing, interest form and native FAQ disclosures. The layout collapses to a single column on narrow screens. Shared Poppins typography, charcoal text, warm panels, gold buttons and keyboard focus indicators are retained. MailerLite form `vD7GjT` is styled in its editor to match these tokens.
+
 ## References
 
 - [W3C: designing for accessibility](https://www.w3.org/WAI/tips/designing/)
@@ -31,3 +35,7 @@ Validation also includes locked Jekyll build and doctor, JavaScript syntax and b
 - [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
 
 The legacy npm development dependency tree reports eight audit findings during `npm ci`; no dependency upgrade was mixed into this UI change. Ruby dependencies were not upgraded.
+
+## November cohort card verification (2026-09-09)
+
+The locked Jekyll build passed with the existing GitHub Metadata authentication warning. Homepage screenshots were checked at 1280px and 390px; neither viewport had horizontal overflow. Both hero buttons rendered with the same gold background, charcoal text and 44px height, and the enrollment link matched the owner-provided Stripe URL. Hosted checkout and payment submission were not exercised. README and maintenance documentation remain excluded from the generated site.

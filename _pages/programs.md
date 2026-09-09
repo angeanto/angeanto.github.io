@@ -13,13 +13,15 @@ Build the foundations. Understand the wider system. Apply what you learn.
 
 A focused live cohort for analysts who want to connect engineering, governance, AI and business communication. Learn through the DataConscious Labs environment, with lifetime access to the course's Moodle material.
 
-September 2026 cohort: 1 seat remaining.
+<p class="program-cycles" aria-label="Two Accelerator cohorts"><span class="program-cycles__label">Two cohorts</span><span class="program-cycle"><span aria-hidden="true">✓</span> September 2026</span><span class="program-cycle program-cycle--upcoming"><span aria-hidden="true">→</span> November 2026 · Upcoming</span></p>
 
-[Explore the Accelerator](https://labs.data-conscious.com/daaccelerator){: .btn .btn--primary}
+[Explore the Accelerator]({{ site.data.accelerator.url | relative_url }}){: .btn .btn--primary}
 
 ## Data Analytics in Modern Corporate Business
 
 A university course at International Hellenic University, connecting analytical foundations with practical work in a corporate environment.
+
+<p class="program-cycles" aria-label="Four university-course cycles"><span class="program-cycles__label">Four cycles</span><span class="program-cycle"><span aria-hidden="true">✓</span> January 2025</span><span class="program-cycle"><span aria-hidden="true">✓</span> October 2025</span><span class="program-cycle"><span aria-hidden="true">✓</span> February 2026</span><span class="program-cycle program-cycle--current"><span aria-hidden="true">●</span> September 2026 · Current</span></p>
 
 [Explore the university course](/dmcb/){: .btn .btn--primary}
 

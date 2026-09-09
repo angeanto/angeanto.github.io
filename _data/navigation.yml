@@ -11,6 +11,5 @@ main:
     url: /speaking/
   - title: "About"
     url: /about/
-  - title: "DataConscious Labs"
-    url: https://labs.data-conscious.com/
-    new_window: true
+  - title: "The Senior Data Analyst Accelerator"
+    url: /senior-data-analyst-accelerator/
