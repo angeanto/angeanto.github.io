@@ -1,0 +1,17 @@
+---
+layout: single
+---
+
+<nav class="legal-links" aria-label="Legal documents">
+  <a href="{{ '/privacy-policy/' | relative_url }}"{% if page.url == '/privacy-policy/' %} aria-current="page"{% endif %}>Privacy Policy</a>
+  <a href="{{ '/terms-of-service/' | relative_url }}"{% if page.url == '/terms-of-service/' %} aria-current="page"{% endif %}>Terms of Service</a>
+</nav>
+
+<details class="legal-contents">
+  <summary>On this page</summary>
+  <nav aria-label="Table of contents">
+    {% include toc.html html=content h_min=2 h_max=2 sanitize=true %}
+  </nav>
+</details>
+
+{{ content }}

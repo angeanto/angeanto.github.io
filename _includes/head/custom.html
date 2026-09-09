@@ -1,4 +1,7 @@
 <!-- start custom head snippets -->
+{% if page.robots %}
+<meta name="robots" content="{{ page.robots | escape }}">
+{% endif %}
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <!-- MailerLite Universal -->

@@ -28,6 +28,8 @@ Work on branches and submit changes for pull-request review. Never merge into `m
 
 ## Course content and Accelerator page
 
+Direct-link checkout documents are published at `/privacy-policy/` and `/terms-of-service/`. They share the website's styles but are omitted from navigation, the sitemap and local search, with `noindex` metadata. See [legal page maintenance](docs/maintenance/legal-pages.md) for source provenance and Stripe handoff details.
+
 Current university enrollment links in `_pages/dmcb.md` and `_pages/about.md` use program `prog-482` (fourth cycle). The homepage and Programs page lead visitors to `/dmcb/`; update the two direct enrollment links together when enrollment changes. The course page links to the published alumni podcast; the previous third-cycle poster is retained as an asset but no longer displayed there. Historical course pages are separate.
 
 The Accelerator is now authored in `_pages/senior-data-analyst-accelerator.md` at `/senior-data-analyst-accelerator/`. Programs, the homepage and the final header/footer link point to this page. The Programs page describes the two Accelerator cohorts (September and November) and four university-course cycles without time-sensitive availability claims. See [Accelerator maintenance and migration](docs/maintenance/accelerator/README.md).
