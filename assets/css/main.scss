@@ -107,6 +107,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid #725900; outline-offs
   .hero-promo-card h2 { margin: 0; font-size: 1.35rem; line-height: 1.35; }
   .hero-promo-card > p { margin: 0.65rem 0 0.8rem; line-height: 1.6; }
   .hero-promo-card .btn { margin-top: 0.35rem; }
+  .accelerator-cohort-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
   .brand-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; margin: 1.5rem 0; }
   .text-link { font-size: 0.9rem; }
   .brand-section { padding: 3rem 0; border-top: 1px solid #e8e8e8; }

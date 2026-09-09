@@ -35,7 +35,10 @@ header:
       <p class="eyebrow">Cohort 02 · {{ site.data.accelerator.next_cohort }}</p>
       <h2 id="accelerator-cohort-title">Senior Data Analyst Accelerator</h2>
       <p>Your next step starts this November. Join our second cohort and build the judgment to turn analysis into business impact. Secure your place today.</p>
-      <a class="btn btn--primary" href="{{ site.data.accelerator.checkout_url }}" target="_blank" rel="noopener noreferrer">Enroll Now</a>
+      <div class="accelerator-cohort-actions">
+        <a class="btn btn--primary" href="{{ site.data.accelerator.checkout_url }}" target="_blank" rel="noopener noreferrer">Enroll Now</a>
+        <a class="btn btn--primary" href="{{ site.data.accelerator.url | relative_url }}#interest">I’m interested (15-minute call)</a>
+      </div>
     </aside>
   </div>
 </section>

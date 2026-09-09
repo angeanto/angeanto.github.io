@@ -30,6 +30,8 @@ Created specifically for the 15-minute fit-call flow:
 
 The shared MailerLite universal loader in `_includes/head/custom.html` already uses account `2031290`. The product page embeds the form under `#interest`; both “I’m interested” links lead there. The newsletter and existing waitlist forms/groups are untouched. No API key is needed in frontend code. If the embed ID is intentionally cleared, the page falls back to a direct email request for a fit call.
 
+The homepage enrollment card also links directly to this form with “I’m interested (15-minute call)” beside “Enroll Now”; the buttons wrap on narrow screens.
+
 ## Follow-up email automation
 
 [Senior Data Analyst Accelerator - Fit Call Follow-up](https://dashboard.mailerlite.com/automations/198118123691312220) is active and is a single-step workflow triggered by completion of the new embedded form. It uses the existing sender identity `Antonis Angelakis <antonis@data-conscious.com>`; replies go to that address. The form's double opt-in applies before subscriber automation delivery.
