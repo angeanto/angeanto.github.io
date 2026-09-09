@@ -19,18 +19,25 @@ header:
     <div class="brand-actions"><a class="btn btn--primary" href="/programs/">Explore programmes</a><a class="text-link" href="/for-data-teams/">Work with your team →</a></div>
     <p>Experience across fintech, e-commerce, insurance, cybersecurity and consulting. University programmes with 80+ participants.</p>
   </div>
-  <aside class="linkedin-profile-card" aria-labelledby="linkedin-profile-title">
-    <div class="linkedin-profile-card__header">
-      <img src="/assets/images/me/antonis-profile-2026.jpeg" alt="Antonis Angelakis" fetchpriority="high" width="400" height="400">
-      <div>
-        <p class="eyebrow"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</p>
-        <h2 id="linkedin-profile-title">Follow me on LinkedIn.</h2>
+  <div class="brand-hero__cards">
+    <aside class="hero-promo-card linkedin-profile-card" aria-labelledby="linkedin-profile-title">
+      <div class="linkedin-profile-card__header">
+        <img src="/assets/images/me/antonis-profile-2026.jpeg" alt="Antonis Angelakis" fetchpriority="high" width="400" height="400">
+        <div>
+          <p class="eyebrow"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</p>
+          <h2 id="linkedin-profile-title">Follow me on LinkedIn.</h2>
+        </div>
       </div>
-    </div>
-    <p>I write regularly about analytics, data careers, team leadership and turning technical work into business impact.</p>
-    <p>Follow me for practical ideas, lessons from the work and conversations with the data community.</p>
-    <a class="btn btn--primary" href="https://www.linkedin.com/in/antonios-angelakis-249899101/" target="_blank" rel="noopener noreferrer me"><i class="fab fa-linkedin" aria-hidden="true"></i> Follow on LinkedIn</a>
-  </aside>
+      <p>Practical ideas on analytics, data careers and turning technical work into business impact.</p>
+      <a class="btn btn--primary" href="https://www.linkedin.com/in/antonios-angelakis-249899101/" target="_blank" rel="noopener noreferrer me"><i class="fab fa-linkedin" aria-hidden="true"></i> Follow on LinkedIn</a>
+    </aside>
+    <aside class="hero-promo-card accelerator-cohort-card" aria-labelledby="accelerator-cohort-title">
+      <p class="eyebrow">Cohort 02 · November 2026</p>
+      <h2 id="accelerator-cohort-title">Senior Data Analyst Accelerator</h2>
+      <p>Your next step starts this November. Join our second cohort and build the judgment to turn analysis into business impact. Secure your place today.</p>
+      <a class="btn btn--primary" href="https://buy.stripe.com/00waEWbIGfgSfdz8WA3oA01" target="_blank" rel="noopener noreferrer">Enroll Now</a>
+    </aside>
+  </div>
 </section>
 
 <section class="brand-newsletter" aria-labelledby="newsletter-title">

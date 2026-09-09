@@ -12,8 +12,8 @@
 - Tables of contents start collapsed on mobile and expanded on desktop, and use a native disclosure control.
 - About, course, legacy pages, article layouts, tables, notices, gallery images, cards and footer share these rules. External iframes and text inside supplied screenshots remain controlled by their providers/source images.
 - The Speaking page uses a narrower reading column and limits event photographs to 680px, preserving their native aspect ratio while keeping the session list compact.
-- The homepage hero pairs the core positioning with a compact LinkedIn profile card using the About portrait, a short description of Antonis's active writing and a direct follow action.
-- The newsletter signup sits directly below the homepage hero and before the programme choices, making subscription the first follow-up action after the main positioning and LinkedIn profile.
+- The homepage hero pairs the core positioning with two stacked cards: a compact LinkedIn profile card using the About portrait, followed by the November 2026 second-cohort Accelerator enrollment card. Both share warm panels, rounded corners and gold primary buttons; enrollment links directly to hosted Stripe checkout. The cards remain stacked below the introduction on mobile.
+- The newsletter signup sits directly below the homepage hero and before the programme choices, making subscription the first follow-up action after the main positioning, LinkedIn profile and cohort enrollment.
 - Author avatar and name links use the current site's relative homepage, so local and deploy previews stay inside their own environment instead of redirecting to the production domain.
 
 ## Page review
@@ -31,3 +31,7 @@ Validation also includes locked Jekyll build and doctor, JavaScript syntax and b
 - [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
 
 The legacy npm development dependency tree reports eight audit findings during `npm ci`; no dependency upgrade was mixed into this UI change. Ruby dependencies were not upgraded.
+
+## November cohort card verification (2026-09-09)
+
+The locked Jekyll build passed with the existing GitHub Metadata authentication warning. Homepage screenshots were checked at 1280px and 390px; neither viewport had horizontal overflow. Both hero buttons rendered with the same gold background, charcoal text and 44px height, and the enrollment link matched the owner-provided Stripe URL. Hosted checkout and payment submission were not exercised. README and maintenance documentation remain excluded from the generated site.

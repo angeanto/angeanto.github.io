@@ -61,3 +61,7 @@ See [UI review and design system](docs/maintenance/ui-review.md) for palette, ty
 ## Recommendations
 
 `_data/testimonials.yml` contains the three recommendations transcribed from owner-supplied LinkedIn screenshots. `_includes/testimonials.html` renders exact excerpts on the homepage and full text on About, with author, relationship context and recommendation date. Do not imply company endorsement or Accelerator participation: these comments concern past course, mentoring and colleague experiences. Each excerpt links to its full on-site recommendation. Profile URLs and portraits were not invented or extracted.
+
+## Homepage cohort enrollment
+
+The homepage hero in `index.md` stacks a compact LinkedIn card above the Senior Data Analyst Accelerator November 2026 (second cohort) enrollment card. Both use `.hero-promo-card` styles in `assets/css/main.scss` and the shared gold primary button. “Enroll Now” opens the owner-provided Stripe Payment Link in a new tab. Update the cohort label, copy and payment URL together when enrollment changes; checkout is hosted by Stripe and requires no payment credentials in this repository.
