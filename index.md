@@ -32,10 +32,10 @@ header:
       <a class="btn btn--primary" href="https://www.linkedin.com/in/antonios-angelakis-249899101/" target="_blank" rel="noopener noreferrer me"><i class="fab fa-linkedin" aria-hidden="true"></i> Follow on LinkedIn</a>
     </aside>
     <aside class="hero-promo-card accelerator-cohort-card" aria-labelledby="accelerator-cohort-title">
-      <p class="eyebrow">Cohort 02 · November 2026</p>
+      <p class="eyebrow">Cohort 02 · {{ site.data.accelerator.next_cohort }}</p>
       <h2 id="accelerator-cohort-title">Senior Data Analyst Accelerator</h2>
       <p>Your next step starts this November. Join our second cohort and build the judgment to turn analysis into business impact. Secure your place today.</p>
-      <a class="btn btn--primary" href="https://buy.stripe.com/00waEWbIGfgSfdz8WA3oA01" target="_blank" rel="noopener noreferrer">Enroll Now</a>
+      <a class="btn btn--primary" href="{{ site.data.accelerator.checkout_url }}" target="_blank" rel="noopener noreferrer">Enroll Now</a>
     </aside>
   </div>
 </section>
@@ -49,7 +49,7 @@ header:
 <p class="eyebrow">Learn. Apply. Improve.</p>
 <h2 id="ways-to-work">A practical next step for your data work.</h2>
 <div class="brand-grid three">
-<article class="brand-card"><h3>Senior Data Analyst Accelerator</h3><p>A small live cohort connecting the modern data ecosystem with senior analytical judgment.</p><p class="brand-note">September 2026 · 1 seat remaining</p><a href="https://labs.data-conscious.com/daaccelerator">Explore the Accelerator →</a></article>
+<article class="brand-card"><h3>Senior Data Analyst Accelerator</h3><p>A small live cohort connecting the modern data ecosystem with senior analytical judgment.</p><a href="{{ site.data.accelerator.url | relative_url }}">Explore the Accelerator →</a></article>
 <article class="brand-card"><h3>University course</h3><p>Build your foundations through Data Analytics in Modern Corporate Business at International Hellenic University.</p><a href="/dmcb/">Explore the course →</a></article>
 <article class="brand-card"><h3>For data teams</h3><p>Tailored training and advisory around your team's data reliability, delivery and business communication challenges.</p><a href="/for-data-teams/">Discuss team training →</a></article>
 </div>

@@ -315,3 +315,86 @@ pre { overflow-x: auto; }
 .testimonials--full { grid-template-columns: 1fr; }
 .testimonials--full .testimonial { scroll-margin-top: 1.5rem; }
 @media (max-width: 900px) { .testimonials { grid-template-columns: 1fr; } }
+
+/* Accelerator product page: extends the existing DataConscious identity. */
+.accelerator-page {
+  .accelerator-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+    gap: 2rem;
+    align-items: start;
+    padding: clamp(1.25rem, 3vw, 2rem);
+    background: #faf9f4;
+    border: 1px solid #deded7;
+    border-radius: 20px;
+  }
+  .accelerator-hero h2 { margin: 0.5rem 0 1rem; font-size: clamp(1.6rem, 3vw, 2rem); }
+  .accelerator-hero .eyebrow { margin-top: 0; }
+  .accelerator-overview { padding: 1.5rem; background: #fff; border: 1px solid #deded7; border-radius: 16px; }
+  .accelerator-overview h3 { margin: 0 0 1rem; }
+  .accelerator-overview dl { margin: 0; }
+  .accelerator-overview dl > div { padding: 0.75rem 0; border-top: 1px solid #e8e8e8; }
+  .accelerator-overview dt { margin: 0; color: #50534f; font-size: 0.875rem; font-weight: 400; }
+  .accelerator-overview dd { margin: 0.15rem 0 0; font-size: 1rem; font-weight: 600; }
+  .accelerator-overview > a { display: inline-block; margin-top: 1rem; }
+  .accelerator-enrollment-label { margin: 1.25rem 0 0; padding: 0.75rem 1rem; border-left: 4px solid #e5b600; background: #fff; border-radius: 8px; }
+  .accelerator-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1.25rem 0; }
+  .accelerator-actions .btn { margin: 0; }
+  .accelerator-fit-note { color: #50534f; font-size: 0.875rem; }
+  .accelerator-jump-links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; padding: 1.25rem 0; }
+  .accelerator-jump-links a { display: inline-flex; align-items: center; min-height: 44px; font-size: 0.9rem; }
+  .accelerator-section { padding: 2.5rem 0; border-top: 1px solid #e8e8e8; }
+  .accelerator-section h2 { margin-top: 0; }
+  .accelerator-section .eyebrow { margin: 0 0 0.5rem; }
+  .accelerator-columns, .accelerator-pricing, .accelerator-interest { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; }
+  .accelerator-sessions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    padding: 0;
+    margin: 1.5rem 0 0;
+    list-style: none;
+    counter-reset: session;
+  }
+  .accelerator-sessions > li { counter-increment: session; padding: 1.5rem; background: #faf9f4; border: 1px solid #deded7; border-radius: 16px; }
+  .accelerator-sessions > li::before { content: "Session " counter(session, decimal-leading-zero); color: #725900; font-size: 0.875rem; font-weight: 600; }
+  .accelerator-sessions h3 { margin: 0.5rem 0; }
+  .accelerator-sessions p { margin-bottom: 0; }
+  .accelerator-data-flow { display: flex; flex-wrap: wrap; align-items: center; gap: 0.65rem; margin: 1.5rem 0; padding: 1.25rem; background: #faf9f4; border-left: 4px solid #e5b600; border-radius: 12px; font-weight: 600; }
+  .accelerator-lab-image { margin-top: 1.5rem; }
+  .accelerator-lab-image img { width: 100%; height: auto; border: 1px solid #deded7; border-radius: 12px; }
+  .accelerator-pricing, .accelerator-interest { margin: 1rem 0; padding: clamp(1.25rem, 3vw, 2rem); background: #faf9f4; border: 1px solid #deded7; border-radius: 20px; }
+  .accelerator-pricing h3 { margin-top: 0; }
+  .accelerator-price { margin: 1rem 0 0.5rem; font-size: 2.25rem !important; font-weight: 700; line-height: 1.2 !important; }
+  .accelerator-price span { display: block; margin-top: 0.5rem; font-size: 1rem; font-weight: 400; }
+  .accelerator-interest__form { min-width: 0; }
+  .accelerator-interest__form .ml-embedded { width: 100%; }
+  .accelerator-faq details { border: 1px solid #deded7; border-radius: 12px; margin-bottom: 0.75rem; padding: 0; }
+  .accelerator-faq summary { margin: 0; padding: 1rem 1.25rem; cursor: pointer; font-size: 1rem; font-weight: 600; }
+  .accelerator-faq summary:focus-visible { outline: 3px solid #725900; outline-offset: 3px; border-radius: 12px; }
+  .accelerator-faq details > p { margin: 0; padding: 0 1.25rem 1.25rem; }
+  @media (max-width: 800px) {
+    .accelerator-hero, .accelerator-columns, .accelerator-pricing, .accelerator-interest, .accelerator-sessions { grid-template-columns: 1fr; gap: 1.25rem; }
+    .accelerator-section { padding-top: 2rem; padding-bottom: 2rem; }
+    .accelerator-pricing, .accelerator-interest { padding: 1.25rem; }
+    .accelerator-overview { padding: 1.25rem; }
+  }
+}
+
+/* Compact programme history with explicit current/upcoming labels. */
+.brand-page .program-cycles { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin: 1rem 0; }
+.program-cycles__label { font-size: 0.875rem; font-weight: 600; margin-right: 0.25rem; }
+.program-cycle { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.3rem 0.75rem; border: 1px solid #deded7; border-radius: 24px; background: #f7f7f4; font-size: 0.875rem; }
+.program-cycle--upcoming { background: #faf3d6; border-color: #e5b600; }
+.program-cycle--current { border-color: #725900; }
+
+/* Match the embedded MailerLite submit control to the site's button sizing. */
+.accelerator-page .accelerator-interest__form #mlb2-45729769 .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
+  min-height: 44px;
+  font-size: 0.9rem !important;
+}
+
+.accelerator-page .accelerator-interest__form form.ml-block-form {
+  padding: 0;
+  background: transparent;
+}

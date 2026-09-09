@@ -7,7 +7,7 @@
 - The compiled CSS and JavaScript asset URLs include the build timestamp so navigation and visual fixes replace stale browser-cached versions after deployment.
 - Poppins, 16px base reading size, generous line height, constrained paragraph measure. Every `.btn` uses the same Labs-gold background, charcoal 0.9rem bold Poppins label, 44px minimum height and 24px pill corners across normal and visited states. Hover and keyboard focus share the same lighter-gold state. Disabled and selected controls remain distinct so their state is understandable.
 - Header and footer expose the same destinations in the same order. Active sections use `aria-current` plus a shape/border cue. Masthead is deliberately not cached because it depends on the current route. When all seven header links no longer fit, they move together into the menu toggle instead of leaving an incomplete visible subset.
-- The external DataConscious Labs destination opens in a new tab from both the header and footer, preserving the visitor's place on the main site.
+- The final header and footer link promotes The Senior Data Analyst Accelerator and opens its local product page in the same tab. The Programs listing and homepage programme link use the same local destination.
 - Mobile navigation exposes expansion state, closes on Escape and restores focus. Auto-close respects focus inside the menu. Reduced-motion preferences disable animation.
 - Tables of contents start collapsed on mobile and expanded on desktop, and use a native disclosure control.
 - About, course, legacy pages, article layouts, tables, notices, gallery images, cards and footer share these rules. External iframes and text inside supplied screenshots remain controlled by their providers/source images.
@@ -23,6 +23,10 @@ Browser DOM checks at 1280px desktop and 390px mobile cover the homepage, Progra
 The computed-style contrast check samples rendered headings, links, paragraphs, labels, summaries and captions against their nearest solid background. It found an archive pagination selection contrast issue, which was corrected. This is a targeted check, not a full WCAG certification: it does not audit text in images, remote iframes, every syntax-highlight token or every possible interactive state.
 
 Validation also includes locked Jekyll build and doctor, JavaScript syntax and bundle regeneration, internal link/image checks, active navigation, keyboard Escape behaviour and the newsletter disclosure. No real booking or subscription is submitted.
+
+## Accelerator product page
+
+The Accelerator extends `.brand-page` with scoped `.accelerator-page` styles: a programme overview, clearly labeled November enrollment actions, eight session cards, architecture and lineage images, pricing, interest form and native FAQ disclosures. The layout collapses to a single column on narrow screens. Shared Poppins typography, charcoal text, warm panels, gold buttons and keyboard focus indicators are retained. MailerLite form `vD7GjT` is styled in its editor to match these tokens.
 
 ## References
 

@@ -26,11 +26,11 @@ If search is restored later, validate the Algolia application and credentials an
 
 Work on branches and submit changes for pull-request review. Never merge into `main` or `master` automatically.
 
-## Course content and external Accelerator page
+## Course content and Accelerator page
 
 Current university enrollment links in `_pages/dmcb.md` and `_pages/about.md` use program `prog-482` (fourth cycle). The homepage and Programs page lead visitors to `/dmcb/`; update the two direct enrollment links together when enrollment changes. The course page links to the published alumni podcast; the previous third-cycle poster is retained as an asset but no longer displayed there. Historical course pages are separate.
 
-The Accelerator destination linked from the Programs page is hosted in MailerLite, independently of this Jekyll repository. See [reviewed replacement fragments and publication steps](docs/maintenance/accelerator/README.md). Merging this repository does not update that landing page.
+The Accelerator is now authored in `_pages/senior-data-analyst-accelerator.md` at `/senior-data-analyst-accelerator/`. Programs, the homepage and the final header/footer link point to this page. The Programs page describes the two Accelerator cohorts (September and November) and four university-course cycles without time-sensitive availability claims. See [Accelerator maintenance and migration](docs/maintenance/accelerator/README.md).
 
 ## For Data Teams
 
@@ -42,7 +42,7 @@ The site description and canonical URL are defined in `_config.yml`. The default
 
 ## DataConscious navigation and visual identity
 
-Header and footer navigation use the same order: Home, Programs, For Teams, Insights, Speaking, About and DataConscious Labs. Programs (`_pages/programs.md`) groups individual and team offers. The Labs screenshots are part of the working-architecture section on For Data Teams; there is no separate Projects page. Existing course, About and Insights permalinks are unchanged.
+Header and footer navigation use the same order: Home, Programs, For Teams, Insights, Speaking, About and The Senior Data Analyst Accelerator. Programs (`_pages/programs.md`) groups individual and team offers. The Labs screenshots are part of the working-architecture section on For Data Teams; there is no separate Projects page. Existing course, About and Insights permalinks are unchanged.
 
 `index.md` is the sole homepage. The inherited paginated article listing moved to `articles/index.html`; the archive is linked from Insights. Pagination uses `/articles/page:num/`, and the existing `/page2/` address redirects to its new location.
 
@@ -52,7 +52,7 @@ The shared identity uses the existing MailerLite Labs logo URL, Poppins (Google 
 
 The newsletter retains MailerLite form `veywtM`, in an expandable block lower on the homepage. No subscriber destination was changed. The workshop photograph already existed in the repository. Five unique screenshots supplied by the owner live in `assets/images/lab/`; the duplicate dbt attachment is stored once. Captions distinguish demonstration DAGs and a failed contract check from successful production output. Screenshots have not been retouched. The About profile uses the owner-supplied `assets/images/me/antonis-profile-2026.jpeg`; no stock or generated imagery was introduced.
 
-The main site is reviewed through this PR. Existing Labs logo, font and palette were used as the visual reference; this redesign does not change MailerLite content or publish new main-site URLs there before they exist. Future MailerLite edits are applied directly in its editor per the owner's instruction.
+The site retains the existing Labs logo, Poppins font and gold palette. Programme pages live in this repository; MailerLite manages the embedded interest form and its follow-up automation. Retiring the old Labs hostname requires redirects in the hosting service that currently serves that hostname.
 
 ## UI consistency and accessibility
 
@@ -64,4 +64,4 @@ See [UI review and design system](docs/maintenance/ui-review.md) for palette, ty
 
 ## Homepage cohort enrollment
 
-The homepage hero in `index.md` stacks a compact LinkedIn card above the Senior Data Analyst Accelerator November 2026 (second cohort) enrollment card. Both use `.hero-promo-card` styles in `assets/css/main.scss` and the shared gold primary button. “Enroll Now” opens the owner-provided Stripe Payment Link in a new tab. Update the cohort label, copy and payment URL together when enrollment changes; checkout is hosted by Stripe and requires no payment credentials in this repository.
+The homepage hero in `index.md` stacks a compact LinkedIn card above the Accelerator enrollment card. Both use `.hero-promo-card` styles and the shared gold primary button. `_data/accelerator.yml` holds the product URL, November 2026 enrollment cohort, price, Stripe Payment Link and MailerLite embed ID. Update the cohort label and payment URL together when enrollment changes. Enrollment sections on the product page explicitly identify the November cohort; the course has eight weekly sessions of approximately 1.5 hours, with participants voting on session dates. The original owner-supplied architecture image is retained under `assets/images/lab/accelerator-architecture.png`. No payment credentials belong in this repository.
