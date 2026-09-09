@@ -50,14 +50,15 @@ excerpt: "Eight live sessions connecting modern data workflows, AI, governance a
 
 The Accelerator is designed for mid-level and senior analysts who want a broader understanding of the modern data ecosystem. You should already have some SQL or analytics experience; you do not need to hold a senior title.
 
-You will connect the full journey: how source data reaches a warehouse, how ingestion and orchestration work, how dbt models are built and tested, and how BI, metadata, governance and AI-assisted workflows support useful analysis. Alongside the technical work, you will practise communicating business impact and positioning your experience in CVs and interviews.
+<details class="accelerator-disclosure" markdown="1">
+<summary id="what-makes-this-different">How the guided learning experience works</summary>
 
-### A connected, guided learning experience
-{: #what-makes-this-different}
+You will connect the full journey: how source data reaches a warehouse, how ingestion and orchestration work, how dbt models are built and tested, and how BI, metadata, governance and AI-assisted workflows support useful analysis. Alongside the technical work, you will practise communicating business impact and positioning your experience in CVs and interviews.
 
 The programme combines real lab architecture, live discussion, implementation guidance and office-hour style support. You can ask questions, receive feedback and connect technical choices to realistic business situations.
 
 The learning extends beyond dashboards and individual tools. Hands-on workflows, analytical fundamentals and senior-level communication are taught together, with human judgment at the centre of AI-assisted work.
+</details>
 </section>
 
 <section class="accelerator-section" aria-labelledby="the-8-live-sessions" markdown="1">
@@ -70,14 +71,14 @@ Each session lasts approximately 1.5 hours and includes teaching, discussion, im
 **One session per week, over approximately two months.** Participants vote on the proposed dates for each session, and the highest-voted date is selected. For the November cohort, the plan is to learn together across November and December, with the exact dates agreed through those votes.
 
 <ol class="accelerator-sessions">
-  <li><h3>Programme orientation and platform context</h3><p>Understand the programme, access, learning path and expectations.</p></li>
-  <li><h3>Databases, warehousing, SQL and data modeling</h3><p>Build your understanding of data structures, joins, window functions, modeling concepts and warehouse thinking.</p></li>
-  <li><h3>Pipelines, dbt, Git and analytics engineering</h3><p>Learn how repeatable analytics workflows are versioned, tested and documented.</p></li>
-  <li><h3>BI communication, storytelling and executive insights</h3><p>Turn dashboards and analysis into clear communication that supports decisions.</p></li>
-  <li><h3>Governance, data quality and scaling analytics</h3><p>Learn why definitions, ownership, lineage, documentation and trust matter.</p></li>
-  <li><h3>Analytics and BI in the AI era</h3><p>Use AI as a productivity layer while retaining human judgment, validation and accountability.</p></li>
-  <li><h3>Business thinking, KPIs, stakeholders and strategy</h3><p>Connect analytical work to business domains, priorities and decisions.</p></li>
-  <li><h3>Data careers, CVs, interviews and standing out</h3><p>Explain your platform experience and AI-era analytical judgment credibly in your CV, interviews and career story.</p></li>
+  <li><details><summary>Programme orientation and platform context</summary><p>Understand the programme, access, learning path and expectations.</p></details></li>
+  <li><details><summary>Databases, warehousing, SQL and data modeling</summary><p>Build your understanding of data structures, joins, window functions, modeling concepts and warehouse thinking.</p></details></li>
+  <li><details><summary>Pipelines, dbt, Git and analytics engineering</summary><p>Learn how repeatable analytics workflows are versioned, tested and documented.</p></details></li>
+  <li><details><summary>BI communication, storytelling and executive insights</summary><p>Turn dashboards and analysis into clear communication that supports decisions.</p></details></li>
+  <li><details><summary>Governance, data quality and scaling analytics</summary><p>Learn why definitions, ownership, lineage, documentation and trust matter.</p></details></li>
+  <li><details><summary>Analytics and BI in the AI era</summary><p>Use AI as a productivity layer while retaining human judgment, validation and accountability.</p></details></li>
+  <li><details><summary>Business thinking, KPIs, stakeholders and strategy</summary><p>Connect analytical work to business domains, priorities and decisions.</p></details></li>
+  <li><details><summary>Data careers, CVs, interviews and standing out</summary><p>Explain your platform experience and AI-era analytical judgment credibly in your CV, interviews and career story.</p></details></li>
 </ol>
 </section>
 
@@ -94,9 +95,8 @@ The Accelerator uses the DataConscious Labs learning environment: a connected pl
   <figcaption>The programme’s connected learning environment, from source data and pipelines to BI, AI and governance, with Moodle as the course reference.</figcaption>
 </figure>
 
-<div class="accelerator-data-flow" aria-label="The lab data workflow">
-  <span>Source data</span><span aria-hidden="true">→</span><span>Ingestion &amp; orchestration</span><span aria-hidden="true">→</span><span>Warehouse &amp; models</span><span aria-hidden="true">→</span><span>BI &amp; decisions</span>
-</div>
+<details class="accelerator-disclosure" markdown="1">
+<summary>Explore the tools, guided lab access and a lineage example</summary>
 
 <div class="accelerator-columns" markdown="1">
 <div markdown="1">
@@ -127,6 +127,7 @@ The focus is analyst growth: understanding the architecture, implementing guided
   <a href="{{ '/assets/images/lab/customer-lineage.png' | relative_url }}"><img src="{{ '/assets/images/lab/customer-lineage.png' | relative_url }}" alt="Customer field lineage from source through bronze, snapshots, dimensions and a gold model" width="1332" height="739" loading="lazy"></a>
   <figcaption>Follow a customer field through transformations and into analytical models in the DataConscious Labs environment.</figcaption>
 </figure>
+</details>
 </section>
 
 <section class="accelerator-section" aria-labelledby="what-participants-will-be-able-to-do-after-the-course" markdown="1">
@@ -144,26 +145,23 @@ The focus is analyst growth: understanding the architecture, implementing guided
 - Communicate insights around business decisions and discuss your contribution credibly in senior interviews.
 </section>
 
-<section class="accelerator-section accelerator-columns" aria-label="AI, governance and career development">
-<div markdown="1">
-
-## AI with analytical judgment
-{: #ai-use-cases}
+<section class="accelerator-section" aria-label="AI, governance and career development">
+<details class="accelerator-disclosure" markdown="1">
+<summary id="ai-use-cases">AI with analytical judgment</summary>
 
 Explore conversational BI with Wren AI, AI-assisted thinking for dbt development and prompt design for analytics workflows. Practise reviewing AI-generated analysis with attention to privacy, assumptions and validation.
 
 You remain responsible for deciding what matters, checking what is true and owning the recommendation. The programme helps you recognise where AI is useful and where human judgment is essential.
 
-## Governance and metadata
-{: #governance-and-metadata}
+</details>
+<details class="accelerator-disclosure" markdown="1">
+<summary id="governance-and-metadata">Governance and metadata</summary>
 
 Use OpenMetadata to see how teams find and trust data. Explore metric definitions, ownership, lineage, documentation, data quality expectations and governance workflows as part of everyday analytical work.
 
-</div>
-<div markdown="1">
-
-## Make your experience count
-{: #cv-and-career-support}
+</details>
+<details class="accelerator-disclosure" markdown="1">
+<summary id="cv-and-career-support">Make your experience count</summary>
 
 Turn your work in the platform into a clearer professional story. The final session covers:
 
@@ -175,7 +173,8 @@ Turn your work in the platform into a clearer professional story. The final sess
 
 The aim is credibility, clarity and confidence in how you describe your work. The programme does not guarantee a senior title, interviews or job offers.
 
-</div>
+</details>
+
 </section>
 
 <section class="accelerator-section" aria-labelledby="lifetime-moodle-access" markdown="1">
@@ -215,21 +214,22 @@ If you miss a live session, the recording and Moodle material remain available. 
 </div>
 </section>
 
-<section class="accelerator-section" aria-labelledby="continue-learning" markdown="1">
-
-## Continue learning with DataConscious
-{: #continue-learning}
+<section class="accelerator-section accelerator-section--compact" aria-labelledby="continue-learning">
+<details class="accelerator-disclosure" markdown="1">
+<summary id="continue-learning">Continue learning with DataConscious</summary>
 
 Your 10% discount code applies to your next DataConscious Labs lab. Future programmes will be brought together on the main website’s [Programs page]({{ '/programs/' | relative_url }}).
 
 Future labs may explore AI-enabled data visualization, AI-assisted BI tools, governance deep dives, data engineering workflows, analytics engineering and dbt case studies, and domain-specific business analytics. These are directions for future learning, rather than a schedule of announced programmes.
+
+</details>
 </section>
 
 <section class="accelerator-section accelerator-interest" id="interest" aria-labelledby="interest-title">
   <div>
     <p class="eyebrow">Let’s find the right fit</p>
     <h2 id="interest-title">Is this the next step for you?</h2>
-    <p>Let’s spend 15 minutes talking about your experience, the work you want to do and what you need from a programme. Together, we can explore whether the Accelerator covers your goals.</p>
+    <p>A 15-minute conversation about your experience, goals and whether the programme is right for you.</p>
 </div>
   <div class="accelerator-interest__form">
     {% if site.data.accelerator.interest_form_id != empty %}
@@ -263,14 +263,15 @@ Future labs may explore AI-enabled data visualization, AI-assisted BI tools, gov
 </div>
 </section>
 
-<section class="accelerator-section" aria-labelledby="vendor-requests-and-collaborations" markdown="1">
-
-## Educational collaborations
-{: #vendor-requests-and-collaborations}
+<section class="accelerator-section accelerator-section--compact" aria-labelledby="vendor-requests-and-collaborations">
+<details class="accelerator-disclosure" markdown="1">
+<summary id="vendor-requests-and-collaborations">Educational collaborations</summary>
 
 DataConscious welcomes selected vendor requests and collaborations that create real educational value. The lab environment can demonstrate tools in realistic ingestion, orchestration, analytics engineering, BI, metadata, governance, AI, data quality and business reporting workflows.
 
 Collaborations must fit a realistic workflow, provide practical and transparent demonstrations, and clearly disclose any commercial relationship. Educational value guides the experience.
 
 Building a relevant product? [Get in touch to discuss a collaboration]({{ '/contact/' | relative_url }}).
+
+</details>
 </section>

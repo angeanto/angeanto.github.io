@@ -6,6 +6,8 @@
 
 The page uses `.brand-page` and scoped `.accelerator-page` styling in `assets/css/main.scss`. The owner-supplied `assets/images/lab/accelerator-architecture.png` is copied unchanged; the existing customer-lineage screenshot provides an additional practical example. No generated image replaces the architecture.
 
+Native expandable sections keep session descriptions and supporting material available without extending the initial overview. The architecture stays visible, and the interest form uses a centered single-column layout. Markdown-enabled HTML wrappers close at column zero to prevent closing tags from rendering as text and trapping subsequent sections inside the pricing grid.
+
 ## Enrollment and schedule
 
 `_data/accelerator.yml` centralizes the product URL, Stripe Payment Link, next enrollment cohort, VAT-inclusive/exclusive price and MailerLite form identifier. Enrollment is explicitly labeled **November 2026 cohort** immediately above both pairs of product-page actions. The homepage also reads the same cohort and payment URL.
@@ -69,5 +71,6 @@ Future programmes should have their own `_pages/` source and a listing on `/prog
 - README, AGENTS and maintenance docs were excluded from generated output. The original architecture file and committed copy have identical SHA-256 hashes.
 - Desktop (1280px) and mobile (390px) browser checks covered programme layout, cohort badges, the Programs button, header navigation, FAQ expansion and the interest anchor. No horizontal overflow was observed. The real MailerLite embed rendered name/email fields with Poppins and the site palette; its submit button matches the site's 44px minimum height.
 - MailerLite's dry run confirmed the correct form trigger and one designed email, with no warnings. The dashboard showed the automation active (Pause control). No real form submission, test email or payment was performed.
+- Compact-layout checks confirmed working session/tool disclosures at desktop and mobile widths, no visible HTML closing tags and no sections nested inside the pricing grid. The default desktop page height decreased from approximately 9,033px to 5,845px at 1280px width.
 
 The PR does not merge or deploy the main site, or retire the external Labs hostname. The MailerLite form and automation are real account resources created as requested and are independent of GitHub deployment.
