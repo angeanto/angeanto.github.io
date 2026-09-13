@@ -4,6 +4,7 @@
 {% endif %}
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
+{% unless page.assessment %}
 <!-- MailerLite Universal -->
 <script>
     (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
@@ -13,6 +14,7 @@
     ml('account', '2031290');
 </script>
 <!-- End MailerLite Universal -->
+{% endunless %}
 
 <!-- end custom head snippets -->
 

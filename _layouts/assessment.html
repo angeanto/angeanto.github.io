@@ -1,0 +1,15 @@
+---
+layout: single
+---
+  <div id="assessment" data-accelerator-url="{{ "/senior-data-analyst-accelerator/" | relative_url }}" data-checkout-url="{{ site.data.accelerator.checkout_url | escape }}" data-call-url="{{ site.data.accelerator.url | relative_url }}#interest" data-analytics-id="{% if jekyll.environment == 'production' %}{{ site.analytics.google.tracking_id }}{% endif %}">
+    <noscript><div class="panel">This interactive assessment needs JavaScript. Enable it to answer the questions and receive your scorecard. You can also <a href="{{ "/senior-data-analyst-accelerator/" | relative_url }}">explore the Senior Data Analyst Accelerator</a>.</div></noscript>
+    <div id="screen"><p>Loading your assessment…</p></div>
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+    <details class="privacy"><summary>Privacy and optional measurement</summary><p>Your answers and progress stay in this browser. No signup is needed. Browser storage may be unavailable or cleared; use Print / save PDF to keep your result. Results are self-reported and are not verified credentials.</p><label><input id="measurement" type="checkbox"> Allow Google Analytics to measure assessment progress and learning-link clicks. We send question IDs and event names, not your answers or score.</label><p>Optional measurement is off by default on this page. Turning it off stops subsequent assessment events and reloads the page to unload the analytics script. Previously sent events cannot be recalled here.</p></details>
+  </div>
+  <script id="assessment-data" type="application/json">{{ site.data.analyst_assessment | jsonify | replace: '</', '<\/' }}</script>
+
+
+
+<script defer src="{{ "/assets/js/assessment/core.js" | relative_url }}"></script>
+<script defer src="{{ "/assets/js/assessment/scorecard.js" | relative_url }}"></script>

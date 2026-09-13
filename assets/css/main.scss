@@ -431,3 +431,6 @@ pre { overflow-x: auto; }
   .legal-contents ul { margin-bottom: 0; }
   .legal-contents a { display: inline-block; padding: 0.4rem 0; }
 }
+
+// Assessment controls share the current DataConscious design.
+@import "assessment";
