@@ -431,3 +431,19 @@ pre { overflow-x: auto; }
   .legal-contents ul { margin-bottom: 0; }
   .legal-contents a { display: inline-block; padding: 0.4rem 0; }
 }
+
+// Assessment controls share the current DataConscious design.
+@import "assessment";
+
+/* Give the assessment and Accelerator priority in the homepage hero. */
+.brand-home {
+  .accelerator-cohort-card { padding: clamp(1.25rem, 2.5vw, 1.75rem); }
+  .hero-scorecard { margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid #deded7; }
+  .hero-scorecard h3 { margin: 0 0 .5rem; font-size: 1.1rem; }
+  .hero-scorecard p { margin: 0 0 .65rem; font-size: .9rem; line-height: 1.6; }
+  .linkedin-profile-card { padding: 1rem 1.25rem; box-shadow: none; }
+  .linkedin-profile-card__header { margin-bottom: .35rem; gap: .75rem; }
+  .linkedin-profile-card__header img { flex-basis: 48px; width: 48px; height: 48px; }
+  .linkedin-profile-card h2 { font-size: 1.1rem; }
+  .linkedin-profile-card > .text-link { display: inline-block; margin-left: 60px; padding: .3rem 0; }
+}

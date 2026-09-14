@@ -20,17 +20,6 @@ header:
     <p>Experience across fintech, e-commerce, insurance, cybersecurity and consulting. University programmes with 80+ participants.</p>
   </div>
   <div class="brand-hero__cards">
-    <aside class="hero-promo-card linkedin-profile-card" aria-labelledby="linkedin-profile-title">
-      <div class="linkedin-profile-card__header">
-        <img src="/assets/images/me/antonis-profile-2026.jpeg" alt="Antonis Angelakis" fetchpriority="high" width="400" height="400">
-        <div>
-          <p class="eyebrow"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</p>
-          <h2 id="linkedin-profile-title">Follow me on LinkedIn.</h2>
-        </div>
-      </div>
-      <p>Practical ideas on analytics, data careers and turning technical work into business impact.</p>
-      <a class="btn btn--primary" href="https://www.linkedin.com/in/antonios-angelakis-249899101/" target="_blank" rel="noopener noreferrer me"><i class="fab fa-linkedin" aria-hidden="true"></i> Follow on LinkedIn</a>
-    </aside>
     <aside class="hero-promo-card accelerator-cohort-card" aria-labelledby="accelerator-cohort-title">
       <p class="eyebrow">Cohort 02 · {{ site.data.accelerator.next_cohort }}</p>
       <h2 id="accelerator-cohort-title">Senior Data Analyst Accelerator</h2>
@@ -39,6 +28,22 @@ header:
         <a class="btn btn--primary" href="{{ site.data.accelerator.checkout_url }}" target="_blank" rel="noopener noreferrer">Enroll Now</a>
         <a class="btn btn--primary" href="{{ site.data.accelerator.url | relative_url }}#interest">I’m interested (15-minute call)</a>
       </div>
+      <div class="hero-scorecard" aria-labelledby="hero-scorecard-title">
+        <h3 id="hero-scorecard-title">How would you handle these analyst decisions?</h3>
+        <p>10 challenging questions. Your personal scorecard.<br>Around 15 minutes, no signup.</p>
+        <a class="btn btn--primary" href="{{ '/senior-data-analyst-scorecard/' | relative_url }}">Take the free assessment →</a>
+      </div>
+    </aside>
+    <aside class="hero-promo-card linkedin-profile-card" aria-labelledby="linkedin-profile-title">
+      <div class="linkedin-profile-card__header">
+        <img src="/assets/images/me/antonis-profile-2026.jpeg" alt="Antonis Angelakis" fetchpriority="high" width="400" height="400">
+        <div>
+          <p class="eyebrow"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</p>
+          <h2 id="linkedin-profile-title">Follow me on LinkedIn.</h2>
+        </div>
+      </div>
+
+      <a class="text-link" href="https://www.linkedin.com/in/antonios-angelakis-249899101/" target="_blank" rel="noopener noreferrer me"><i class="fab fa-linkedin" aria-hidden="true"></i> Follow on LinkedIn</a>
     </aside>
   </div>
 </section>
