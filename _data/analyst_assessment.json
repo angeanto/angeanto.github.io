@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "dimensions": [
     {
       "id": "business",
@@ -22,7 +22,7 @@
     {
       "id": "trust",
       "name": "Data trust and semantics",
-      "exercise": "Document one metric\u2019s owner, grain, time basis, exclusions, access rules, and reconciliation checks. Have another team reproduce it from that definition.",
+      "exercise": "Document one metric’s owner, grain, time basis, exclusions, access rules, and reconciliation checks. Have another team reproduce it from that definition.",
       "extension": "Design a versioned migration for a metric definition, including consumer notification and a parallel comparison period."
     },
     {
@@ -40,27 +40,27 @@
         "Business thinking"
       ],
       "title": "A win on the wrong metric",
-      "prompt": "A randomized checkout experiment increases completed orders by 6%. The pre-agreed objective is contribution profit per eligible visitor; its estimated change is \u22122%, with an interval from \u22128% to +4%. Refunds are still maturing, and no safety boundary has been crossed. A decision is required today, but the approved experiment can continue. What is the best recommendation?",
+      "prompt": "A checkout test randomly assigns visitors to the old or new checkout. The new checkout produces 6% more completed orders.\n\nBefore the test, the team agreed to judge success by profit per visitor, including visitors who buy nothing. Here, profit means sales revenue minus the costs of fulfilling those sales and any refunds.\n\nThe current data suggests profit per visitor is 2% lower. That is only an estimate from a limited sample. The uncertainty range runs from an 8% decrease to a 4% increase, so the true effect could be a loss or a gain.\n\nSome refunds have not arrived yet. No agreed safety limit has been reached, and the test is allowed to continue. Leadership asks whether to launch the new checkout for everyone today. What should you recommend?",
       "options": [
         {
           "id": "a",
-          "text": "Roll out because the primary checkout conversion measure improved; review profit after refunds mature.",
-          "reason": "Orders are an intermediate outcome; this substitutes a different objective and ignores unresolved refund costs."
+          "text": "Launch it for everyone because more orders were completed. Check profit once all refunds are known.",
+          "reason": "More orders do not necessarily mean more profit. The agreed goal includes costs and refunds."
         },
         {
           "id": "b",
-          "text": "Continue within the agreed experiment limits until the profit and refund evidence is decision-ready; do not claim a profit win.",
-          "reason": "The decision concerns profit per eligible visitor. The current interval and immature refunds do not establish a win or harm, and continued observation is permitted."
+          "text": "Keep the test running within the agreed limits to gather clearer profit and refund data. Do not call it a profit improvement yet.",
+          "reason": "The current evidence allows both a loss and a gain. More refund data and observations are needed before claiming success, and the test can safely continue within its agreed limits."
         },
         {
           "id": "c",
-          "text": "Stop permanently because the negative profit point estimate establishes commercial harm.",
-          "reason": "The point estimate alone does not establish harm; the stated uncertainty includes improvement."
+          "text": "Stop the test permanently because the estimated 2% profit decrease proves the new checkout harms the business.",
+          "reason": "The 2% decrease is an estimate, not proof of a loss. The uncertainty range also includes a possible gain."
         },
         {
           "id": "d",
-          "text": "Compare profit only among purchasers to remove visitors who generated no revenue.",
-          "reason": "Purchasing is affected by treatment. Conditioning on it changes the comparison and abandons the agreed visitor-level objective."
+          "text": "Compare profit only among people who bought something. Leave out visitors who placed no order.",
+          "reason": "The checkout can change who makes a purchase. Looking only at buyers changes the comparison and excludes visitors included in the agreed success measure."
         }
       ],
       "correct": "b"
@@ -73,26 +73,26 @@
         "Stakeholder management"
       ],
       "title": "One analyst, two deadlines",
-      "prompt": "Sales requests an account-level renewal dashboard by Friday. Finance requests a reconciled renewal forecast by the same date. Their definitions of \u201crenewed\u201d differ, and you have capacity for only one deliverable. Both claim executive priority; neither has agreed what action the output supports. What should you do first?",
+      "prompt": "Sales wants a dashboard showing which customer accounts have renewed. Finance wants a renewal forecast checked against its financial records. Both are due Friday, but you only have time to deliver one. The teams also disagree about what counts as a renewal. Both say their request is an executive priority. Neither has explained what decision they will make using your work. What should you do first?",
       "options": [
         {
           "id": "a",
-          "text": "Build a shared dashboard with both definitions and let each team select its preferred view.",
+          "text": "Build one dashboard with both renewal definitions and let each team choose its view.",
           "reason": "Two definitions may ultimately be valid, but building before establishing the decisions does not resolve the capacity conflict."
         },
         {
           "id": "b",
-          "text": "Deliver Finance first because reconciled financial metrics should always take precedence.",
+          "text": "Do Finance’s work first because financial reporting should always take priority.",
           "reason": "The scenario gives no agreed priority rule that places Finance ahead of Sales."
         },
         {
           "id": "c",
-          "text": "Ask both sponsors to identify the decision, deadline consequences, and minimum evidence, then agree scope and ownership or escalate that explicit tradeoff.",
-          "reason": "This makes the competing decisions and costs visible before committing scarce capacity; escalation then has a concrete tradeoff to resolve."
+          "text": "Ask both teams what decision they need to make, what happens if it is delayed, and the minimum information they need. Agree the priority and owner, or take the conflict to the decision-maker.",
+          "reason": "This makes the competing decisions and costs visible before committing scarce capacity. Escalation then has a concrete tradeoff to resolve."
         },
         {
           "id": "d",
-          "text": "Split the time equally and deliver preliminary outputs without resolving the definitions.",
+          "text": "Split your time equally and send both teams an early draft without resolving the different definitions.",
           "reason": "Equal time is not evidence of equal value and may leave both decisions unsupported."
         }
       ],
@@ -105,27 +105,27 @@
         "Data modelling"
       ],
       "title": "Revenue that grows after a join",
-      "prompt": "Orders has one row per order, order_lines has several rows per order, and payments can have several successful captures per order. A report needs order-level booked revenue and captured cash by order month, including orders with no captured payment. Which design preserves those measures?",
+      "prompt": "You have three tables. orders has one row per order. order_lines has one row per item in an order. payments can contain several successful payments for one order. You need a report showing the value of ordered items and the cash actually collected, grouped by the month the order was placed. Unpaid orders must remain in the report, with zero cash collected. How should you combine the tables without counting amounts more than once?",
       "options": [
         {
           "id": "a",
-          "text": "Inner join all three datasets at their existing grains, then group by order month.",
-          "reason": "The child tables multiply each other, and the inner join drops orders without payment."
+          "text": "Inner join all three tables as they are, then add up the amounts by order month.",
+          "reason": "Multiple items and multiple payments create repeated combinations. An inner join also removes unpaid orders."
         },
         {
           "id": "b",
-          "text": "Left join the raw children and use distinct sums of the monetary values.",
-          "reason": "Distinct monetary values can collapse legitimate equal amounts while leaving the grain problem unresolved."
+          "text": "Left join the item and payment rows to orders, then sum only distinct monetary amounts.",
+          "reason": "Different items or payments can have the same value. Summing distinct amounts would incorrectly count those equal values only once."
         },
         {
           "id": "c",
-          "text": "Join raw order lines to payments and divide each sum by the number of joined rows.",
-          "reason": "One row-count divisor cannot generally reverse different multiplicities for separate measures."
+          "text": "Join the item rows to the payment rows, then divide each total by the number of joined rows.",
+          "reason": "Items and payments may be repeated different numbers of times. A single row-count adjustment does not reliably fix both totals."
         },
         {
           "id": "d",
-          "text": "Aggregate each child to one row per order, left join those aggregates to orders, then aggregate to month using the defined missing-payment treatment.",
-          "reason": "Reducing children to the parent grain prevents fanout; the left joins preserve unpaid orders. Missing captures can be represented as zero under the metric definition."
+          "text": "First total the items and payments separately to one row per order. Left join both totals to orders, treat missing payments as zero, then total by order month.",
+          "reason": "Each joined table now has one row per order, so the amounts do not multiply. Left joins keep unpaid orders in the report."
         }
       ],
       "correct": "d"
@@ -137,28 +137,28 @@
         "Architecture",
         "Data modelling"
       ],
-      "title": "History under a freshness constraint",
-      "prompt": "Leadership needs yesterday\u2019s revenue by the customer segment valid when each order occurred. Segments change over time. The source provides a reliable effective-dated change log, the daily batch comfortably meets the morning deadline, and the team has limited operational capacity. What is the best initial architecture?",
+      "title": "Which customer segment applied at the time?",
+      "prompt": "Leadership wants yesterday’s revenue grouped by the customer’s segment when each order was placed. Customers can move between segments. The source keeps a reliable history showing when each segment change took effect. The daily batch already finishes before the report is needed each morning. The team has little time to maintain extra systems. Which design should you choose first?",
       "options": [
         {
           "id": "a",
-          "text": "Maintain effective-dated segment history from the change log and join orders to the matching validity interval in the existing batch.",
-          "reason": "The available history supports an as-of join, and batch already satisfies the freshness requirement. Validate that validity intervals do not overlap."
+          "text": "Keep the dated segment history and match each order to the segment that applied on its order date. Use the existing daily batch.",
+          "reason": "The history lets you find the segment that applied at the time of each order. The existing batch already meets the deadline. Check that date ranges do not overlap."
         },
         {
           "id": "b",
-          "text": "Join every order to the current customer record and snapshot only the final monthly dashboard.",
-          "reason": "Current attributes restate history; monthly dashboard snapshots cannot reconstruct the required order-time segments."
+          "text": "Match every order to the customer’s current segment and save a copy of the final dashboard each month.",
+          "reason": "Today’s segment may differ from the segment at the time of purchase. Monthly dashboard copies do not recover that missing detail."
         },
         {
           "id": "c",
-          "text": "Introduce streaming for all sources because historical correctness requires real-time processing.",
-          "reason": "Historical correctness depends on time semantics and retained changes, not on streaming itself."
+          "text": "Move all sources to real-time streaming because accurate historical reporting requires it.",
+          "reason": "Accurate history needs the right dates and stored changes. Streaming is not required when the daily batch meets the deadline."
         },
         {
           "id": "d",
-          "text": "Copy the latest customer segment onto every historical order during each batch.",
-          "reason": "This deliberately overwrites the historical context the report requires."
+          "text": "Update every old order with the customer’s latest segment each day.",
+          "reason": "Replacing old segments with current ones loses the historical context the report needs."
         }
       ],
       "correct": "a"
@@ -170,28 +170,28 @@
         "Git",
         "Testing"
       ],
-      "title": "Undoing a shared regression",
-      "prompt": "A normal, non-merge commit changed a revenue filter and has been deployed. Two later commits contain unrelated valid changes and depend on neither the bad filter nor its correction. Teammates have already pulled the shared branch. Which recovery is most appropriate?",
+      "title": "Fixing a change your team has already pulled",
+      "prompt": "A deployed Git commit changed a revenue filter and now leaves out valid revenue. It was a normal commit, not a merge commit. Two later commits contain useful, unrelated changes that do not depend on the broken filter. Teammates have already pulled the shared branch. How should you fix the problem?",
       "options": [
         {
           "id": "a",
-          "text": "Reset the shared branch to the commit before the regression and force-push it.",
-          "reason": "Rewriting shared history disrupts collaborators and removes the later valid work."
+          "text": "Reset the shared branch to before the bad commit and force-push it.",
+          "reason": "This rewrites history others already use and removes the later valid changes."
         },
         {
           "id": "b",
-          "text": "Revert the bad commit on a recovery branch, add a regression test for the excluded revenue, and review and deploy the correction through the incident process.",
-          "reason": "A targeted revert records the correction without rewriting shared history; the regression test checks the specific failure and the deployment process applies the fix."
+          "text": "Revert only the bad commit on a new branch. Add a test for the missing revenue, then review and deploy the fix through the team’s incident process.",
+          "reason": "A revert adds a new commit that undoes the bad change without rewriting shared history. The test checks that the missing revenue is restored."
         },
         {
           "id": "c",
-          "text": "Revert all three commits so the repository exactly matches the last known deployment.",
-          "reason": "The stated independence allows a targeted correction; reverting unrelated changes unnecessarily broadens the incident."
+          "text": "Revert all three commits to return to the state before the problem.",
+          "reason": "The later changes are independent and valid. Undoing them adds unnecessary risk."
         },
         {
           "id": "d",
-          "text": "Correct the production query directly and leave repository history as-is until the next planned release.",
-          "reason": "An untracked production-only fix leaves the source inconsistent and vulnerable to redeployment of the regression."
+          "text": "Change the production query directly and leave the repository unchanged until the next planned release.",
+          "reason": "The code in production would no longer match the repository. A later deployment could bring the problem back."
         }
       ],
       "correct": "b"
@@ -203,28 +203,28 @@
         "dbt",
         "Testing"
       ],
-      "title": "An incremental model that misses corrections",
-      "prompt": "A dbt incremental order model uses a merge strategy with order_id as its unique key. It filters input to order_created_at after the latest target creation time. Old orders can be corrected months later. The source reliably updates updated_at on every correction, keeps the corrected records, and exposes them promptly. Which change addresses the missing corrections?",
+      "title": "A dbt model that misses corrected orders",
+      "prompt": "A dbt incremental model updates an orders table without rebuilding it from scratch. It uses merge with order_id as the unique key, so an incoming row can update the same order. But it only reads orders created after the newest order already in the table, using order_created_at. An order can be corrected months after it was created. The source always changes updated_at when a correction happens and makes the corrected row available promptly. How should you make sure the model picks up these corrections?",
       "options": [
         {
           "id": "a",
-          "text": "Add a not-null test to order_id while retaining the creation-time filter.",
-          "reason": "The unique key cannot update records that the input filter never selects."
+          "text": "Keep the creation-date filter and add a test that order_id is never empty.",
+          "reason": "A key check cannot recover corrected orders that the creation-date filter never reads."
         },
         {
           "id": "b",
-          "text": "Keep the filter and change the unique key to order_id plus updated_at.",
-          "reason": "The filter still excludes old corrections, and adding update time to the key would represent versions rather than replace the order row."
+          "text": "Keep the filter but use both order_id and updated_at as the unique key.",
+          "reason": "The filter still misses old corrections. A key containing updated_at would also treat different versions as different records instead of updating the same order."
         },
         {
           "id": "c",
-          "text": "Use an update-time watermark with a safe overlap, deduplicate by order_id to the latest update, merge by order_id, and test an old corrected order plus a repeated run.",
-          "reason": "The update timestamp captures old corrected orders under the source guarantees. Overlap and deduplication support repeatability; the fixtures verify correction and idempotence."
+          "text": "Read rows using updated_at, including a short overlap with the previous run. Keep the latest row per order and merge by order_id. Test an old corrected order and check that rerunning does not create duplicates.",
+          "reason": "The update date identifies changed orders even if they were created months ago. Overlap helps cover the run boundary, keeping the latest row avoids duplicates, and the tests check both correction and repeatability."
         },
         {
           "id": "d",
-          "text": "Read only the last seven days of order_created_at and run a uniqueness test afterward.",
-          "reason": "A creation-time lookback still misses corrections older than seven days, regardless of uniqueness."
+          "text": "Read orders created in the last seven days and check that order_id values are unique afterward.",
+          "reason": "An order created months ago is still outside this window, even if it was corrected today."
         }
       ],
       "correct": "c"
@@ -236,28 +236,28 @@
         "Data quality",
         "Testing"
       ],
-      "title": "All checks green, revenue down",
-      "prompt": "Reported revenue drops 18% after an upstream release. Freshness, uniqueness, and not-null checks pass. The source contract recently added a valid \u201csettled\u201d status, but the revenue model still includes only \u201cpaid\u201d. Before concluding the business declined, what is the strongest check?",
+      "title": "The tests pass, but revenue drops",
+      "prompt": "After a source-system update, reported revenue falls by 18%. Tests confirm that the data is up to date, key values are unique, and required fields are not empty. The source now allows a new payment status called “settled”. Your report still includes only “paid”. Before telling leadership that the business has declined, what should you check?",
       "options": [
         {
           "id": "a",
-          "text": "Reconcile amounts by status between source and report using the agreed revenue definition, quantify excluded settled records, and add a semantic regression check.",
-          "reason": "This tests the specific semantic mismatch and its monetary impact. The revenue definition, not merely source validity, determines whether settled records belong."
+          "text": "Compare source and report totals for each status against the agreed revenue definition. Measure the excluded “settled” amounts and add a test that catches the confirmed reporting error.",
+          "reason": "This checks whether the new status explains the difference and whether those payments should count as revenue. The business definition must guide the correction."
         },
         {
           "id": "b",
-          "text": "Rerun freshness and uniqueness checks with stricter thresholds.",
-          "reason": "These tests do not address inclusion semantics and already passed."
+          "text": "Rerun the freshness and uniqueness tests with stricter limits.",
+          "reason": "These tests already passed and do not check which payment statuses should count as revenue."
         },
         {
           "id": "c",
-          "text": "Add \u201csettled\u201d to the revenue filter immediately because every valid source status must count as revenue.",
-          "reason": "A valid status is not automatically revenue; its business meaning must first be reconciled with the metric definition."
+          "text": "Immediately count every “settled” payment as revenue because it is a valid source status.",
+          "reason": "A status being allowed by the source does not automatically mean it belongs in revenue."
         },
         {
           "id": "d",
-          "text": "Treat the drop as real because structural tests passed.",
-          "reason": "Structural integrity does not establish that the report implements the intended business measure."
+          "text": "Accept the decline as real because the existing data tests passed.",
+          "reason": "Data can be timely and complete while the report still applies the wrong business rules."
         }
       ],
       "correct": "a"
@@ -270,27 +270,27 @@
         "Semantic layers"
       ],
       "title": "One name, two revenue definitions",
-      "prompt": "Sales and Finance both publish \u201crevenue\u201d through different BI tools. One uses booking date and gross value; the other uses recognition date and net value. Both support legitimate decisions. You are introducing a semantic layer. What should happen before treating one metric as authoritative?",
+      "prompt": "Sales and Finance both report a metric called “revenue” in different BI tools. Sales uses the date an order was booked and its gross value. Finance uses the date revenue is recognized in the accounts and its net value. Both measures support valid business decisions. You are adding a semantic layer, a shared place to define metrics for reporting tools. How should you handle these two measures?",
       "options": [
         {
           "id": "a",
-          "text": "Choose Finance\u2019s formula, keep the existing name, and redirect both dashboards to it.",
-          "reason": "One legitimate decision may need the other measure; a silent replacement changes meaning for consumers."
+          "text": "Use Finance’s formula for both dashboards and keep the name “revenue”.",
+          "reason": "The Sales measure still supports a valid decision. Silently replacing it changes what its users are seeing."
         },
         {
           "id": "b",
-          "text": "Move both formulas into the semantic layer under the same display name.",
-          "reason": "Central storage does not resolve semantic ambiguity if the names still conceal different meanings."
+          "text": "Store both formulas in the semantic layer but keep the same display name for both.",
+          "reason": "Putting formulas in one place does not remove confusion if different measures still have the same name."
         },
         {
           "id": "c",
-          "text": "Average the two values to provide an organization-wide compromise metric.",
-          "reason": "A numerical compromise has no agreed business interpretation."
+          "text": "Average the two values to create a compromise measure for the whole company.",
+          "reason": "An average of two different business measures has no agreed meaning here."
         },
         {
           "id": "d",
-          "text": "Agree explicit names, grain, time basis, exclusions, owners, and intended decisions for both metrics; publish governed definitions and validate each consumer migration.",
-          "reason": "Governance makes the distinct meanings explicit. The semantic layer can then distribute consistent definitions, with migration checks that protect consumers."
+          "text": "Give each measure a clear name. Agree what it counts, which dates and exclusions apply, who owns it, and what decisions it supports. Publish both definitions and check dashboards as they switch to them.",
+          "reason": "Clear names, definitions, and owners preserve both valid uses. Checking each dashboard during the change helps prevent unexpected differences."
         }
       ],
       "correct": "d"
@@ -302,28 +302,28 @@
         "Storytelling",
         "Business thinking"
       ],
-      "title": "A headline the evidence cannot support",
-      "prompt": "An observational campaign report shows participating customers spent 20% more than nonparticipants. Participants were already higher spenders before the campaign. Leadership must decide whether to fund a larger rollout. No credible adjustment or randomized comparison is available yet. Which headline and next action best match the evidence?",
+      "title": "What can you honestly claim?",
+      "prompt": "A report shows that customers who joined a campaign spent 20% more than those who did not. But those customers also spent more before the campaign. Customers were not randomly assigned, and you do not yet have a reliable way to account for that earlier difference. Leadership wants to know whether to fund a wider campaign. Which message and next step best fit the evidence?",
       "options": [
         {
           "id": "a",
-          "text": "\u201cCampaign drives 20% growth.\u201d Approve the rollout, with a note about the observational design in the appendix.",
-          "reason": "The observed difference does not isolate the campaign effect; the causal headline is unsupported."
+          "text": "“The campaign increased spending by 20%.” Recommend a wider launch and put the study’s limitations in the appendix.",
+          "reason": "The groups were different before the campaign. The 20% difference does not show how much the campaign caused."
         },
         {
           "id": "b",
-          "text": "\u201cParticipants spent more; incremental impact is unresolved.\u201d Propose a bounded randomized pilot and an explicit funding decision criterion.",
-          "reason": "The headline separates association from impact and gives leadership an actionable way to reduce uncertainty."
+          "text": "“Participants spent more, but we do not yet know how much the campaign caused.” Recommend a limited randomized test and agree what result would justify more funding.",
+          "reason": "This states what the data shows without claiming an unproven cause. A randomized test can give leadership better evidence for the funding decision."
         },
         {
           "id": "c",
-          "text": "\u201cCampaign has no effect.\u201d Stop funding because the existing comparison is biased.",
-          "reason": "A biased comparison fails to establish the effect; it does not prove an effect of zero."
+          "text": "“The campaign has no effect.” Stop funding because the comparison is unfair.",
+          "reason": "An unfair comparison does not prove the campaign had no effect. It means the effect is still unclear."
         },
         {
           "id": "d",
-          "text": "\u201cSpend was 20% higher.\u201d Remove all recommendation language and provide the raw table.",
-          "reason": "The statement is narrower, but without the selection caveat and a decision-relevant next step it can still mislead the funding discussion."
+          "text": "“Participants spent 20% more.” Show the raw numbers without a recommendation.",
+          "reason": "Without explaining the earlier difference between the groups, even this factual headline could mislead the funding decision."
         }
       ],
       "correct": "b"
@@ -336,28 +336,28 @@
         "Governance",
         "Semantic layers"
       ],
-      "title": "A convincing AI answer",
-      "prompt": "An approved AI assistant generates executable SQL and a fluent explanation of a regional margin decline. Its query joins customer addresses directly to orders and uses an undocumented \u201cmargin\u201d calculation. Customer addresses retain multiple historical rows. What must happen before the explanation is sent to leadership?",
+      "title": "Checking a convincing AI answer",
+      "prompt": "An approved AI assistant writes SQL that runs successfully and explains why profit margin fell in a region. But it does not say how it calculated “margin”. It also joins orders directly to a customer-address table that keeps several old addresses for each customer. What should you do before sharing the explanation with leadership?",
       "options": [
         {
           "id": "a",
-          "text": "Run the SQL successfully and ask the same assistant whether it is confident.",
-          "reason": "Execution and model confidence do not establish metric correctness or prevent row multiplication."
+          "text": "Confirm that the SQL runs and ask the same assistant how confident it is.",
+          "reason": "SQL can run successfully while using the wrong calculation or counting an order several times."
         },
         {
           "id": "b",
-          "text": "Remove customer identifiers from the output and publish the regional aggregates.",
-          "reason": "Aggregation and removal of identifiers do not fix semantic errors or fanout."
+          "text": "Remove customer identifiers and share only the regional totals.",
+          "reason": "Removing identifiers does not correct an incorrect metric or repeated amounts from the join."
         },
         {
           "id": "c",
-          "text": "Validate margin against its owned definition, inspect join grain and historical matching, reconcile aggregates to trusted controls, and check whether the evidence supports the claimed cause.",
-          "reason": "Independent validation addresses the concrete metric and join risks, and prevents an unsupported causal story from surviving a numerically plausible result."
+          "text": "Check the agreed margin definition, make sure each order matches the right historical address without being counted twice, compare totals with trusted reports, and check the evidence for the claimed cause.",
+          "reason": "These checks address the unclear metric and the risk of repeated or wrongly assigned orders. The explanation also needs evidence that supports its claim about the cause."
         },
         {
           "id": "d",
-          "text": "Ask a second model to rewrite the narrative and publish if the two explanations agree.",
-          "reason": "Agreement between models is not independent verification of definitions, data, or causality."
+          "text": "Ask another AI model to rewrite the explanation and publish it if both models agree.",
+          "reason": "Two models agreeing does not verify the metric, the join, or the reason for the decline."
         }
       ],
       "correct": "c"
