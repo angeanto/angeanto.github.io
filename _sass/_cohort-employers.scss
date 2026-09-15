@@ -1,5 +1,6 @@
 /* Original logo files stay intact; presentation is scoped to the cohort strip. */
-.accelerator-page .cohort-employers {
+.accelerator-page .cohort-employers,
+.brand-home .cohort-employers {
   position: relative;
   padding: 1.25rem 0 1.5rem;
   border-top: 1px solid #e8e8e8;
@@ -22,14 +23,30 @@
   &__viewport:hover .cohort-employers__track { animation-play-state: paused; }
 }
 
+.brand-home .cohort-employers--compact {
+  margin-top: 1.25rem;
+  padding: 0.75rem 0 0;
+  background: transparent;
+
+  h3 { margin: 0; font-size: 0.7rem; font-weight: 400; line-height: 1.5; color: #50534f; }
+  .cohort-employers__control { font-size: 0.65rem; }
+  .cohort-employers__logo { flex-basis: 108px; height: 46px; }
+  .cohort-employers__logo img { width: calc(var(--logo-width) * 0.6); }
+}
+
 @keyframes cohort-logo-scroll { to { transform: translateX(-50%); } }
 
 @media (prefers-reduced-motion: reduce), print {
-  .accelerator-page .cohort-employers {
+  .accelerator-page .cohort-employers,
+.brand-home .cohort-employers {
     &__pause, &__control { display: none; }
     &__track { width: 100%; animation: none; }
     &__group { flex: 1; flex-wrap: wrap; justify-content: center; }
     &__group[aria-hidden="true"] { display: none; }
     &__logo { flex-basis: 170px; }
   }
+}
+
+@media (prefers-reduced-motion: reduce), print {
+  .brand-home .cohort-employers--compact .cohort-employers__logo { flex-basis: 108px; }
 }

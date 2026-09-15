@@ -1,4 +1,4 @@
-<section class="cohort-employers" aria-labelledby="cohort-employers-title">
+<section class="cohort-employers{% if include.compact %} cohort-employers--compact{% endif %}" aria-labelledby="cohort-employers-title">
   <svg class="cohort-employers__filters" aria-hidden="true" width="0" height="0" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <!-- Map the artwork to charcoal and white, retaining transparency and light detail. -->
@@ -12,7 +12,11 @@
       </filter>
     </defs>
   </svg>
+  {% if include.compact %}
+  <h3 id="cohort-employers-title">Participants from top companies</h3>
+  {% else %}
   <h2 id="cohort-employers-title">Our first cohort includes professionals from</h2>
+  {% endif %}
   <input class="cohort-employers__pause" type="checkbox" id="pause-cohort-logos" aria-controls="cohort-logo-viewport">
   <label class="cohort-employers__control" for="pause-cohort-logos">Pause motion</label>
   <div class="cohort-employers__viewport" id="cohort-logo-viewport">
