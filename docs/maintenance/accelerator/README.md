@@ -86,10 +86,10 @@ The owner supplied seven company logos from the first cohort: Skroutz, CBRE, Sna
 - `_sass/_cohort-employers.scss`, imported by the main stylesheet, controls the strip. The source PNG/WebP/SVG files are preserved byte-for-byte under descriptive filenames in `assets/images/cohort-employers/`.
 - A shared SVG color filter maps artwork to charcoal (#4b4f52) and preserves white/light details. Goldair’s white transparent wordmark is darkened first. Barba Stathis uses continuous grayscale at 80% opacity to retain the illustrated mark and small lettering. Equal 180px slots and individual display widths balance different logo proportions. The square Skroutz canvas is centered and its excess whitespace clipped by the slot.
 - Two identical groups create a seamless 38-second CSS loop. The second is hidden from assistive technology. Each employer is announced once through image alt text.
-- The native “Pause motion” checkbox works with keyboard and touch without JavaScript. Hovering the strip also pauses it. Reduced-motion and print styles remove animation and duplicates and wrap all seven logos into a static list.
+- There are no visible motion controls. Hovering the strip pauses it. Reduced-motion and print styles remove animation and duplicates and wrap all seven logos into a static list.
 - Keep employer claims grounded in confirmed participants when adding logos. Retain original proportions and check both white-on-transparent and white-background artwork.
 
-No new dependencies or build artifacts are required; existing `.gitignore` rules cover preview output and caches. Build outside the repository, verify the placement and logo readability at desktop/mobile widths, pause/resume and reduced-motion behavior, and confirm maintenance files are excluded from output.
+No new dependencies or build artifacts are required; existing `.gitignore` rules cover preview output and caches. Build outside the repository, verify the placement and logo readability at desktop/mobile widths, hover-to-pause and reduced-motion behavior, and confirm maintenance files are excluded from output.
 
 ### Logo strip verification (2026-09-15)
 
@@ -97,4 +97,8 @@ The locked Jekyll build and `git diff --check` passed. Browser checks at desktop
 
 ### Compact homepage variant
 
-The homepage calls `cohort-employers.html compact=true` below the Accelerator actions and above the scorecard. The homepage caption is “Participants from top companies”; the logos identify participant employers and do not imply endorsement. The variant uses an h3 beneath the card’s h2, 108px slots, 46px height and 60% of the product-page logo widths. Both views share the employer data, 38-second loop, pause control and reduced-motion fallback. The homepage Read More button uses `_data/accelerator.yml`’s product URL and a secondary outline style, preserving the two existing gold actions. No new assets or dependencies are needed; existing ignore rules cover temporary builds.
+The homepage calls `cohort-employers.html compact=true` below the Accelerator actions and above the scorecard. The homepage caption is “Participants from top companies”; the logos identify participant employers and do not imply endorsement. The variant uses an h3 beneath the card’s h2, 108px slots, 46px height and 60% of the product-page logo widths. Both views share the employer data, 38-second loop, hover-to-pause behavior and reduced-motion fallback, without a visible pause control. The homepage Read More button uses `_data/accelerator.yml`’s product URL and a secondary outline style, preserving the two existing gold actions. No new assets or dependencies are needed; existing ignore rules cover temporary builds.
+
+### Motion control removal (2026-09-15)
+
+Removed the shared pause checkbox and its unused styles from both pages. The locked Jekyll build and `git diff --check` passed. Browser checks at 1280px and 390px confirmed no motion controls, all seven employer images loaded, the scrolling animation enabled and no horizontal page overflow on either page. Hover-to-pause, reduced-motion and print CSS are unchanged; those states were not re-exercised in this change. Local documentation links resolve and maintenance files remain excluded from output.
