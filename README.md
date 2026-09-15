@@ -71,3 +71,7 @@ The homepage hero in `index.md` places the Accelerator enrollment and scorecard 
 ## Senior Data Analyst Scorecard
 
 The `/senior-data-analyst-scorecard/` page, linked from the homepage hero, provides ten scenario questions, immediate scoring, answer explanations, and a direct next step into the Accelerator. Results offer enrollment, a 15-minute call request, and programme details before the expandable score breakdown. It follows the current DataConscious typography and palette in a centered layout without an author sidebar. See [assessment maintenance](docs/maintenance/assessment.md) for scoring, storage, and validation.
+
+## First-cohort employer logos
+
+The Accelerator displays a charcoal logo strip above “Your next step in analytics.” Update `_data/cohort_employers.yml` for participant employers and display widths. Original artwork lives in `assets/images/cohort-employers/`; color and sizing are applied by the website. See [logo strip maintenance](docs/maintenance/accelerator/README.md#first-cohort-employer-logos).

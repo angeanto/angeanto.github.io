@@ -1,0 +1,24 @@
+# Owner-supplied employers of first-cohort participants; not sponsorships.
+- name: Skroutz
+  file: skroutz.png
+  width: 158
+- name: CBRE
+  file: cbre.png
+  width: 138
+- name: Snappi
+  file: snappi.png
+  width: 142
+- name: Blueground
+  file: blueground.svg
+  width: 166
+- name: Goldair
+  file: goldair.png
+  width: 145
+  inverse: true
+- name: Ask Wire
+  file: ask-wire.webp
+  width: 108
+- name: Barba Stathis
+  file: barba-stathis.png
+  width: 134
+  detailed: true

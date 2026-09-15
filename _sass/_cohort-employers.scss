@@ -1,0 +1,35 @@
+/* Original logo files stay intact; presentation is scoped to the cohort strip. */
+.accelerator-page .cohort-employers {
+  position: relative;
+  padding: 1.25rem 0 1.5rem;
+  border-top: 1px solid #e8e8e8;
+  background: #fff;
+  text-align: center;
+
+  h2 { margin: 0 0 0.25rem; font-size: 1rem; font-weight: 500; color: #50534f; }
+  &__filters { position: absolute; pointer-events: none; }
+  &__pause { width: 16px; height: 16px; margin: 0 0.3rem 0 0; accent-color: #50534f; vertical-align: middle; }
+  &__control { display: inline-flex; align-items: center; min-height: 44px; margin: 0; font-size: 0.75rem; font-weight: 400; color: #50534f; cursor: pointer; }
+  &__pause:focus-visible { outline: 3px solid #725900; outline-offset: 4px; }
+  &__viewport { overflow: hidden; }
+  &__track { display: flex; width: max-content; animation: cohort-logo-scroll 38s linear infinite; }
+  &__group { display: flex; flex: 0 0 auto; align-items: center; list-style: none; margin: 0; padding: 0; }
+  &__logo { display: flex; flex: 0 0 180px; align-items: center; justify-content: center; height: 76px; margin: 0; overflow: hidden; }
+  &__logo img { display: block; flex: none; width: var(--logo-width); max-width: none; height: auto; filter: url('#cohort-charcoal'); }
+  &__logo--detailed img { filter: grayscale(1); opacity: 0.8; }
+  &__logo--inverse img { filter: brightness(0) url('#cohort-charcoal'); }
+  &__pause:checked ~ .cohort-employers__viewport .cohort-employers__track,
+  &__viewport:hover .cohort-employers__track { animation-play-state: paused; }
+}
+
+@keyframes cohort-logo-scroll { to { transform: translateX(-50%); } }
+
+@media (prefers-reduced-motion: reduce), print {
+  .accelerator-page .cohort-employers {
+    &__pause, &__control { display: none; }
+    &__track { width: 100%; animation: none; }
+    &__group { flex: 1; flex-wrap: wrap; justify-content: center; }
+    &__group[aria-hidden="true"] { display: none; }
+    &__logo { flex-basis: 170px; }
+  }
+}

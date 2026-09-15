@@ -43,6 +43,8 @@ excerpt: "Eight live sessions connecting modern data workflows, AI, governance a
   <a href="#faq">FAQs</a>
 </nav>
 
+{% include cohort-employers.html %}
+
 <section class="accelerator-section" aria-labelledby="who-this-is-for" markdown="1">
 <p class="eyebrow">Your next step in analytics</p>
 
