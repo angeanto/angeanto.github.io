@@ -74,6 +74,6 @@ The `/senior-data-analyst-scorecard/` page, linked from the homepage hero, provi
 
 ## First-cohort employer logos
 
-The homepage Accelerator card has a secondary **Read More** button linking to the full programme and a compact employer strip below its actions, before the scorecard. It shares the product page’s logos and pause/reduced-motion behavior.
+The homepage Accelerator card has a secondary **Read More** button linking to the full programme and a compact employer strip below its actions, before the scorecard. It shares the product page’s logos, hover-to-pause behavior and reduced-motion fallback, with no visible motion controls.
 
 The Accelerator displays a charcoal logo strip above “Your next step in analytics.” Update `_data/cohort_employers.yml` for participant employers and display widths. Original artwork lives in `assets/images/cohort-employers/`; color and sizing are applied by the website. See [logo strip maintenance](docs/maintenance/accelerator/README.md#first-cohort-employer-logos).
