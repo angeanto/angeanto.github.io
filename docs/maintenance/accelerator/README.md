@@ -94,3 +94,7 @@ No new dependencies or build artifacts are required; existing `.gitignore` rules
 ### Logo strip verification (2026-09-15)
 
 The locked Jekyll build and `git diff --check` passed. Browser checks at desktop and 390px mobile width confirmed loaded assets, correct placement, no horizontal page overflow, and checkbox/keyboard pause and resume. A temporary preview forcing the reduced-motion CSS verified the static wrapping layout with all seven logos and hidden duplicates; the OS motion preference itself was not changed. Original asset hashes, local documentation links and documentation exclusion from output were checked. The existing GitHub Metadata authentication warning remains non-blocking. No generated `_site/` files changed.
+
+### Compact homepage variant
+
+The homepage calls `cohort-employers.html compact=true` below the Accelerator actions and above the scorecard. The caption identifies first-cohort employers; it does not imply endorsement. The variant uses an h3 beneath the card’s h2, 108px slots, 46px height and 60% of the product-page logo widths. Both views share the employer data, 38-second loop, pause control and reduced-motion fallback. The homepage Read More button uses `_data/accelerator.yml`’s product URL and a secondary outline style, preserving the two existing gold actions. No new assets or dependencies are needed; existing ignore rules cover temporary builds.
