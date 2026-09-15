@@ -1,0 +1,31 @@
+<section class="cohort-employers" aria-labelledby="cohort-employers-title">
+  <svg class="cohort-employers__filters" aria-hidden="true" width="0" height="0" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <!-- Map the artwork to charcoal and white, retaining transparency and light detail. -->
+      <filter id="cohort-charcoal" color-interpolation-filters="sRGB">
+        <feColorMatrix type="saturate" values="0" />
+        <feComponentTransfer>
+          <feFuncR type="table" tableValues=".294 .294 .294 .294 .294 .294 .294 .294 .294 .65 1" />
+          <feFuncG type="table" tableValues=".310 .310 .310 .310 .310 .310 .310 .310 .310 .66 1" />
+          <feFuncB type="table" tableValues=".322 .322 .322 .322 .322 .322 .322 .322 .322 .67 1" />
+        </feComponentTransfer>
+      </filter>
+    </defs>
+  </svg>
+  <h2 id="cohort-employers-title">Our first cohort includes professionals from</h2>
+  <input class="cohort-employers__pause" type="checkbox" id="pause-cohort-logos" aria-controls="cohort-logo-viewport">
+  <label class="cohort-employers__control" for="pause-cohort-logos">Pause motion</label>
+  <div class="cohort-employers__viewport" id="cohort-logo-viewport">
+    <div class="cohort-employers__track">
+      {% for copy in (1..2) %}
+      <ul class="cohort-employers__group"{% if copy == 2 %} aria-hidden="true"{% endif %}>
+        {% for employer in site.data.cohort_employers %}
+        <li class="cohort-employers__logo{% if employer.inverse %} cohort-employers__logo--inverse{% endif %}{% if employer.detailed %} cohort-employers__logo--detailed{% endif %}">
+          <img src="{{ '/assets/images/cohort-employers/' | append: employer.file | relative_url }}" alt="{% if copy == 1 %}{{ employer.name | escape }}{% endif %}" style="--logo-width: {{ employer.width }}px" decoding="async">
+        </li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+    </div>
+  </div>
+</section>

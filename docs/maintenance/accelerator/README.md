@@ -76,3 +76,21 @@ Future programmes should have their own `_pages/` source and a listing on `/prog
 - Compact-layout checks confirmed working session/tool disclosures at desktop and mobile widths, no visible HTML closing tags and no sections nested inside the pricing grid. The default desktop page height decreased from approximately 9,033px to 5,845px at 1280px width.
 
 The PR does not merge or deploy the main site, or retire the external Labs hostname. The MailerLite form and automation are real account resources created as requested and are independent of GitHub deployment.
+
+## First-cohort employer logos
+
+The owner supplied seven company logos from the first cohort: Skroutz, CBRE, Snappi, Blueground, Goldair, Ask Wire and Barba Stathis. The caption identifies participants’ employers, not company sponsorship or endorsement.
+
+- `_data/cohort_employers.yml` controls names, filenames and optical display widths.
+- `_includes/cohort-employers.html` appears after the programme jump links and immediately before “Your next step in analytics.”
+- `_sass/_cohort-employers.scss`, imported by the main stylesheet, controls the strip. The source PNG/WebP/SVG files are preserved byte-for-byte under descriptive filenames in `assets/images/cohort-employers/`.
+- A shared SVG color filter maps artwork to charcoal (#4b4f52) and preserves white/light details. Goldair’s white transparent wordmark is darkened first. Barba Stathis uses continuous grayscale at 80% opacity to retain the illustrated mark and small lettering. Equal 180px slots and individual display widths balance different logo proportions. The square Skroutz canvas is centered and its excess whitespace clipped by the slot.
+- Two identical groups create a seamless 38-second CSS loop. The second is hidden from assistive technology. Each employer is announced once through image alt text.
+- The native “Pause motion” checkbox works with keyboard and touch without JavaScript. Hovering the strip also pauses it. Reduced-motion and print styles remove animation and duplicates and wrap all seven logos into a static list.
+- Keep employer claims grounded in confirmed participants when adding logos. Retain original proportions and check both white-on-transparent and white-background artwork.
+
+No new dependencies or build artifacts are required; existing `.gitignore` rules cover preview output and caches. Build outside the repository, verify the placement and logo readability at desktop/mobile widths, pause/resume and reduced-motion behavior, and confirm maintenance files are excluded from output.
+
+### Logo strip verification (2026-09-15)
+
+The locked Jekyll build and `git diff --check` passed. Browser checks at desktop and 390px mobile width confirmed loaded assets, correct placement, no horizontal page overflow, and checkbox/keyboard pause and resume. A temporary preview forcing the reduced-motion CSS verified the static wrapping layout with all seven logos and hidden duplicates; the OS motion preference itself was not changed. Original asset hashes, local documentation links and documentation exclusion from output were checked. The existing GitHub Metadata authentication warning remains non-blocking. No generated `_site/` files changed.
