@@ -379,4 +379,4 @@ jekyll-spaceship:
     src: https://github.githubassets.com/images/icons/emoji/
 
 # Shared identity with DataConscious Labs.
-logo: "https://storage.mlcdn.com/account_image/2031290/jPG3t26wcjtDFyOc8aSB3dFxw4uWmIt7BFZSTgEN.png"
+logo: "/assets/images/branding/data-conscious-wordmark.png"

@@ -50,11 +50,11 @@ Header and footer navigation use the same order: Home, Programs, For Teams, Insi
 
 `_pages/tag-archive.md` serves `/tags/`, which is the destination used by article tag links. Keep it in place when changing the Insights structure so taxonomy links remain browsable.
 
-The shared identity uses the existing MailerLite Labs logo URL, Poppins (Google Fonts), white backgrounds, charcoal text and Labs gold (#e5b600) for primary actions. The website uses dark button text for contrast. These external logo/font resources require network access. Homepage styling is under `.brand-home` in `assets/css/main.scss`; the old homepage inline CSS was removed.
+The shared identity uses the owner-supplied DataConscious wordmark, Poppins (Google Fonts), white backgrounds, charcoal text and Labs gold (#e5b600) for primary actions. The website uses dark button text for contrast. The logo is served locally; Google Fonts requires network access. Homepage styling is under `.brand-home` in `assets/css/main.scss`; the old homepage inline CSS was removed.
 
 The newsletter retains MailerLite form `veywtM`, in an expandable block lower on the homepage. No subscriber destination was changed. The workshop photograph already existed in the repository. Five unique screenshots supplied by the owner live in `assets/images/lab/`; the duplicate dbt attachment is stored once. Captions distinguish demonstration DAGs and a failed contract check from successful production output. Screenshots have not been retouched. The About profile uses the owner-supplied `assets/images/me/antonis-profile-2026.jpeg`; no stock or generated imagery was introduced.
 
-The site retains the existing Labs logo, Poppins font and gold palette. Programme pages live in this repository; MailerLite manages the embedded interest form and its follow-up automation. Retiring the old Labs hostname requires redirects in the hosting service that currently serves that hostname.
+The site uses the supplied Labs artwork, Poppins font and gold palette. Programme pages live in this repository; MailerLite manages the embedded interest form and its follow-up automation. Retiring the old Labs hostname requires redirects in the hosting service that currently serves that hostname.
 
 ## UI consistency and accessibility
 
@@ -77,3 +77,9 @@ The `/senior-data-analyst-scorecard/` page, linked from the homepage hero, provi
 The homepage Accelerator card has a secondary **Read More** button linking to the full programme and a compact employer strip below its actions, before the scorecard. It shares the product page’s logos, hover-to-pause behavior and reduced-motion fallback, with no visible motion controls.
 
 The Accelerator displays a charcoal logo strip above “Your next step in analytics.” Update `_data/cohort_employers.yml` for participant employers and display widths. Original artwork lives in `assets/images/cohort-employers/`; color and sizing are applied by the website. See [logo strip maintenance](docs/maintenance/accelerator/README.md#first-cohort-employer-logos).
+
+## Header logo and favicons
+
+`assets/images/branding/data-conscious-wordmark.png` is the supplied logo with text, cropped to remove its surrounding white space. `_config.yml` selects it for the shared masthead. `_includes/masthead.html` displays the wordmark above “by Antonis Angelakis” in a single home link; the brand name is provided by the image with accessible alt text. Responsive sizes are in `assets/css/main.scss`.
+
+The symbol-only artwork supplies the 16, 32 and 96px PNG favicons, the multi-resolution ICO, and the 180px Apple touch icon in the same directory. `_includes/head/custom.html` declares them across pages. Icons are cropped, centered on white square canvases with padding, then resized; artwork and colors are preserved. Use new filenames or a version suffix when replacing icons to avoid stale browser caches. No new dependencies or ignore rules are needed; builds stay outside the repository.
