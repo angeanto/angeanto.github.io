@@ -58,6 +58,8 @@ The site uses the supplied Labs artwork, Poppins font and gold palette. Programm
 
 ## UI consistency and accessibility
 
+The homepage Accelerator card uses the shared gold primary button style for Enroll Now, the interest action and Read More. Keep these actions on the common button styles rather than adding card-specific color overrides.
+
 See [UI review and design system](docs/maintenance/ui-review.md) for palette, typography, rounded components, navigation states, page coverage and verification limits. Change the Sass tokens before theme imports when adjusting the shared palette. Navigation JavaScript changes require regenerating `assets/js/main.min.js` using `npm run build:js`.
 
 ## Recommendations

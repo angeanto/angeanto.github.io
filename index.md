@@ -27,7 +27,7 @@ header:
       <div class="accelerator-cohort-actions">
         <a class="btn btn--primary" href="{{ site.data.accelerator.checkout_url }}" target="_blank" rel="noopener noreferrer">Enroll Now</a>
         <a class="btn btn--primary" href="{{ site.data.accelerator.url | relative_url }}#interest">I’m interested (15-minute call)</a>
-        <a class="btn accelerator-read-more" href="{{ site.data.accelerator.url | relative_url }}">Read More<span class="screen-reader-text"> about the Senior Data Analyst Accelerator</span></a>
+        <a class="btn btn--primary" href="{{ site.data.accelerator.url | relative_url }}">Read More<span class="screen-reader-text"> about the Senior Data Analyst Accelerator</span></a>
       </div>
       {% include cohort-employers.html compact=true %}
       <div class="hero-scorecard" aria-labelledby="hero-scorecard-title">
