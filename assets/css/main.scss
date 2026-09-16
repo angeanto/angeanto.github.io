@@ -60,7 +60,17 @@ body { background: #fff; color: #202124; font-family: 'Poppins', Arial, sans-ser
 h1, h2, h3, h4, h5, h6, .greedy-nav, button, input { font-family: 'Poppins', Arial, sans-serif; }
 .masthead, .greedy-nav { background: #fff; }
 .masthead { border-bottom: 1px solid #e8e8e8; }
-.site-logo img { max-height: 54px; }
+.greedy-nav .site-brand {
+  flex: 0 0 auto;
+  width: 190px;
+  text-align: center;
+  line-height: 1.4;
+}
+.site-brand img { display: block; width: 100%; height: auto; }
+.site-brand .site-subtitle { margin-top: 4px; font-size: 10px; }
+@media (max-width: 800px) {
+  .greedy-nav .site-brand { width: 154px; }
+}
 .site-title { color: #202124; }
 .greedy-nav a { color: #202124; }
 .greedy-nav .visible-links a:before, .navicon, .navicon:before, .navicon:after { background: #e5b600; }
@@ -139,7 +149,6 @@ a:focus-visible, button:focus-visible { outline: 3px solid #725900; outline-offs
   .brand-home .brand-section { padding: 2rem 0; }
   .brand-home .linkedin-profile-card__header img { flex-basis: 64px; width: 64px; height: 64px; }
   .brand-home .hero-promo-card h2 { font-size: 1.2rem; }
-  .site-logo img { max-height: 38px; }
   .site-title { font-size: 0.9rem; }
 }
 
