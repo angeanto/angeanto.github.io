@@ -10,7 +10,7 @@ Native expandable sections keep session descriptions and supporting material ava
 
 ## Enrollment and schedule
 
-`_data/accelerator.yml` centralizes the product URL, Stripe Payment Link, next enrollment cohort, VAT-inclusive/exclusive price and MailerLite form identifier. Enrollment is explicitly labeled **November 2026 cohort** immediately above both pairs of product-page actions. The homepage also reads the same cohort and payment URL.
+`_data/accelerator.yml` centralizes the product URL, Stripe Payment Link, next enrollment cohort, VAT-inclusive/exclusive price and MailerLite form identifier. Enrollment is explicitly labeled **November 2026 cohort** immediately above both pairs of product-page actions. The homepage also reads the same cohort and payment URL. The scorecard results also read this payment URL through their page data attribute. The current checkout is [the replacement Stripe Payment Link](https://buy.stripe.com/4gMeVc7sqfgSaXjegU3oA02), updated on 2026-09-16. For future replacements, change `checkout_url` and verify the homepage button, both product-page buttons, and the scorecard checkout data attribute in generated output.
 
 There are eight weekly live sessions, each approximately 1.5 hours, over approximately two months. Participants vote on the proposed dates for each session and the highest-voted date is selected. The November cohort is planned across November and December; exact dates are not invented.
 
