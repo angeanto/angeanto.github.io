@@ -97,7 +97,7 @@ The locked Jekyll build and `git diff --check` passed. Browser checks at desktop
 
 ### Compact homepage variant
 
-The homepage calls `cohort-employers.html compact=true` below the Accelerator actions and above the scorecard. The homepage caption is “Participants from top companies”; the logos identify participant employers and do not imply endorsement. The variant uses an h3 beneath the card’s h2, 108px slots, 46px height and 60% of the product-page logo widths. Both views share the employer data, 38-second loop, hover-to-pause behavior and reduced-motion fallback, without a visible pause control. The homepage Read More button uses `_data/accelerator.yml`’s product URL and a secondary outline style, preserving the two existing gold actions. No new assets or dependencies are needed; existing ignore rules cover temporary builds.
+The homepage calls `cohort-employers.html compact=true` below the Accelerator actions and above the scorecard. The homepage caption is “Participants from top companies”; the logos identify participant employers and do not imply endorsement. The variant uses an h3 beneath the card’s h2, 108px slots, 46px height and 60% of the product-page logo widths. Both views share the employer data, 38-second loop, hover-to-pause behavior and reduced-motion fallback, without a visible pause control. The homepage Read More button uses `_data/accelerator.yml`’s product URL and the shared primary gold button style, matching Enroll Now and the interest action in normal, hover and keyboard-focus states. No new assets or dependencies are needed; existing ignore rules cover temporary builds.
 
 ### Motion control removal (2026-09-15)
 
