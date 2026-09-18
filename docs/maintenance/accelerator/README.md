@@ -82,7 +82,7 @@ The PR does not merge or deploy the main site, or retire the external Labs hostn
 The owner supplied seven company logos from the first cohort: Skroutz, CBRE, Snappi, Blueground, Goldair, Ask Wire and Barba Stathis. The caption identifies participants’ employers, not company sponsorship or endorsement.
 
 - `_data/cohort_employers.yml` controls names, filenames and optical display widths.
-- `_includes/cohort-employers.html` appears after the programme jump links and immediately before “Your next step in analytics.”
+- `_includes/cohort-employers.html` appears inside the hero’s left column, immediately below the 15-minute conversation text. It stays beside the programme overview on desktop and above it on mobile, with both above the programme jump links. The column uses `min-width: 0` to contain the scrolling track; hero-specific strip styles retain the card background and compact heading spacing.
 - `_sass/_cohort-employers.scss`, imported by the main stylesheet, controls the strip. The source PNG/WebP/SVG files are preserved byte-for-byte under descriptive filenames in `assets/images/cohort-employers/`.
 - A shared SVG color filter maps artwork to charcoal (#4b4f52) and preserves white/light details. Goldair’s white transparent wordmark is darkened first. Barba Stathis uses continuous grayscale at 80% opacity to retain the illustrated mark and small lettering. Equal 180px slots and individual display widths balance different logo proportions. The square Skroutz canvas is centered and its excess whitespace clipped by the slot.
 - Two identical groups create a seamless 38-second CSS loop. The second is hidden from assistive technology. Each employer is announced once through image alt text.
@@ -102,3 +102,7 @@ The homepage calls `cohort-employers.html compact=true` below the Accelerator ac
 ### Motion control removal (2026-09-15)
 
 Removed the shared pause checkbox and its unused styles from both pages. The locked Jekyll build and `git diff --check` passed. Browser checks at 1280px and 390px confirmed no motion controls, all seven employer images loaded, the scrolling animation enabled and no horizontal page overflow on either page. Hover-to-pause, reduced-motion and print CSS are unchanged; those states were not re-exercised in this change. Local documentation links resolve and maintenance files remain excluded from output.
+
+### Hero logo placement (2026-09-18)
+
+Moved the product-page strip below the fit-call text within the hero’s left column. The locked Jekyll build and `git diff --check` passed. Browser checks at 1280px and 390px confirmed the strip stays inside the card without overlapping the programme overview or overflowing the page; all logo images loaded. On mobile the overview stacks below the logos. Existing animation and reduced-motion rules remain unchanged. The build reported the existing non-blocking GitHub Metadata authentication warning. No dependencies, ignore rules or generated `_site/` files changed.

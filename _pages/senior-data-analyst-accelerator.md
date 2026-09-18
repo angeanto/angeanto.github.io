@@ -19,6 +19,7 @@ excerpt: "Eight live sessions connecting modern data workflows, AI, governance a
     <p>A guided programme for experienced analysts who want to take greater ownership of their work and progress towards more senior roles.</p>
     {% include accelerator-actions.html %}
     <p class="accelerator-fit-note">Considering your next step? A 15-minute conversation can help you decide whether the programme fits your goals.</p>
+    {% include cohort-employers.html %}
 </div>
   <aside class="accelerator-overview" aria-labelledby="programme-at-a-glance">
     <p class="eyebrow">The programme at a glance</p>
@@ -42,8 +43,6 @@ excerpt: "Eight live sessions connecting modern data workflows, AI, governance a
   <a href="#price-and-future-labs-benefit">Price and access</a>
   <a href="#faq">FAQs</a>
 </nav>
-
-{% include cohort-employers.html %}
 
 <section class="accelerator-section" aria-labelledby="who-this-is-for" markdown="1">
 <p class="eyebrow">Your next step in analytics</p>
