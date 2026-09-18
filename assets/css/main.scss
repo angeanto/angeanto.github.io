@@ -339,6 +339,7 @@ pre { overflow-x: auto; }
     border: 1px solid #deded7;
     border-radius: 20px;
   }
+  .accelerator-hero > div { min-width: 0; }
   .accelerator-hero h2 { margin: 0.5rem 0 1rem; font-size: clamp(1.6rem, 3vw, 2rem); }
   .accelerator-hero .eyebrow { margin-top: 0; }
   .accelerator-overview { padding: 1.5rem; background: #fff; border: 1px solid #deded7; border-radius: 16px; }

@@ -19,6 +19,13 @@
   &__viewport:hover .cohort-employers__track { animation-play-state: paused; }
 }
 
+.accelerator-page .accelerator-hero .cohort-employers {
+  padding-bottom: 0;
+  background: transparent;
+
+  h2 { margin: 0 0 0.25rem; font-size: 1rem; }
+}
+
 .brand-home .cohort-employers--compact {
   margin-top: 1.25rem;
   padding: 0.75rem 0 0;
