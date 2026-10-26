@@ -86,6 +86,6 @@ The Accelerator displays a charcoal logo strip inside the introductory card, bel
 
 The owner-supplied “DataConscious Labs Logo-no-text.png” supplies the 16, 32 and 96px PNG favicons, the multi-resolution ICO (16/32/48px), and the 180px Apple touch icon in the same directory, all named `favicon-transparent*`. `_includes/head/custom.html` declares them across pages. Icons are cropped, centered on a transparent 640×640 canvas with padding, then resized; artwork, alpha transparency and colors are preserved. Both source PNGs already contain transparency; no background removal or artwork regeneration is needed. The previous assets remain available at their original URLs. Use new filenames or a version suffix when replacing icons to avoid stale browser caches. No new dependencies or ignore rules are needed; builds stay outside the repository.
 
-## AI solutions subdomain
+## AI solutions
 
-`_ai/index.md` uses the current DataConscious homepage components for an unlisted AI services site at `ai.data-conscious.com`. Run `ruby _ai/build.rb` to create an isolated static build outside the repository. A separate hosting deployment and DNS record are required. See [AI maintenance and activation](docs/maintenance/ai-solutions.md). No primary-site navigation link is added.
+The unlisted `/ai/` page lives in `_pages/ai.md` and shares the current DataConscious homepage components. It is included in the normal website build and deployment, with no homepage or navigation link. No additional hosting project or DNS record is needed. See [AI page maintenance](docs/maintenance/ai-solutions.md).

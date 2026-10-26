@@ -1,9 +1,9 @@
 <nav class="brand-footer-nav" aria-label="Explore DataConscious">
-  <a href="{% if site.ai_site %}{{ site.main_site_url }}{% endif %}{{ '/' | relative_url }}">Home</a>
-  <a href="{% if site.ai_site %}{{ site.main_site_url }}{% endif %}{{ '/programs/' | relative_url }}">Programs</a>
-  <a href="{% if site.ai_site %}{{ site.main_site_url }}{% endif %}{{ '/for-data-teams/' | relative_url }}">For Teams</a>
-  <a href="{% if site.ai_site %}{{ site.main_site_url }}{% endif %}{{ '/posts/' | relative_url }}">Insights</a>
-  <a href="{% if site.ai_site %}{{ site.main_site_url }}{% endif %}{{ '/speaking/' | relative_url }}">Speaking</a>
-  <a href="{% if site.ai_site %}{{ site.main_site_url }}{% endif %}{{ '/about/' | relative_url }}">About</a>
-  <a href="{% if site.ai_site %}{{ site.main_site_url }}{% endif %}{{ site.data.accelerator.url | relative_url }}">The Senior Data Analyst Accelerator</a>
+  <a href="{{ '/' | relative_url }}">Home</a>
+  <a href="{{ '/programs/' | relative_url }}">Programs</a>
+  <a href="{{ '/for-data-teams/' | relative_url }}">For Teams</a>
+  <a href="{{ '/posts/' | relative_url }}">Insights</a>
+  <a href="{{ '/speaking/' | relative_url }}">Speaking</a>
+  <a href="{{ '/about/' | relative_url }}">About</a>
+  <a href="{{ site.data.accelerator.url | relative_url }}">The Senior Data Analyst Accelerator</a>
 </nav>

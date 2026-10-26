@@ -1,11 +1,11 @@
 ---
 title: "AI solutions for your business"
 layout: single
-permalink: /
+permalink: /ai/
 author_profile: false
 toc: false
 excerpt: "Practical AI applications, business automation, and reliable data foundations, designed around the way your business works."
-canonical_url: https://ai.data-conscious.com/
+canonical_url: https://data-conscious.com/ai/
 sitemap: false
 search: false
 classes: [wide, brand-home]
