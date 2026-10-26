@@ -29,3 +29,7 @@ The original `_ai/` build script/configuration and all subdomain-specific shared
 ## Verification (2026-10-26)
 
 The standard Jekyll build and doctor passed using locked dependencies. Generated output confirmed `/ai/index.html`, the canonical `https://data-conscious.com/ai/`, `noindex, follow`, sitemap exclusion and no homepage link. `git diff --check` passed. Main-site templates have no remaining changes relative to the base branch. Production publication awaits the owner’s PR review and release.
+
+## Copy enhancements
+
+The original AI agents and business automation categories are combined into “AI agents & business process automation”, at the owner’s request. The page now has six solutions; the remaining categories retain their order and the surrounding page sections are unchanged. Descriptions explain business context, user interaction, validation and operational ownership. Each solution retains one explicitly hypothetical “Illustrative use case”. The four delivery stages specify expected outputs, and contact text explains the initial conversation. No demo invitation, founder-role claims, customer stories or performance figures are added without supporting evidence.
