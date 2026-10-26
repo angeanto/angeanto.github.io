@@ -88,4 +88,4 @@ The owner-supplied “DataConscious Labs Logo-no-text.png” supplies the 16, 32
 
 ## AI solutions
 
-The unlisted `/ai/` page lives in `_pages/ai.md` and shares the current DataConscious homepage components. It is included in the normal website build and deployment, with no homepage or navigation link. No additional hosting project or DNS record is needed. The copy explains business context, delivery controls and stage outputs; hypothetical scenarios are labeled “Illustrative use case”. See [AI page maintenance](docs/maintenance/ai-solutions.md).
+The unlisted `/ai/` page lives in `_pages/ai.md` and shares the current DataConscious homepage components. It is included in the normal website build and deployment, with no homepage or navigation link. No additional hosting project or DNS record is needed. Short descriptions highlight key capabilities; hypothetical scenarios are labeled “Illustrative use case”. Both contact buttons open the dedicated MailerLite enquiry form configured in `_data/ai.yml`. See [AI page maintenance](docs/maintenance/ai-solutions.md).
