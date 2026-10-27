@@ -41,19 +41,19 @@ robots: "noindex, follow"
 
 <article class="brand-card" markdown="1">
 
-### Company knowledge & enterprise search
+### Company knowledge & AI assistants
 
-**Make company information easier to find and use.**
+**Help customers and employees find answers in your company’s information.**
 
 - Document Q&A & enterprise search
-- Hybrid search & source references
-- Permission-aware retrieval & evaluation
+- Website & employee assistants with multilingual support
+- Source references, permission-aware access & human handover
 
 <div class="ai-use-case" markdown="1">
 
 **Illustrative use case**
 
-Find the procedure for an operational request, with a reference to the relevant policy.
+An employee asks how to handle an operational request. The assistant finds the relevant policy, provides an answer with a source reference, and directs them to a person when further guidance is needed.
 
 </div>
 
@@ -81,59 +81,19 @@ Extract invoice fields, validate them, and route exceptions to a reviewer before
 
 <article class="brand-card" markdown="1">
 
-### Conversational AI & assistants
+### Data foundations & AI-powered analytics
 
-**Help customers and employees get answers in context.**
+**Turn business data into reliable reporting and answers.**
 
-- Website & employee assistants
-- Approved sources & multilingual support
-- Defined scope & human handover
-
-<div class="ai-use-case" markdown="1">
-
-**Illustrative use case**
-
-Answer product questions from approved documentation and prepare a support request when further advice is needed.
-
-</div>
-
-</article>
-
-<article class="brand-card" markdown="1">
-
-### AI for data & analytics
-
-**Make business data easier to explore and explain.**
-
-- Conversational analytics & SQL
-- KPI exploration & business summaries
-- Validated metrics & controlled access
+- Data pipelines, API integration & quality checks
+- Shared KPI definitions, analytical models & dashboards
+- Conversational analytics, SQL & business summaries
 
 <div class="ai-use-case" markdown="1">
 
 **Illustrative use case**
 
-Compare a KPI with the previous period and inspect the supporting figures.
-
-</div>
-
-</article>
-
-<article class="brand-card" markdown="1">
-
-### Data engineering & business intelligence
-
-**Build reliable foundations for analytics and AI.**
-
-- Data pipelines & API integration
-- KPI definitions & analytical models
-- Data quality checks & documentation
-
-<div class="ai-use-case" markdown="1">
-
-**Illustrative use case**
-
-Bring operational data into a consistent reporting model before building a dashboard or analytics assistant.
+Bring sales and operational data into a consistent reporting model. Track agreed KPIs in a dashboard and ask questions about changes, with access to the supporting figures.
 
 </div>
 
