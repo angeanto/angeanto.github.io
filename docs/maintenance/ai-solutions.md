@@ -54,3 +54,9 @@ Form records use MailerLite subscriber fields, so repeat enquiries from the same
 ### Validation
 
 The standard Jekyll build passed with the existing GitHub Metadata authentication warning. Desktop browser checks verified opening from both CTAs and closing the popup. A 390px mobile preview showed all four fields and the submit action; the page width did not exceed the viewport. Public form DOM confirmed provider-required validation for email/name/description and no required validation on company. No real enquiry or test email was submitted; email delivery and subscriber persistence were not exercised. `git diff --check` and generated route, canonical, robots and sitemap checks passed. Existing ignore rules cover the workflow.
+
+## Scannable service presentation
+
+The AI page keeps the shared header, typography, palette, two-column hero and service grid. Page-specific styles live in `_sass/_ai-solutions.scss` and are scoped to `.ai-solutions-page`. Each of the six services presents a benefit, three capability bullets and its retained illustrative use case. Agents and business automation remain combined. The hero introduces a defined workflow, prototype validation and evaluation.
+
+Both enquiry buttons keep the existing MailerLite popup integration and fallback URL. The local review toolbar and `/ai-preview/` route are not part of the published site. The production path remains `/ai/`, excluded from navigation, search and the sitemap with `noindex, follow`.
