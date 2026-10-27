@@ -57,6 +57,6 @@ The standard Jekyll build passed with the existing GitHub Metadata authenticatio
 
 ## Scannable service presentation
 
-The AI page keeps the shared header, typography, palette, two-column hero and service grid. Page-specific styles live in `_sass/_ai-solutions.scss` and are scoped to `.ai-solutions-page`. Each of the six services presents a benefit, three capability bullets and its retained illustrative use case. Agents and business automation remain combined. The hero introduces a defined workflow, prototype validation and evaluation.
+The AI page keeps the shared header, typography, palette, two-column hero and service grid. Page-specific styles live in `_sass/_ai-solutions.scss` and are scoped to `.ai-solutions-page`. Each of the four services presents a benefit, three capability bullets and an illustrative use case. Company knowledge and conversational assistants share one card; data engineering and AI analytics share another. Agents and business automation remain combined. The hero introduces a defined workflow, prototype validation and evaluation.
 
 Both enquiry buttons keep the existing MailerLite popup integration and fallback URL. The local review toolbar and `/ai-preview/` route are not part of the published site. The production path remains `/ai/`, excluded from navigation, search and the sitemap with `noindex, follow`.
