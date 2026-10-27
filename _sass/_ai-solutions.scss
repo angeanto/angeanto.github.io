@@ -1,0 +1,18 @@
+// Scoped presentation for the unlisted AI solutions page.
+.ai-solutions-page .brand-actions { align-items:flex-start; flex-direction:column; gap:.5rem; }
+.ai-solutions-page .ai-cta-note { margin:0; color:#50534f; font-size:.85rem; }
+.ai-solutions-page .ai-start-list { margin:1rem 0; padding-left:1.2rem; }
+.ai-solutions-page .ai-start-list li { margin:.5rem 0; }
+.ai-solutions-page .ai-constraint-note { margin-top:1rem; padding-top:1rem; border-top:1px solid #deded7; color:#50534f; }
+.ai-solutions-page .ai-section-intro { color:#50534f; margin-bottom:2rem; }
+.ai-solutions-page #solutions .brand-grid.two { gap:1.5rem; }
+.ai-solutions-page #solutions .brand-card { display:flex; flex-direction:column; padding:1.5rem; border-radius:16px; }
+.ai-solutions-page #solutions .brand-card h3 { margin-bottom:.75rem; }
+.ai-solutions-page #solutions .brand-card > p { margin:0 0 1rem; }
+.ai-solutions-page #solutions .brand-card ul { padding-left:1.2rem; margin:0 0 1.5rem; }
+.ai-solutions-page #solutions .brand-card li { margin:.3rem 0; }
+.ai-solutions-page .ai-use-case { margin-top:auto; padding-top:1rem; border-top:1px solid #deded7; }
+.ai-solutions-page .ai-use-case p { margin:0 0 .5rem; }
+.ai-solutions-page .ai-use-case p:first-child { color:#725900; }
+.ai-solutions-page .ai-use-case p:last-child { margin:0; }
+@media(max-width:800px) { .ai-solutions-page .brand-actions .btn { width:100%; } }
