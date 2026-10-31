@@ -1,0 +1,20 @@
+<section class="accelerator-testimonials{% if include.paired %} accelerator-testimonials--paired{% endif %}" data-per-page="{% if include.paired %}2{% else %}1{% endif %}" aria-label="Participant feedback" aria-roledescription="carousel">
+  <p class="accelerator-testimonials__label">From our participants</p>
+  <div class="accelerator-testimonials__slides" aria-live="polite">
+    {% for testimonial in site.data.accelerator_testimonials %}
+    <figure class="accelerator-testimonials__card" role="group" aria-roledescription="slide" aria-label="{{ forloop.index }} of {{ forloop.length }}">
+      <blockquote>“{{ testimonial.quote | escape }}”</blockquote>
+      <figcaption>
+        <img src="{{ testimonial.photo | relative_url }}" alt="" width="44" height="44" loading="lazy" decoding="async">
+        <span>{{ testimonial.name | escape }}</span>
+      </figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+  <div class="accelerator-testimonials__controls" hidden>
+    <button type="button" data-direction="-1" aria-label="Previous participant feedback">←</button>
+    <span class="accelerator-testimonials__position"></span>
+    <button type="button" data-direction="1" aria-label="Next participant feedback">→</button>
+  </div>
+</section>
+<script src="{{ '/assets/js/accelerator-testimonials.js' | relative_url }}" defer></script>

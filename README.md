@@ -91,3 +91,7 @@ The owner-supplied “DataConscious Labs Logo-no-text.png” supplies the 16, 32
 The unlisted `/ai/` page lives in `_pages/ai.md` and shares the current DataConscious homepage components. It is included in the normal website build and deployment, with no homepage or navigation link. No additional hosting project or DNS record is needed. Short descriptions highlight key capabilities; hypothetical scenarios are labeled “Illustrative use case”. Both contact buttons open the dedicated MailerLite enquiry form configured in `_data/ai.yml`. See [AI page maintenance](docs/maintenance/ai-solutions.md).
 
 AI solutions presentation: page-scoped service-card styling is in `_sass/_ai-solutions.scss`; see [maintenance notes](docs/maintenance/ai-solutions.md) for content and enquiry-form details.
+
+### Accelerator participant feedback
+
+Shared testimonials use manual arrow navigation below the homepage introduction and below the hero on the Accelerator page. Edit `_data/accelerator_testimonials.yml`; see [maintenance notes](docs/maintenance/accelerator/participant-feedback.md).
