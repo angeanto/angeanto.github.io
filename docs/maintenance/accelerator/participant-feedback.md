@@ -1,0 +1,11 @@
+# Participant feedback
+
+The homepage introduction and Accelerator hero use `_includes/accelerator-testimonials.html`, `_data/accelerator_testimonials.yml`, and `_sass/_accelerator-testimonials.scss`. Portraits are stored under `assets/images/participants/`. The image uses grayscale and softened contrast at 85% opacity, matching the muted employer palette while preserving facial detail. The logos’ threshold-based charcoal filter turned the face into a silhouette in the local preview, so it is unsuitable for portraits. The supplied original is retained.
+
+Roxani’s card uses only the first sentence of her supplied English feedback verbatim and her given name in Latin characters. Company is intentionally omitted at her request. No surname or role was supplied. Keep private correspondence out of the repository.
+
+Navigation is manual: `assets/js/accelerator-testimonials.js` shows one feedback on the homepage and up to two on the Accelerator page, with previous/next buttons and a position indicator. Buttons are visible but disabled for a single testimonial. With multiple entries navigation wraps. No automatic movement occurs. Without JavaScript all quotes remain readable. Keep each quote brief and review approved identity details before adding a card; remove the entry and unused portrait if removal is requested.
+
+Local builds belong outside the repository; existing `.gitignore` rules cover generated output. No new dependencies or publishing configuration are required.
+
+The homepage uses two shared grid rows: introduction and programme above, feedback on the left and the original LinkedIn card on the right below. The introduction aligns to the bottom of its row, with its final paragraph margin removed, leaving only the 1rem row gap before feedback. Feedback keeps the white page background; LinkedIn retains its original card styling. Mobile stacks introduction, programme, feedback, then LinkedIn. On the Accelerator page, feedback spans the width below the hero, with two cards per page at widths of 768px and above, and one on smaller screens. Arrow navigation advances a pair on desktop. The page indicator counts groups; an odd final group shows its remaining card. Resizing preserves the first visible participant.

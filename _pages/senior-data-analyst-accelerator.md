@@ -36,6 +36,8 @@ excerpt: "Eight live sessions connecting modern data workflows, AI, governance a
   </aside>
 </section>
 
+{% include accelerator-testimonials.html paired=true %}
+
 <nav class="accelerator-jump-links" aria-label="Programme sections">
   <a href="#the-8-live-sessions">The eight sessions</a>
   <a href="#learning-environment">Inside the lab</a>

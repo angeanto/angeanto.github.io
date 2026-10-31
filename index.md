@@ -10,8 +10,8 @@ header:
   og_image_height: 630
 ---
 
-<section class="brand-hero">
-  <div>
+<section class="brand-hero brand-hero--feedback">
+  <div class="brand-hero__intro">
     <p class="eyebrow">Antonis Angelakis · DataConscious</p>
     <h1>Connect data work<br>with business decisions.</h1>
     <p>I help data professionals and teams connect analytics, engineering and business judgment.</p>
@@ -19,7 +19,6 @@ header:
     <div class="brand-actions"><a class="btn btn--primary" href="/programs/">Explore programmes</a><a class="text-link" href="/for-data-teams/">Work with your team →</a></div>
     <p>Experience across fintech, e-commerce, insurance, cybersecurity and consulting. University programmes with 80+ participants.</p>
   </div>
-  <div class="brand-hero__cards">
     <aside class="hero-promo-card accelerator-cohort-card" aria-labelledby="accelerator-cohort-title">
       <p class="eyebrow">Cohort 02 · {{ site.data.accelerator.next_cohort }}</p>
       <h2 id="accelerator-cohort-title">Senior Data Analyst Accelerator</h2>
@@ -36,6 +35,7 @@ header:
         <a class="btn btn--primary" href="{{ '/senior-data-analyst-scorecard/' | relative_url }}">Take the free assessment →</a>
       </div>
     </aside>
+  {% include accelerator-testimonials.html %}
     <aside class="hero-promo-card linkedin-profile-card" aria-labelledby="linkedin-profile-title">
       <div class="linkedin-profile-card__header">
         <img src="/assets/images/me/antonis-profile-2026.jpeg" alt="Antonis Angelakis" fetchpriority="high" width="400" height="400">
@@ -47,7 +47,6 @@ header:
 
       <a class="text-link" href="https://www.linkedin.com/in/antonios-angelakis-249899101/" target="_blank" rel="noopener noreferrer me"><i class="fab fa-linkedin" aria-hidden="true"></i> Follow on LinkedIn</a>
     </aside>
-  </div>
 </section>
 
 <section class="brand-newsletter" aria-labelledby="newsletter-title">
