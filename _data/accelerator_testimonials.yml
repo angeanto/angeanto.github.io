@@ -1,3 +1,8 @@
 - name: Roxani
   photo: /assets/images/participants/roxani.jpeg
   quote: "The Senior Data Analyst Accelerator gave me an end-to-end view of analytics, BI, and data engineering, and showed me how they connect in practice."
+- name: Konstantinos Lamprou
+  role: AI Solutions Architect
+  company: Archeiothiki SA
+  photo: /assets/images/participants/konstantinos-lamprou.jpg
+  quote: "Antonis has distilled years of experience into a program that moves you from a junior/mid to a senior mindset and shows you angles you might otherwise never have seen."
