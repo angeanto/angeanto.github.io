@@ -6,7 +6,12 @@
       <blockquote>“{{ testimonial.quote | escape }}”</blockquote>
       <figcaption>
         <img src="{{ testimonial.photo | relative_url }}" alt="" width="44" height="44" loading="lazy" decoding="async">
-        <span>{{ testimonial.name | escape }}</span>
+        <span>
+          {{ testimonial.name | escape }}
+          {% if testimonial.role or testimonial.company %}
+          <span class="accelerator-testimonials__details">{% if testimonial.role %}{{ testimonial.role | escape }}{% endif %}{% if testimonial.role and testimonial.company %} · {% endif %}{% if testimonial.company %}{{ testimonial.company | escape }}{% endif %}</span>
+          {% endif %}
+        </span>
       </figcaption>
     </figure>
     {% endfor %}
