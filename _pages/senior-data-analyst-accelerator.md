@@ -71,7 +71,7 @@ The learning extends beyond dashboards and individual tools. Hands-on workflows,
 
 Each session lasts approximately 1.5 hours and includes teaching, discussion, implementation guidance and office-hour style support.
 
-**One session per week, over approximately two months.** Participants vote on the proposed dates for each session, and the highest-voted date is selected. For the November cohort, the plan is to learn together across November and December, with the exact dates agreed through those votes.
+**One session per week, over approximately two months.** Participants vote on the proposed dates for each session, and the highest-voted date is selected. The next cohort starts in {{ site.data.accelerator.next_cohort }}.
 
 <ol class="accelerator-sessions">
   <li><details><summary>Programme orientation and platform context</summary><p>Understand the programme, access, learning path and expectations.</p></details></li>
@@ -257,7 +257,7 @@ Future labs may explore AI-enabled data visualization, AI-assisted BI tools, gov
 <details><summary>Will I get access to the lab?</summary><p>Yes. You receive guided access, including personal ClickHouse databases and read-only access to the shared PostgreSQL Olist source through protected routes.</p></details>
 <details><summary>Will we use AI?</summary><p>Yes. You will explore Wren AI and AI-assisted analytics workflows, with an emphasis on validation, privacy, assumptions and human judgment.</p></details>
 <details><summary>Is this a dashboard course?</summary><p>BI is part of the programme, alongside architecture, pipelines, modeling, governance, metadata, AI, communication and career positioning.</p></details>
-<details><summary>How are the sessions scheduled?</summary><p>There is one live session per week, lasting approximately 1.5 hours, with eight sessions over approximately two months. Participants vote on the proposed dates for each session, and the highest-voted date is chosen. The November cohort is planned to run across November and December.</p></details>
+<details><summary>How are the sessions scheduled?</summary><p>There is one live session per week, lasting approximately 1.5 hours, with eight sessions over approximately two months. Participants vote on the proposed dates for each session, and the highest-voted date is chosen. The next cohort starts in {{ site.data.accelerator.next_cohort }}.</p></details>
 <details><summary>What happens if I miss a live session?</summary><p>The recording and Moodle material remain available, so you can revisit the session and its resources.</p></details>
 <details><summary>How much does it cost?</summary><p>The programme costs {{ site.data.accelerator.price_including_vat }} including {{ site.data.accelerator.vat_rate }} VAT ({{ site.data.accelerator.price_excluding_vat }} excluding VAT). This includes eight live sessions, guided lab access, lifetime Moodle course material, templates and career resources.</p></details>
 <details><summary>What does lifetime access include?</summary><p>Lifetime access covers the fully updated Moodle material for this course: session resources, recordings, templates, exercises, supporting documents and future LMS updates connected to the programme.</p></details>

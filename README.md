@@ -32,7 +32,7 @@ Direct-link checkout documents are published at `/privacy-policy/` and `/terms-o
 
 Current university enrollment links in `_pages/dmcb.md` and `_pages/about.md` use program `prog-482` (fourth cycle). The homepage and Programs page lead visitors to `/dmcb/`; update the two direct enrollment links together when enrollment changes. The course page links to the published alumni podcast; the previous third-cycle poster is retained as an asset but no longer displayed there. Historical course pages are separate.
 
-The Accelerator is now authored in `_pages/senior-data-analyst-accelerator.md` at `/senior-data-analyst-accelerator/`. Programs, the homepage and the final header/footer link point to this page. The Programs page describes the two Accelerator cohorts (September and November) and four university-course cycles without time-sensitive availability claims. See [Accelerator maintenance and migration](docs/maintenance/accelerator/README.md).
+The Accelerator is now authored in `_pages/senior-data-analyst-accelerator.md` at `/senior-data-analyst-accelerator/`. Programs, the homepage and the final header/footer link point to this page. The Programs page describes the two Accelerator cohorts (September 2026 and January 2027) and four university-course cycles without time-sensitive availability claims. See [Accelerator maintenance and migration](docs/maintenance/accelerator/README.md).
 
 ## For Data Teams
 
@@ -68,7 +68,7 @@ See [UI review and design system](docs/maintenance/ui-review.md) for palette, ty
 
 ## Homepage cohort enrollment
 
-The homepage hero in `index.md` places the Accelerator enrollment and scorecard card above a compact LinkedIn card. Both use `.hero-promo-card` styles and the shared gold primary button. `_data/accelerator.yml` holds the product URL, November 2026 enrollment cohort, price, Stripe Payment Link and MailerLite embed ID. All enrollment buttons, including the scorecard results, read `checkout_url` from this shared file. When replacing the Stripe Payment Link, update that value; update cohort and price fields only when the offer also changes. Enrollment sections on the product page explicitly identify the November cohort; the course has eight weekly sessions of approximately 1.5 hours, with participants voting on session dates. The original owner-supplied architecture image is retained under `assets/images/lab/accelerator-architecture.png`. No payment credentials belong in this repository.
+The homepage hero in `index.md` places the Accelerator enrollment and scorecard card above a compact LinkedIn card. Both use `.hero-promo-card` styles and the shared gold primary button. `_data/accelerator.yml` holds the product URL, upcoming enrollment cohort, price, Stripe Payment Link and MailerLite embed ID. All enrollment buttons, including the scorecard results, read `checkout_url` from this shared file. When replacing the Stripe Payment Link, update that value; update cohort and price fields only when the offer also changes. Enrollment sections on the product page explicitly identify the upcoming cohort; the course has eight weekly sessions of approximately 1.5 hours, with participants voting on session dates. The original owner-supplied architecture image is retained under `assets/images/lab/accelerator-architecture.png`. No payment credentials belong in this repository.
 
 ## Senior Data Analyst Scorecard
 
