@@ -13,7 +13,7 @@ Build the foundations. Understand the wider system. Apply what you learn.
 
 A focused live cohort for analysts who want to connect engineering, governance, AI and business communication. Learn through the DataConscious Labs environment, with lifetime access to the course's Moodle material.
 
-<p class="program-cycles" aria-label="Two Accelerator cohorts"><span class="program-cycles__label">Two cohorts</span><span class="program-cycle"><span aria-hidden="true">✓</span> September 2026</span><span class="program-cycle program-cycle--upcoming"><span aria-hidden="true">→</span> November 2026 · Upcoming</span></p>
+<p class="program-cycles" aria-label="Two Accelerator cohorts"><span class="program-cycles__label">Two cohorts</span><span class="program-cycle"><span aria-hidden="true">✓</span> September 2026</span><span class="program-cycle program-cycle--upcoming"><span aria-hidden="true">→</span> {{ site.data.accelerator.next_cohort }} · Upcoming</span></p>
 
 [Explore the Accelerator]({{ site.data.accelerator.url | relative_url }}){: .btn .btn--primary}
 
